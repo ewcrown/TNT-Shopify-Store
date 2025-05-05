@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #FF4848;
+  --white-color: #FFFFFF;
+}
+
+ul,
+summary {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input {
+    border: unset;
+    outline: unset;
+}
+
+textarea,
+input {
+    width: 100%;
+}
+
+summary {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #4194E3;
+    border-radius: 10px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.tnt-flex {
+    display: flex;
+}
+
+.tnt-align-items-center {
+    align-items: center;
+}
+
+.tnt-justify-content-center {
+    justify-content: center;
+}
+
+.tnt-align-items-left {
+    align-items: left;
+}
+
+.tnt-justify-content-left {
+    justify-content: left;
+}
+
+.tnt-align-items-right {
+    align-items: right;
+}
+
+.tnt-justify-content-right {
+    justify-content: right;
+}
+
+.tnt-align-items-baseline {
+    align-items: baseline;
+}
+
+.tnt-justify-content-baseline {
+    justify-content: baseline;
+}
+
+.tnt-justify-content-between {
+    justify-content: space-between;
+}
+
+.tnt-justify-content-around {
+    justify-content: space-around;
+}
+
+.tnt-justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.tnt-direction-column {
+    flex-direction: column;
+}
+
+.tnt-direction-row {
+    flex-direction: row;
+}
+
+.tnt-grid {
+    display: grid;
+}
+
+.tnt-home-block__title {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  gap: 20px;
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 20px;
+  justify-content: space-between;
+}
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  gap: 12px;
+}
+
+.tnt-home-block__row {
+    padding-block: 60px;
+}

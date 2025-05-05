@@ -1,0 +1,34 @@
+.header-wrapper {
+  background-color: var(--primary-color);
+}
+.header__menu-item,
+.header__active-menu-item,
+.tnt-header__top a{
+  color: var(--white-color);
+}
+@media screen and (min-width: 990px) {
+  .header--middle-center:not(.drawer-menu) {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: auto 1fr auto;
+    place-items: center;
+  }
+}
+.header__icon .icon {
+  stroke: var(--white-color);
+}
+.tnt-header-top__wrapper {
+    gap: 24px;
+}
+.tnt-header__top a {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.header__heading-logo {
+    width: 126px;
+}
+.list-menu__item {
+    font-weight: 700;
+    font-size: 13.89px;
+    line-height: 16px;
+}

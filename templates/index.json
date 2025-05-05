@@ -1,0 +1,408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "tnt_home_blocks_yGfr7M": {
+      "type": "tnt-home-blocks",
+      "name": "TNT Home Blocks",
+      "settings": {}
+    },
+    "tnt_kids_section_mznpg7": {
+      "type": "tnt-kids-section",
+      "blocks": {
+        "content_ikWym9": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_9mxRGQ": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_CTan9L": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_7HftaG": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_wUYEkn": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_qgfyeQ": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_cm9PdQ": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_r3TKzn": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_BcnGEw": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_ikWym9",
+        "content_9mxRGQ",
+        "content_CTan9L",
+        "content_7HftaG",
+        "content_wUYEkn",
+        "content_qgfyeQ",
+        "content_cm9PdQ",
+        "content_r3TKzn",
+        "content_BcnGEw"
+      ],
+      "name": "TNT Kids",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "tnt_slider_dmLJBq": {
+      "type": "tnt-slider",
+      "blocks": {
+        "slider_U3FH7M": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_Ufinqn": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_PhEMV4": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_CB9jxc": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_TQbmmw": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_kfAe4Q": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_dcCeKA": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        },
+        "slider_xx6BNr": {
+          "type": "slider",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "ttl": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_U3FH7M",
+        "slider_Ufinqn",
+        "slider_PhEMV4",
+        "slider_CB9jxc",
+        "slider_TQbmmw",
+        "slider_kfAe4Q",
+        "slider_dcCeKA",
+        "slider_xx6BNr"
+      ],
+      "name": "TNT Slider",
+      "settings": {}
+    },
+    "tnt_popular_search_TPbyY7": {
+      "type": "tnt-popular-search",
+      "blocks": {
+        "search_item_abmnGn": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_cBagwB": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_kCAGVY": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_giW8k9": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_njwTGj": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_FRkykp": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_jpeTxg": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_rzx7hC": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_wYXtGm": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_rfrFYz": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_TfbYmG": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_hK7Jpp": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "search_item_abmnGn",
+        "search_item_cBagwB",
+        "search_item_kCAGVY",
+        "search_item_giW8k9",
+        "search_item_njwTGj",
+        "search_item_FRkykp",
+        "search_item_jpeTxg",
+        "search_item_rzx7hC",
+        "search_item_wYXtGm",
+        "search_item_rfrFYz",
+        "search_item_TfbYmG",
+        "search_item_hK7Jpp"
+      ],
+      "name": "TNT Popular Search",
+      "settings": {
+        "ttl": "Popular Searches",
+        "desc": "",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "tnt_multicolumn_eFUTCD": {
+      "type": "tnt-multicolumn",
+      "blocks": {
+        "column_LfpVCr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/info-icon_bb25cdfbf1ef1d38fa03c42cd7fdb341_svg.svg",
+            "title": "Need help?",
+            "text": "<p>View our knowledge</p>",
+            "social_link1": "",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UVtMKQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mail-icon_de3600111bd7ba207509475f689e4141_svg.svg",
+            "title": "24x7 support",
+            "text": "<p>wecare@hopscotch.in</p>",
+            "social_link1": "",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kjbrV3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
+            "title": "Download our apps",
+            "text": "",
+            "social_icon1": "shopify://shop_images/apple-icon_de7586e057326691c560a1d978523fe7_svg.svg",
+            "social_link1": "",
+            "social_icon2": "shopify://shop_images/play-icon_a4d7e7ce45e5c99d8110dfa21223d776_svg.svg",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hJdUAT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thumbsup-icon_260a8c05b1ad3bfbaf5c2e6b003a4c52_svg.svg",
+            "title": "Connect with us",
+            "text": "",
+            "social_icon1": "shopify://shop_images/facebook-icon_7dfa1483324e425b013f96fbbb8d82f8_svg.svg",
+            "social_link1": "",
+            "social_icon2": "shopify://shop_images/twitter-icon_b908491df1c1340b7a1100d57c57e80d_svg.svg",
+            "social_link2": "",
+            "social_icon3": "shopify://shop_images/pinterest-icon_230be23a09aaf64807ee39d93bcc91ad_svg.svg",
+            "social_link3": "",
+            "social_icon4": "shopify://shop_images/instagram-icon_01cb3f35fd397430a9c4cc91de63b7c9_svg.svg",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LfpVCr",
+        "column_UVtMKQ",
+        "column_kjbrV3",
+        "column_hJdUAT"
+      ],
+      "name": "TNT Multicolumn",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "tnt_home_blocks_yGfr7M",
+    "tnt_kids_section_mznpg7",
+    "tnt_slider_dmLJBq",
+    "tnt_popular_search_TPbyY7",
+    "tnt_multicolumn_eFUTCD"
+  ]
+}

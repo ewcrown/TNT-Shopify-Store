@@ -1,0 +1,61 @@
+{{ 'section-tnt-slider.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'tnt-slider.js' | asset_url }}" defer="defer"></script>
+
+<div class="tnt-slider" id="tnt-slider">
+  <div class="tnt-slider-row">
+    <div class="page-width">
+      <div class="tnt-slider-col">
+        <div class="swiper tnt-homeSlider">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="swiper-slide">
+                <div class="swiper-slide__content">
+                  <a href="{{ block.settings.url }}">
+                    <img src="{{ block.settings.img | image_url: width: '800'  }}">
+                    <h3 class="swiper-slide__content-title">{{ block.settings.ttl }}</h3>
+                  </a>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "TNT Slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slider",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "ttl",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TNT Slider"
+    }
+  ]
+}
+{% endschema %}

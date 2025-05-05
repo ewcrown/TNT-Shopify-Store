@@ -1,0 +1,29 @@
+.tnt-footer__row {
+  padding-block: 5rem;
+}
+
+.tnt-footer__brand {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+.tnt-footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright.caption,
+.footer__copyright.caption a{
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 13px;
+    letter-spacing: 0%;
+    color: #A4A4A4;
+}
+
+.footer__copyright.caption {
+    display: flex;
+    gap: 5px;
+}

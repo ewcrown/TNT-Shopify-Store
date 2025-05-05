@@ -1,0 +1,32 @@
+.tnt-popular-search__heading h2 {
+  font-weight: 700;
+  font-size: 15.5px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #333333;
+}
+
+.tnt-popular-search__content .tnt-popular-search__item:first-child::after {
+  display: none;
+}
+.tnt-popular-search__item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #777777;
+  position: relative;
+  margin-right: 1.3rem;
+}
+
+.tnt-popular-search__item:after {
+  content: "";
+  border-right: 2px solid #777777;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -11px;
+  height: 16px;
+}
