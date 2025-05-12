@@ -1,0 +1,14 @@
+.tnt-breadcrumbs {
+  padding-top: 47px;
+  padding-bottom: 20px;
+}
+
+.tnt-breadcrumb {
+  color: #333;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 125% */
+}

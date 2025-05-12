@@ -1,0 +1,22 @@
+{{ 'tnt-breadcrumbs.css' | asset_url | stylesheet_tag }}
+
+<div class="tnt-breadcrumbs">
+  <div class="page-width">
+    <span class="tnt-breadcrumb">
+      Home / Category / <b>{{ collection.title }}</b>
+    </span>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "<> Breadcrumbs",
+  "settings": [],
+  "presets": [
+    {
+      "name": "<> Breadcrumbs"
+    }
+  ]
+}
+{% endschema %}

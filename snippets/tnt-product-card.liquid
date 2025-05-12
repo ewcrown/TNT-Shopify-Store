@@ -1,0 +1,19 @@
+<article class="tnt-product-card">
+  <a href="{{ card_product.url }}" class="tnt-product-card-link">
+    <div class="tnt-product-gallery">
+      <img 
+        src="{{ card_product.featured_image | image_url }}"
+        class="img-fluid"
+        width="400"
+        height="500"
+      >
+      {% render 'tnt-product-card-popup', card_product: card_product %}
+    </div>
+    <div class="tnt-product-info">
+      <h3>{{ card_product.title }}</h3>
+      <div class="tnt-product-price">
+        {% render 'price', product: card_product %}
+      </div>
+    </div>
+  </a>
+</article>
