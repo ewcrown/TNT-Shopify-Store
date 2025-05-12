@@ -18,3 +18,23 @@
   line-height: 31.262px;
   margin-top: 16px;
 }
+
+@media(max-width:768px) {
+  .tnt-image-text-row {
+    overflow-x: scroll;
+  }
+
+  .tnt-image-text-block img {
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .tnt-image-text-block span {
+    font-size: 7.151px;
+  }
+
+  .tnt-image-text-wrap {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}

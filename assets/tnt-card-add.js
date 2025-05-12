@@ -140,108 +140,98 @@ const loader = (state) => {
 };
 
 // Product Card
-const productCards = document.querySelectorAll('.tnt-product-card');
 
-productCards?.forEach(productCard => {
-  const colorInputs = productCard.querySelectorAll('input[name="color"]');
-  const sizeInputs = productCard.querySelectorAll('input[name="size"]');
-  const select = productCard.querySelector('#tnt-product-select');
-  const addToCartBtn = productCard.querySelector('.tnt-product-card-button-add');
+function bindQuickViewHandlers() {
+  const quickViewButtons = document.querySelectorAll('.tnt-product-card-button-quick-view');
+  const quickViewModal = document.getElementById('quickview-modal');
+  const quickViewDetails = document.getElementById('quickview-details');
+  const quickViewClose = document.querySelector('.quickview-close');
 
-  async function updateVariantSelection(e) {
-    e.stopPropagation(); // Stop event from bubbling to anchor
-    e.preventDefault(); // Prevent default anchor behavior
+  quickViewButtons?.forEach(button => {
+    button.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      const handle = button.dataset.url;
+      if (!handle) return;
 
-    const selectedColor = productCard.querySelector('input[name="color"]:checked')?.value;
-    const selectedSize = productCard.querySelector('input[name="size"]:checked')?.value;
+      quickViewModal.classList.remove('hidden');
+      quickViewDetails.innerHTML = 'Loading...';
 
-    if (!selectedColor || !selectedSize) return;
+      try {
+        const response = await fetch(`products/${handle}?view=quickview`);
+        if (!response.ok) throw new Error('Failed to fetch product details');
 
-    const variantLabel = `${selectedColor} / ${selectedSize}`;
+        const html = await response.text();
+        quickViewDetails.innerHTML = html;
 
-    const matchingOption = Array.from(select.options).find(
-      option => option.value.trim() === variantLabel
-    );
-
-    if (matchingOption) {
-      select.value = matchingOption.value;
-      select.dispatchEvent(new Event('change'));
-      addToCartBtn.dataset.variantId = matchingOption.dataset.id;
-
-      // More console info
-      console.log('Product Card:', productCard);
-      console.log('Selected Color:', selectedColor);
-      console.log('Selected Size:', selectedSize);
-      console.log('Variant Label:', variantLabel);
-      console.log('Variant ID:', matchingOption.dataset.id);
-
-      await cartAdd(matchingOption.dataset.id);
-    } else {
-      console.warn('No matching variant found for:', variantLabel);
-    }
-  }
-
-  // Add listeners
-  colorInputs.forEach(input => input.addEventListener('change', updateVariantSelection));
-  sizeInputs.forEach(input => input.addEventListener('change', updateVariantSelection));
-
-  // Handle button click for Add to Cart
-  addToCartBtn?.addEventListener('click', (e) => {
-    e.stopPropagation();  // Stop event from bubbling to anchor
-    e.preventDefault();    // Prevent default anchor behavior
-    const variantId = addToCartBtn.dataset.variantId;
-    if (variantId) {
-      cartAdd(variantId);  // Call the cart add function with the selected variant
-    }
-  });
-});
-
-
-// Quick View Handler
-const quickViewButtons = document.querySelectorAll('.tnt-product-card-button-quick-view');
-const quickViewModal = document.getElementById('quickview-modal');
-const quickViewDetails = document.getElementById('quickview-details');
-const quickViewClose = document.querySelector('.quickview-close');
-
-// Open Quick View Modal
-quickViewButtons?.forEach(button => {
-  button.addEventListener('click', async (e) => {
-    e.stopPropagation();  // Stop event from bubbling to anchor
-    e.preventDefault();    // Prevent default anchor behavior
-    const handle = button.dataset.url;
-    if (!handle) return;
-
-    quickViewModal.classList.remove('hidden');
-    quickViewDetails.innerHTML = 'Loading...';
-
-    try {
-      const response = await fetch(`products/${handle}?view=quickview`);
-      if (!response.ok) throw new Error('Failed to fetch product details');
-
-      const html = await response.text();
-      quickViewDetails.innerHTML = html;
-
-      // Optional: Re-bind add to cart inside modal
-      const addToCartBtn = quickViewDetails.querySelector('.quickview-add-to-cart');
-      const variantSelect = quickViewDetails.querySelector('select[name="id"]');
-      if (addToCartBtn && variantSelect) {
-        addToCartBtn.addEventListener('click', async () => {
-          const variantId = variantSelect.value;
-          if (variantId) {
-            await cartAdd(variantId);
-            quickViewModal.classList.add('hidden');
-          }
-        });
+        const addToCartBtn = quickViewDetails.querySelector('.quickview-add-to-cart');
+        const variantSelect = quickViewDetails.querySelector('select[name="id"]');
+        if (addToCartBtn && variantSelect) {
+          addToCartBtn.addEventListener('click', async () => {
+            const variantId = variantSelect.value;
+            if (variantId) {
+              await cartAdd(variantId);
+              quickViewModal.classList.add('hidden');
+            }
+          });
+        }
+      } catch (err) {
+        quickViewDetails.innerHTML = `<p>Error loading product.</p>`;
+        console.error(err);
       }
-    } catch (err) {
-      quickViewDetails.innerHTML = `<p>Error loading product.</p>`;
-      console.error(err);
-    }
+    });
   });
-});
 
-// Close Modal
-quickViewClose.addEventListener('click', () => quickViewModal.classList.add('hidden'));
-window.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') quickViewModal.classList.add('hidden');
+  quickViewClose.addEventListener('click', () => quickViewModal.classList.add('hidden'));
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') quickViewModal.classList.add('hidden');
+  });
+}
+
+function bindProductCardHandlers() {
+  const productCards = document.querySelectorAll('.tnt-product-card');
+  productCards?.forEach(productCard => {
+    const colorInputs = productCard.querySelectorAll('input[name="color"]');
+    const sizeInputs = productCard.querySelectorAll('input[name="size"]');
+    const select = productCard.querySelector('#tnt-product-select');
+    const addToCartBtn = productCard.querySelector('.tnt-product-card-button-add');
+
+    async function updateVariantSelection(e) {
+      e.stopPropagation();
+      e.preventDefault();
+
+      const selectedColor = productCard.querySelector('input[name="color"]:checked')?.value;
+      const selectedSize = productCard.querySelector('input[name="size"]:checked')?.value;
+      if (!selectedColor || !selectedSize) return;
+
+      const variantLabel = `${selectedColor} / ${selectedSize}`;
+      const matchingOption = Array.from(select.options).find(
+        option => option.value.trim() === variantLabel
+      );
+
+      if (matchingOption) {
+        select.value = matchingOption.value;
+        select.dispatchEvent(new Event('change'));
+        addToCartBtn.dataset.variantId = matchingOption.dataset.id;
+        await cartAdd(matchingOption.dataset.id);
+      } else {
+        console.warn('No matching variant found for:', variantLabel);
+      }
+    }
+
+    colorInputs.forEach(input => input.addEventListener('change', updateVariantSelection));
+    sizeInputs.forEach(input => input.addEventListener('change', updateVariantSelection));
+
+    addToCartBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      const variantId = addToCartBtn.dataset.variantId;
+      if (variantId) cartAdd(variantId);
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  bindQuickViewHandlers();
+  bindProductCardHandlers();
 });
