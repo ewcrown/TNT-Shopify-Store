@@ -171,3 +171,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.related-products .grid {
+  column-gap: 0;
+  row-gap: 0;
+}
+
+@media(max-width:768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}

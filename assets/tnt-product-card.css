@@ -1,4 +1,3 @@
-
 .tnt-product-gallery img {
   height: 461px;
   object-fit: contain;
@@ -183,4 +182,14 @@
 
 #tnt-product-select {
   display: none;
+}
+
+@media(max-width:768px) {
+  .tnt-product-gallery img {
+    height: 216px;
+  }
+
+  .tnt-product-popup {
+    display: none !important;
+  }
 }
