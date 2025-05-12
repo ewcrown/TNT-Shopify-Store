@@ -1,0 +1,76 @@
+.tnt-multicolumn-text-column-row {
+  padding: 60px 0px;
+}
+
+.tnt-multicolumn-text-column-wrap {
+  border-radius: 20px;
+  background: #FFE8E8;
+  padding: 80px 100px;
+}
+
+.tnt-multicolumn-text-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.tnt-multicolumn-text-block.tnt-multicolumn-text-block-revert {
+  flex-direction: row-reverse;
+}
+
+.tnt-multicolumn-text-block.tnt-multicolumn-text-block-revert img {
+  margin-left: auto;
+}
+
+.tnt-multicolumn-text-column-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.tnt-multicolumn-text-block-text h3 {
+  color: #212326;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51.4px;
+  letter-spacing: 0.6px;
+  margin-bottom: 23px;
+}
+
+.tnt-multicolumn-text-block-text p {
+  color: #212326;
+  font-size: 22.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.4px;
+  letter-spacing: 0.57px;
+}
+
+.tnt-multicolumn-text-block-image {
+  flex-basis: 50%;
+}
+
+.tnt-multicolumn-text-block-image img {
+  max-width: 512px;
+}
+
+.tnt-multicolumn-text-block-text {
+  flex-basis: 50%;
+}
+
+.tnt-multicolumn-text-block.tnt-multicolumn-text-block-revert .tnt-multicolumn-text-block-text img {
+  width: 150px;
+  margin-right: auto;
+  margin-left: inherit;
+  display: inline-block;
+}
+.tnt-multicolumn-text-block.tnt-multicolumn-text-block-revert .tnt-multicolumn-text-block-text span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tnt-multicolumn-text-block.tnt-multicolumn-text-block-revert .tnt-multicolumn-text-block-text p {
+  text-align: center;
+}
