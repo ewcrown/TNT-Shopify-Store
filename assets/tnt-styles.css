@@ -3,3 +3,87 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Modal wrapper */
+#quickview-modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* dark transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Hide the modal by default */
+#quickview-modal.hidden {
+  display: none;
+}
+
+/* Modal content */
+.quickview-inner {
+  background: #fff;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Close button */
+.quickview-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Image styling */
+.quickview-inner img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Price */
+.quickview-inner div {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Dropdown */
+.quickview-inner select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Add to Cart button */
+.quickview-add-to-cart {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

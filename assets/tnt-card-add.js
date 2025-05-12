@@ -140,7 +140,6 @@ const loader = (state) => {
 };
 
 // Product Card
-// Product Card
 const productCards = document.querySelectorAll('.tnt-product-card');
 
 productCards?.forEach(productCard => {
@@ -195,4 +194,54 @@ productCards?.forEach(productCard => {
       cartAdd(variantId);  // Call the cart add function with the selected variant
     }
   });
+});
+
+
+// Quick View Handler
+const quickViewButtons = document.querySelectorAll('.tnt-product-card-button-quick-view');
+const quickViewModal = document.getElementById('quickview-modal');
+const quickViewDetails = document.getElementById('quickview-details');
+const quickViewClose = document.querySelector('.quickview-close');
+
+// Open Quick View Modal
+quickViewButtons?.forEach(button => {
+  button.addEventListener('click', async (e) => {
+    e.stopPropagation();  // Stop event from bubbling to anchor
+    e.preventDefault();    // Prevent default anchor behavior
+    const handle = button.dataset.url;
+    if (!handle) return;
+
+    quickViewModal.classList.remove('hidden');
+    quickViewDetails.innerHTML = 'Loading...';
+
+    try {
+      const response = await fetch(`/products/${handle}?view=quickview`);
+      if (!response.ok) throw new Error('Failed to fetch product details');
+
+      const html = await response.text();
+      quickViewDetails.innerHTML = html;
+
+      // Optional: Re-bind add to cart inside modal
+      const addToCartBtn = quickViewDetails.querySelector('.quickview-add-to-cart');
+      const variantSelect = quickViewDetails.querySelector('select[name="id"]');
+      if (addToCartBtn && variantSelect) {
+        addToCartBtn.addEventListener('click', async () => {
+          const variantId = variantSelect.value;
+          if (variantId) {
+            await cartAdd(variantId);
+            quickViewModal.classList.add('hidden');
+          }
+        });
+      }
+    } catch (err) {
+      quickViewDetails.innerHTML = `<p>Error loading product.</p>`;
+      console.error(err);
+    }
+  });
+});
+
+// Close Modal
+quickViewClose.addEventListener('click', () => quickViewModal.classList.add('hidden'));
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') quickViewModal.classList.add('hidden');
 });
