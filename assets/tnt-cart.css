@@ -9,7 +9,8 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
+  /* 120% */
 }
 
 .drawer__header {
@@ -20,7 +21,7 @@
   display: none;
 }
 
-.cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
+.cart-drawer.cart-drawer .cart-item__price-wrapper>*:only-child {
   color: #333;
   font-family: Helvetica;
   font-size: 14px;
@@ -48,6 +49,7 @@
   line-height: normal;
   padding: 16px;
 }
+
 #checkout,
 #CartDrawer-Checkout {
   border-radius: 6.187px;
@@ -73,7 +75,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 141.9%; /* 22.704px */
+  line-height: 141.9%;
+  /* 22.704px */
 }
 
 .totals__total-value {
@@ -83,5 +86,17 @@
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
-  line-height: 76.875%; /* 19.988px */
+  line-height: 76.875%;
+  /* 19.988px */
+}
+
+.tax-note {
+  color: #737373;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141.9%;
+  /* 19.866px */
 }
