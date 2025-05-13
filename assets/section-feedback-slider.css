@@ -70,19 +70,6 @@
   right: 50px;
 }
 
-.tnt-feedback-slider__slider-wrap .swiper-wrapper {
-  display: flex;
-  padding-left: 16px;  /* consistent spacing */
-  padding-right: 16px; /* add this to fix right spacing */
-  scroll-snap-type: x mandatory;
-  overflow-x: auto;
-}
-
-.tnt-feedback-slider__slider-wrap .swiper-slide {
-  scroll-snap-align: start;
-  flex-shrink: 0;
-}
-
 @media (max-width: 767px) {
   .tnt-feedback-slider-buttons {
     display: none;
