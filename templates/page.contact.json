@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-page",
@@ -160,7 +160,7 @@
       ],
       "name": "TNT Popular Search",
       "settings": {
-        "ttl": "",
+        "ttl": "Popular Searches",
         "desc": "",
         "padding_top": 40,
         "padding_bottom": 40
