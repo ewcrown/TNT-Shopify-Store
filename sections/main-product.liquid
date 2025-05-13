@@ -1,3 +1,4 @@
+{{ 'tnt-product.css' | asset_url | stylesheet_tag }}
 <product-info
   id="MainProduct-{{ section.id }}"
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
@@ -105,6 +106,10 @@
                     </h2>
                   </a>
                 </div>
+              {%- when 'offer' -%}
+                {% render 'tnt-product-offer' %}
+              {%- when 'props' -%}
+                {% render 'tnt-product-props' %}
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -732,6 +737,16 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "name": "Offer",
+      "type": "offer",
+      "settings": []
+    },
+    {
+      "name": "Properties",
+      "type": "props",
+      "settings": []
     },
     {
       "type": "text",
