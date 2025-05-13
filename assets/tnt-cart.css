@@ -39,6 +39,11 @@
 }
 
 #CartDrawer-Checkout {
-border-radius: 6.187px;
-background: #FF4848;
+  border-radius: 6.187px;
+  background: #ff4848;
+}
+
+#CartDrawer-Checkout:before,
+#CartDrawer-Checkout:after {
+  display: none;
 }
