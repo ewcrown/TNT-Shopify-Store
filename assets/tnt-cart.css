@@ -36,6 +36,14 @@
 
 #CartDrawer-Checkout {
   margin-top: 20px;
+  color: #FFF;
+text-align: right;
+font-family: Helvetica;
+font-size: 17.013px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  padding:12px;
 }
 
 #checkout,
