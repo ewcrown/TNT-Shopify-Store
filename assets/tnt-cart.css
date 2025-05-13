@@ -15,3 +15,7 @@
 .drawer__header {
   margin-bottom: 42px;
 }
+
+.cart-drawer .cart-items thead {
+  display: none;
+}
