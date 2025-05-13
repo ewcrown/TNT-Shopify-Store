@@ -113,7 +113,7 @@
 .cart-item__price-wrapper > * {
   color: #000;
   font-family: Helvetica;
-  font-size: 34px;
+  font-size: 34px !important;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
