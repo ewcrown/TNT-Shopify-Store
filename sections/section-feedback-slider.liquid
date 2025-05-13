@@ -1,0 +1,90 @@
+{{ 'section-feedback-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="tnt-feedback-slider" id="tnt-feedback-slider">
+  <div class="tnt-feedback-slider__row">
+    <div class="">
+      <div class="tnt-feedback-slider__col">
+        <div class="tnt-feedback-slider__content page-width">
+          <div class="tnt-feedback-slider__content-inner">
+            <h2 class="tnt-feedback-slider__title">{{ section.settings.title }}</h2>
+            <p class="tnt-feedback-slider__text">{{ section.settings.text }}</p>
+          </div>
+          <div class="tnt-feedback-slider-buttons">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+        <div class="tnt-feedback-slider__slider-wrap page-width">
+          <div class="swiper feedback-swiper">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <div class="swiper-slide">
+                  {% if block.settings.image != blank %}
+                    <img src="{{ block.settings.image | image_url: width: 800 }}" alt="{{ block.settings.alt }}">
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "TNT Feedback Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "We value your feedback"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Subheading",
+      "default": "Your opinion matters to us. Please take a moment to share your thoughts."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Slide Image"
+        },
+        {
+          "type": "text",
+          "id": "alt",
+          "label": "Alt Text",
+          "default": "Feedback slide"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TNT Feedback Slider",
+      "category": "Sliders",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

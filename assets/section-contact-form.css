@@ -37,3 +37,175 @@
     grid-column-gap: 2rem;
   }
 }
+
+.tnt-contact-form {
+  width: 55%;
+}
+
+.tnt-contact-form__wrap.tnt-flex {
+  gap: 141px;
+}
+
+.tnt-contact-form__img {
+  border-radius: 0px 100px 0 100px;
+}
+
+.field:hover.field:after,
+.select:hover.select:after,
+.select__select:hover.select__select:after,
+.customer .field:hover.field:after,
+.customer select:hover.select:after,
+.localization-form__select:hover.localization-form__select:after,
+.field:after,
+.select:after,
+.customer .field:after,
+.customer select:after,
+.localization-form__select:after,
+.field__input:focus,
+.select__select:focus,
+.customer .field input:focus,
+.customer select:focus,
+.localization-form__select:focus.localization-form__select:after,
+.button:after,
+.shopify-challenge__button:after,
+.customer button:after,
+.shopify-payment-button__button--unbranded:after,
+.button:not([disabled]):hover:after,
+.shopify-challenge__button:hover:after,
+.customer button:hover:after,
+.shopify-payment-button__button--unbranded:hover:after {
+  box-shadow: unset;
+}
+
+.tnt-contact-form .field__label,
+.tnt-contact-form .field__input,
+.tnt-contact-form .customer .field input {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+.tnt-contact-form .field__input,
+.tnt-contact-form .customer .field input {
+  color: #333333;
+}
+.tnt-contact-form .field__label {
+  color: #33333380;
+}
+
+.tnt-contact-form .field {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #333333;
+}
+
+.tnt-contact-form .field__label,
+.tnt-contact-form .customer .field label {
+  left: unset;
+  top: unset;
+}
+
+.field__input:focus ~ .field__label,
+.field__input:not(:placeholder-shown) ~ .field__label,
+.field__input:-webkit-autofill ~ .field__label,
+.customer .field input:focus ~ label,
+.customer .field input:not(:placeholder-shown) ~ label,
+.customer .field input:-webkit-autofill ~ label {
+  left: unset;
+}
+
+.tnt-contact-form .field__input,
+.tnt-contact-form .customer .field input {
+  padding-left: 0 !important;
+}
+
+.tnt-contact-form .button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  background: #ff4848;
+  padding: 24px 120px;
+  border-radius: 48px;
+}
+
+.tnt-contact-form .contact__button {
+  margin-block: 59px;
+}
+
+.tnt-contact-form__info-wrap.tnt-flex {
+  gap: 75px;
+  justify-content: space-between;
+}
+
+.tnt-contact-form__info-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.tnt-contact-form__info-desc {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #333333;
+}
+
+.tnt-contact-form__info-social.tnt-flex {
+  gap: 24px;
+}
+
+.tnt-contact-form__info-social-icon {
+  width: 34px;
+  height: 34px;
+  max-width: unset;
+}
+
+@media (max-width: 767px) {
+  .tnt-contact-form__wrap.tnt-flex {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .tnt-contact-form {
+    width: 100%;
+  }
+
+  .tnt-contact-form__info-wrap.tnt-flex {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .tnt-contact-form .button {
+    font-size: 20px;
+    padding: 20px 100px;
+    width: 100%;
+  }
+  .tnt-contact-form .field__label,
+  .tnt-contact-form .field__input,
+  .tnt-contact-form .customer .field input {
+    font-size: 16px;
+  }
+
+  .field__input,
+  .select__select,
+  .customer .field input,
+  .customer select {
+    height: 3.5rem;
+  }
+
+  .field__input:focus ~ .field__label,
+  .field__input:not(:placeholder-shown) ~ .field__label,
+  .field__input:-webkit-autofill ~ .field__label,
+  .customer .field input:focus ~ label,
+  .customer .field input:not(:placeholder-shown) ~ label,
+  .customer .field input:-webkit-autofill ~ label {
+    top: unset;
+  }
+  .tnt-contact-form__info-title {
+    font-size: 18px;
+  }
+
+  .tnt-contact-form__info-desc {
+    font-size: 20px;
+  }
+}

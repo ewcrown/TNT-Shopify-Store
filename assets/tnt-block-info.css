@@ -2,20 +2,15 @@
   text-align: center;
 }
 
-.tnt-home-block__title {
-  font-family: Helvetica;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 19px;
+.tnt-home-block__info-wrap {
+  background: #f6f6f6;
+  padding: 15px 25px;
+  margin-top: 9px;
 }
 
-.tnt-home-block__info-wrap {
-  background: #f8f8f8f8;
-  padding: 30px 15px;
+.img-responsive.tnt-home-block__info-item-icon {
+    max-width: 50px;
+    height: 50px;
 }
 
 .tnt-home-block__info-btn {
@@ -23,4 +18,25 @@
   width: 100%;
   display: inline-block;
   margin-top: 1rem;
+  color: #373737;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.tnt-home-block__info-btn .chevron-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.tnt-home-block__info-item-text {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.tnt-home-block__info-item-list .tnt-home-block__info-item:nth-child(2){
+  border-inline: 1.5px solid #8F8F8F;
+    padding-inline: 3rem;
 }

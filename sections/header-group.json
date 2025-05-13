@@ -38,13 +38,35 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "menu_dTCRHe": {
+          "type": "menu",
+          "settings": {
+            "title": "Mega Menu",
+            "linklist": "mega-menu",
+            "image_1": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full_jpg.png",
+            "caption_1": "",
+            "link_1": "",
+            "image_2": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_dTCRHe"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,

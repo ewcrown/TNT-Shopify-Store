@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .tnt-home-block__banner-top {
+    order: -1;
+  }
+}

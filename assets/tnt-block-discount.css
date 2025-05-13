@@ -1,5 +1,28 @@
 .tnt-home-block__discount-banner {
-    text-align: center;
-    background: #f8f8f8;
-    padding: 20px;
+  text-align: center;
+  background: #e2dddc;
+  padding: 10px;
+  color: #4c4847;
+}
+
+.tnt-home-block__discount-banner-title {
+  color: #d54a9a;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.tnt-home-block__discount-banner-text,
+.tnt-home-block__discount-banner-code {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .tnt-home-block__discount-banner-code {
+    display: none;
+  }
+  .tnt-home-block__discount-banner {
+    border-radius: 20px;
+  }
 }

@@ -1,11 +1,32 @@
+.header {
+  padding: 0px 3rem !important;
+}
 .header-wrapper {
   background-color: var(--primary-color);
 }
 .header__menu-item,
 .header__active-menu-item,
-.tnt-header__top a{
+.tnt-header__top a {
   color: var(--white-color);
 }
+
+.header__active-menu-item {
+  text-decoration: unset;
+}
+
+.header__menu-item:hover,
+.header__menu-item:has(.header__active-menu-item) {
+  border-bottom-color: var(--white-color);
+}
+.header__menu-item {
+  border-bottom: 3px solid transparent;
+}
+
+.header__menu-item:hover span {
+  text-decoration: unset;
+  text-decoration-thickness: unset;
+}
+
 @media screen and (min-width: 990px) {
   .header--middle-center:not(.drawer-menu) {
     grid-template-areas: "heading navigation icons";
@@ -17,18 +38,73 @@
   stroke: var(--white-color);
 }
 .tnt-header-top__wrapper {
-    gap: 24px;
+  gap: 24px;
 }
 .tnt-header__top a {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  height: 3rem;
+  text-decoration: unset;
 }
 .header__heading-logo {
-    width: 126px;
+  width: 126px;
 }
 .list-menu__item {
-    font-weight: 700;
-    font-size: 13.89px;
-    line-height: 16px;
+  font-weight: 700;
+  font-size: 13.89px;
+  line-height: 16px;
+}
+
+.tnt-header-mob-search {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .tnt-header-top__wrapper,
+  .header__icons,
+  .predictive-search__loading-state {
+    display: none;
+  }
+  .header {
+    grid-template-areas: "heading left-icons";
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 1rem 10px 0rem !important;
+  }
+  header-drawer {
+    justify-self: end !important;
+  }
+  .tnt-header-mob-search .search-modal__content {
+    padding: 0 20px;
+  }
+  .tnt-header-mob-search .search__input.field__input {
+    padding: 13px 3.8rem 0px 13px;
+    border-radius: 4px;
+  }
+
+  .tnt-header-mob-search {
+    display: block;
+  }
+
+  .tnt-header-mob-search .field:after,
+  .tnt-header-mob-search .field:before,
+  .tnt-header-mob-search .field__input:focus,
+  .tnt-header-mob-search .field :focus-visible,
+  .tnt-header-mob-search .field:hover.field:after {
+    box-shadow: unset;
+  }
+
+  .tnt-header-mob-search input::placeholder {
+    color: #c2c2c2;
+  }
+
+  *:focus-visible {
+    outline: unset;
+    outline-offset: unset;
+    box-shadow: unset;
+  }
+
+  .header-wrapper {
+    padding-bottom: 13px;
+  }
 }

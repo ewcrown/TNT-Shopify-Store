@@ -11,6 +11,10 @@
   position: unset !important;
 }
 
+.tnt-multicolumn__wrapper .page-width {
+  border-top: 1px solid #dbdbdb;
+}
+
 .tnt-multicolumn__wrapper .multicolumn-card.content-container {
   text-align: center;
   background: unset;
@@ -41,4 +45,18 @@
 .tnt-multicolumn__wrapper .tnt-milticolumn__links img {
   width: 24px;
   height: 24px;
+}
+
+@media (max-width: 767px) {
+  .tnt-multicolumn__wrapper .page-width{
+    border-bottom: 1px solid #dbdbdb;
+  }
+
+  .tnt-multicolumn__wrapper .multicolumn-list.contains-content-container {
+    row-gap: 40px;
+  }
+
+  .tnt-multicolumn__wrapper .multicolumn-list__item {
+    flex-basis: 49%;
+  }
 }
