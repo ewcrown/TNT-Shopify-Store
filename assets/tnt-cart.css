@@ -21,7 +21,6 @@
   display: none;
 }
 
-
 #checkout {
   color: #fff;
   text-align: center;
@@ -36,14 +35,14 @@
 
 #CartDrawer-Checkout {
   margin-top: 20px;
-  color: #FFF;
-text-align: right;
-font-family: Helvetica;
-font-size: 17.013px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  padding:12px;
+  color: #fff;
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 17.013px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px;
 }
 
 #checkout,
@@ -114,7 +113,10 @@ line-height: normal;
   line-height: normal;
 }
 
-#CartDrawer-Form .cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
+#CartDrawer-Form
+  .cart-drawer.cart-drawer
+  .cart-item__price-wrapper
+  > *:only-child {
   color: #333;
   font-family: Helvetica;
   font-size: 14px;
@@ -123,8 +125,7 @@ line-height: normal;
   line-height: normal;
 }
 
-/* 
-.cart-item__price-wrapper > * {
+#main-cart-items .cart-item__price-wrapper > * {
   color: #000;
   font-family: Helvetica;
   font-size: 34px !important;
@@ -132,4 +133,3 @@ line-height: normal;
   font-weight: 700;
   line-height: normal;
 }
- */
