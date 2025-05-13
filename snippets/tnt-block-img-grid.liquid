@@ -1,0 +1,34 @@
+<div class="tnt-home-block__img-grid">
+  <h2 class="tnt-home-block__title">{{ block.settings.ttl }}</h2>
+  <p class="tnt-home-block__img-desc">{{ block.settings.desc }}</p>
+  <div class="tnt-home-block__img-grid grid-2">
+    <a href="{{ block.settings.url_1 }}" class="tnt-home-block__img-link">
+      <img
+        class="img-responsive tnt-home-block__img"
+        src="{{ block.settings.img_1 | image_url: width: 800 }}"
+        alt=""
+      >
+    </a>
+    <a href="{{ block.settings.url_2 }}" class="tnt-home-block__img-link">
+      <img
+        class="img-responsive tnt-home-block__-img"
+        src="{{ block.settings.img_2 | image_url: width: 800 }}"
+        alt=""
+      >
+    </a>
+    <a href="{{ block.settings.url_3 }}" class="tnt-home-block__img-link">
+      <img
+        class="img-responsive tnt-home-block__-img"
+        src="{{ block.settings.img_3 | image_url: width: 800 }}"
+        alt=""
+      >
+    </a>
+    <a href="{{ block.settings.url_4 }}" class="tnt-home-block__img-link">
+      <img
+        class="img-responsive tnt-home-block__-img"
+        src="{{ block.settings.img_4 | image_url: width: 800 }}"
+        alt=""
+      >
+    </a>
+  </div>
+</div>

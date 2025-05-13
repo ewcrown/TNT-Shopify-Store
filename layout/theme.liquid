@@ -37,8 +37,6 @@
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
 
-
-
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
@@ -104,10 +102,6 @@
       }
 
       :root {
-        {% for block in metaobjects.swatches.values %}
-          --{{ block.color_name | handle }}: {{ block.code_color }};
-        {% endfor %}
-
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -266,8 +260,6 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
     {{ 'tnt-global.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-styles.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-product-card.css' | asset_url | stylesheet_tag }}
 
     {%- if settings.cart_type == 'drawer' -%}
       {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
@@ -276,6 +268,7 @@
       {{ 'component-price.css' | asset_url | stylesheet_tag }}
       {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
+    {{ 'tnt-media-querries.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
@@ -309,8 +302,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-
+  <body class="template--{{ template.name }} template--{{ template.suffix }} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -384,18 +376,8 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script src="{{ 'tnt-slider.js' | asset_url }}" defer="defer"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    
-    <div id="quickview-modal" class="hidden">
-      <div class="quickview-inner">
-        <button class="quickview-close" aria-label="Close">&times;</button>
-        <div id="quickview-details">Loading...</div>
-      </div>
-    </div>
-    
-    
-    {{ 'tnt-card-add.js' | asset_url | script_tag }}
   </body>
 </html>

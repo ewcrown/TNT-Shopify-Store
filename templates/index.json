@@ -11,6 +11,235 @@
   "sections": {
     "tnt_home_blocks_yGfr7M": {
       "type": "tnt-home-blocks",
+      "blocks": {
+        "tnt_banner_ARmbq4": {
+          "type": "tnt_banner",
+          "settings": {
+            "ttl": "",
+            "off_txt": "",
+            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1_2f1d4414-a4d7-4c07-a0d7-6d837a0be1d1.png",
+            "url": ""
+          }
+        },
+        "img_grid_qBqmnc": {
+          "type": "img_grid",
+          "settings": {
+            "ttl": "",
+            "desc": "",
+            "img_1": "shopify://shop_images/9102a86a-b709-4a36-89a0-59846ca39b1e_full_jpg.png",
+            "url_1": "",
+            "img_2": "shopify://shop_images/005947fd-43b2-4c79-b6c7-0e02d3c4bfc9_full_jpg.png",
+            "url_2": "",
+            "img_3": "shopify://shop_images/59b4adbd-18d5-4eb2-aed1-52e2c4a6e76c_full_jpg.png",
+            "url_3": "",
+            "img_4": "shopify://shop_images/d68614cb-9b90-43ff-85f5-d95f5e8069fa_full_jpg.png",
+            "url_4": ""
+          }
+        },
+        "collection_list_67fVzN": {
+          "type": "collection_list",
+          "settings": {
+            "ttl": "Shop by Occasion",
+            "desc": "",
+            "off": "",
+            "collection": [
+              "wedding-party",
+              "holiday",
+              "fun-weekends",
+              "birthday"
+            ],
+            "grid_layout": "grid-2",
+            "round_images": false
+          }
+        },
+        "discount_38H6hV": {
+          "type": "discount",
+          "settings": {
+            "ttl": "Save Big on Your First Order",
+            "disc": "Flat 5% Off",
+            "txt": "*on 649 | Code: JOY5"
+          }
+        },
+        "announcement_bar_gT4Jmf": {
+          "type": "announcement_bar",
+          "settings": {
+            "announcement_txt": "30% Off",
+            "announcement_txt2": "20% Off",
+            "ttl": "TodsNTeens Picks",
+            "desc": "",
+            "off": "",
+            "collection": [
+              "skirt-sets",
+              "short-sets",
+              "party-and-enthic",
+              "onesies",
+              "casual-wear",
+              "footwear"
+            ],
+            "grid_layout": "grid-3",
+            "round_images": false
+          }
+        },
+        "discount_yzFMMD": {
+          "type": "discount",
+          "settings": {
+            "ttl": "Save Big on Your First Order",
+            "disc": "Flat 5% Off",
+            "txt": "*on 649 | Code: JOY5"
+          }
+        },
+        "collection_list_tRCMfC": {
+          "type": "collection_list",
+          "settings": {
+            "ttl": "The Multipack Store",
+            "desc": "",
+            "off": "30% OFF",
+            "collection": [
+              "accessories",
+              "confy-bottoms",
+              "cool-tops",
+              "inner-wear"
+            ],
+            "grid_layout": "grid-2",
+            "round_images": false
+          }
+        },
+        "info_hC6afy": {
+          "type": "info",
+          "settings": {
+            "ttl": "The TodsNteens Promise",
+            "icon_1": "shopify://shop_images/AqZY06_tif.svg",
+            "title_1": "Ship",
+            "text_1": "Discount",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.svg",
+            "title_2": "Ship",
+            "text_2": "Discount",
+            "icon_3": "shopify://shop_images/0aB4wc.svg",
+            "title_3": "Ship",
+            "text_3": "Discount",
+            "button_link": "",
+            "button_text": "Shop now"
+          }
+        },
+        "collection_list_4feyxq": {
+          "type": "collection_list",
+          "settings": {
+            "ttl": "Explore More",
+            "desc": "",
+            "off": "",
+            "collection": [
+              "boy",
+              "baby",
+              "girl"
+            ],
+            "grid_layout": "grid-3",
+            "round_images": false
+          }
+        },
+        "tnt_banner_9tL4cW": {
+          "type": "tnt_banner",
+          "settings": {
+            "ttl": "",
+            "off_txt": "",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif.png",
+            "url": ""
+          }
+        },
+        "tnt_banner_ajjdyt": {
+          "type": "tnt_banner",
+          "settings": {
+            "ttl": "",
+            "off_txt": "",
+            "img": "shopify://shop_images/Link.png",
+            "url": ""
+          }
+        },
+        "tnt_banner_d7dLwg": {
+          "type": "tnt_banner",
+          "settings": {
+            "ttl": "",
+            "off_txt": "",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif.png",
+            "url": ""
+          }
+        },
+        "collection_list_M4bGde": {
+          "type": "collection_list",
+          "settings": {
+            "ttl": "Girl’s Wardrobe",
+            "desc": "",
+            "off": "",
+            "collection": [
+              "summer-25",
+              "denim-collection",
+              "ethnic",
+              "footwear-1",
+              "jeans-sets-and-more",
+              "night-suits",
+              "onesies-1",
+              "skirt-sets-1",
+              "tees",
+              "tops-and-bottoms",
+              "dresses",
+              "short-sets-1"
+            ],
+            "grid_layout": "grid-4",
+            "round_images": false
+          }
+        },
+        "moment_P3tYDz": {
+          "type": "moment",
+          "settings": {
+            "ttl": "Moments",
+            "desc": "<p>Hopschotchers Share Their Favourite Moments.</p>",
+            "img_1": "shopify://shop_images/Link_2ed2b2c8-e72b-487f-b26f-4047794da750.png",
+            "img_2": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
+            "img_3": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png",
+            "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
+            "img_5": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
+            "img_6": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
+            "img_7": "shopify://shop_images/cc635bdf-1444-4158-8b52-adc25a43a88d_full_jpg.png",
+            "img_8": "shopify://shop_images/1f8048db-24fc-4785-b733-9d81b69844eb_full_jpg.png"
+          }
+        },
+        "collection_list_C4YYwU": {
+          "type": "collection_list",
+          "settings": {
+            "ttl": "Boy’s Wardrobe",
+            "desc": "",
+            "off": "",
+            "collection": [
+              "summer-26",
+              "denim-collection-1",
+              "footwear-2",
+              "formal-sets",
+              "jeans-and-pant-sets",
+              "onesies-2",
+              "short-sets-2",
+              "tees-1"
+            ],
+            "grid_layout": "grid-4",
+            "round_images": false
+          }
+        }
+      },
+      "block_order": [
+        "tnt_banner_ARmbq4",
+        "img_grid_qBqmnc",
+        "collection_list_67fVzN",
+        "discount_38H6hV",
+        "announcement_bar_gT4Jmf",
+        "discount_yzFMMD",
+        "collection_list_tRCMfC",
+        "info_hC6afy",
+        "collection_list_4feyxq",
+        "tnt_banner_9tL4cW",
+        "tnt_banner_ajjdyt",
+        "tnt_banner_d7dLwg",
+        "collection_list_M4bGde",
+        "moment_P3tYDz",
+        "collection_list_C4YYwU"
+      ],
       "name": "TNT Home Blocks",
       "settings": {}
     },
@@ -130,7 +359,7 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
             "ttl": "",
             "url": ""
           }
@@ -138,7 +367,7 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_1.png",
             "ttl": "",
             "url": ""
           }
@@ -146,7 +375,7 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_2.png",
             "ttl": "",
             "url": ""
           }
@@ -154,7 +383,7 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_3.png",
             "ttl": "",
             "url": ""
           }
@@ -162,7 +391,7 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_1.png",
             "ttl": "",
             "url": ""
           }
@@ -178,7 +407,7 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
             "ttl": "",
             "url": ""
           }
