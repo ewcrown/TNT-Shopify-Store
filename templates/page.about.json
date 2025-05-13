@@ -7,17 +7,395 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "main": {
       "type": "main-page",
       "settings": {
+        "background_color": "#e03f3f",
+        "text_color": "#ffffff",
+        "text_align": "center",
+        "padding_top": 76,
+        "padding_bottom": 76
+      }
+    },
+    "rich_text_JicR7M": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mqk9mN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to [Your Brand Name] — where every little stitch is made with love.</p><p>We’re more than just a baby clothing brand; we’re a team of parents, designers, and dreamers on a mission to bring comfort, style, and joy to your little ones. From newborns to growing toddlers, we create clothing that’s as gentle as a mother’s touch and as playful as childhood itself.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mqk9mN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "image_with_text_cWzRUJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_jfREyR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to [Your Brand Name] — where every little stitch is made with love.</p><p>We’re more than just a baby clothing brand; we’re a team of parents, designers, and dreamers on a mission to bring comfort, style, and joy to your little ones. From newborns to growing toddlers, we create clothing that’s as gentle as a mother’s touch and as playful as childhood itself.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_jfREyR"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_3_2311b03a-07f3-4d93-b3ac-4a75baae9628.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "image_with_text_PHTwRy": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_hrbGjQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to [Your Brand Name] — where every little stitch is made with love.</p><p>We’re more than just a baby clothing brand; we’re a team of parents, designers, and dreamers on a mission to bring comfort, style, and joy to your little ones. From newborns to growing toddlers, we create clothing that’s as gentle as a mother’s touch and as playful as childhood itself.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_hrbGjQ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_2_6675076f-83a5-4ed6-b985-5551e8963f0c.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 92
+      }
+    },
+    "section_feedback_slider_N3zXxL": {
+      "type": "section-feedback-slider",
+      "blocks": {
+        "slide_Eq6nMG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1_1.png",
+            "alt": "Feedback slide"
+          }
+        },
+        "slide_VMCg4c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1_2.png",
+            "alt": "Feedback slide"
+          }
+        },
+        "slide_biNzh9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1_3.png",
+            "alt": "Feedback slide"
+          }
+        },
+        "slide_fcjzRP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1.png",
+            "alt": "Feedback slide"
+          }
+        },
+        "slide_EigfPh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1_2.png",
+            "alt": "Feedback slide"
+          }
+        },
+        "slide_3MdRnM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_131_1_3.png",
+            "alt": "Feedback slide"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Eq6nMG",
+        "slide_VMCg4c",
+        "slide_biNzh9",
+        "slide_fcjzRP",
+        "slide_EigfPh",
+        "slide_3MdRnM"
+      ],
+      "name": "TNT Feedback Slider",
+      "settings": {
+        "title": "We value your feedback",
+        "text": "Your opinion matters to us. Please take a moment to share your thoughts."
+      }
+    },
+    "tnt_popular_search_pxMyzi": {
+      "type": "tnt-popular-search",
+      "blocks": {
+        "search_item_jYitH7": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_yyj7be": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_9zeA67": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_kr7WBN": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_ciagjh": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_LrHTdJ": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_AgCHaw": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_QARrej": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_DWMmym": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_xcDTM3": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_mjnCdH": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_xDWzBw": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_DaPDPC": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_4CrNYr": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_Ln6MQR": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "search_item_jYitH7",
+        "search_item_yyj7be",
+        "search_item_9zeA67",
+        "search_item_kr7WBN",
+        "search_item_ciagjh",
+        "search_item_LrHTdJ",
+        "search_item_AgCHaw",
+        "search_item_QARrej",
+        "search_item_DWMmym",
+        "search_item_xcDTM3",
+        "search_item_mjnCdH",
+        "search_item_xDWzBw",
+        "search_item_DaPDPC",
+        "search_item_4CrNYr",
+        "search_item_Ln6MQR"
+      ],
+      "name": "TNT Popular Search",
+      "settings": {
+        "ttl": "",
+        "desc": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "tnt_multicolumn_jPadQH": {
+      "type": "tnt-multicolumn",
+      "blocks": {
+        "column_WqTPYj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/info-icon_bb25cdfbf1ef1d38fa03c42cd7fdb341_svg.svg",
+            "title": "Need help?",
+            "text": "<p>View our knowledge</p>",
+            "social_link1": "",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RyPAQn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mail-icon_de3600111bd7ba207509475f689e4141_svg.svg",
+            "title": "24x7 support",
+            "text": "<p>wecare@hopscotch.in</p>",
+            "social_link1": "",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aNHMqQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
+            "title": "Download our apps",
+            "text": "",
+            "social_icon1": "shopify://shop_images/apple-icon_de7586e057326691c560a1d978523fe7_svg.svg",
+            "social_link1": "",
+            "social_icon2": "shopify://shop_images/play-icon_a4d7e7ce45e5c99d8110dfa21223d776_svg.svg",
+            "social_link2": "",
+            "social_link3": "",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NUDXy9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
+            "title": "Download our apps",
+            "text": "",
+            "social_icon1": "shopify://shop_images/facebook-icon_7dfa1483324e425b013f96fbbb8d82f8_svg.svg",
+            "social_link1": "",
+            "social_icon2": "shopify://shop_images/twitter-icon_b908491df1c1340b7a1100d57c57e80d_svg.svg",
+            "social_link2": "",
+            "social_icon3": "shopify://shop_images/pinterest-icon_230be23a09aaf64807ee39d93bcc91ad_svg.svg",
+            "social_link3": "",
+            "social_icon4": "shopify://shop_images/instagram-icon_01cb3f35fd397430a9c4cc91de63b7c9_svg.svg",
+            "social_link4": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WqTPYj",
+        "column_RyPAQn",
+        "column_aNHMqQ",
+        "column_NUDXy9"
+      ],
+      "name": "TNT Multicolumn",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_JicR7M",
+    "image_with_text_cWzRUJ",
+    "image_with_text_PHTwRy",
+    "section_feedback_slider_N3zXxL",
+    "tnt_popular_search_pxMyzi",
+    "tnt_multicolumn_jPadQH"
   ]
 }
