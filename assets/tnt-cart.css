@@ -100,3 +100,12 @@
   line-height: 141.9%;
   text-align: center !important;
 }
+
+.cart-item__name {
+  color: #333;
+font-family: Helvetica;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
