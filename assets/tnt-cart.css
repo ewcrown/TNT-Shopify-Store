@@ -21,14 +21,6 @@
   display: none;
 }
 
-.cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
-  color: #333;
-  font-family: Helvetica;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 
 #checkout {
   color: #fff;
@@ -109,6 +101,16 @@
   font-weight: 400;
   line-height: normal;
 }
+
+#CartDrawer-Form .cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
+  color: #333;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 
 .cart-item__price-wrapper > * {
   color: #000;
