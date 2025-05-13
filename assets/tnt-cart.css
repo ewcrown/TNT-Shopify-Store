@@ -44,6 +44,8 @@
   background: #ff4848;
 }
 
+#checkout:before,
+#checkout:after,
 #CartDrawer-Checkout:before,
 #CartDrawer-Checkout:after {
   display: none;
