@@ -28,3 +28,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+.cart-item__name {
+  color: #333;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
