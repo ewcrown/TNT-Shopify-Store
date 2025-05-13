@@ -1,3 +1,19 @@
-.tnt-home-block__collection-title {
-    text-align: center;
+.tnt-home-block__collection {
+  text-align: center;
+}
+
+.tnt-home-block__collection-off-text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13.48px;
+  line-height: 100%;
+  width: max-content;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  background: #ff4848;
+  color: #fff;
+  padding: 8px 19px;
+  border-radius: 30px;
+  margin-bottom: : 8px;
 }

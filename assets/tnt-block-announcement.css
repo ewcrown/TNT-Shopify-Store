@@ -1,8 +1,13 @@
+.tnt-home-block__collection-announcement-bar {
+  margin-top: 1.3rem;
+}
+
 .tnt-announcement-bar {
   background-color: #ff4d4d;
   border-radius: 50px;
   overflow: hidden;
   height: 30px;
+  margin-block: 10px 20px;
 }
 .tnt-announcement-bar .tnt-swiper-container {
   width: 100%;
@@ -21,3 +26,14 @@
   line-height: 30px;
 }
 
+.tnt-home-block__collection-announcement-bar
+  .tnt-home-block__collection
+  .tnt-home-block__title {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .tnt-home-block__collection-announcement-bar {
+    display: none !important;
+  }
+}

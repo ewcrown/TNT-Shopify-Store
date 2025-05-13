@@ -9,17 +9,19 @@
  */
 {
   "sections": {
-    "tnt_breadcrumbs_4UXN64": {
-      "type": "tnt-breadcrumbs",
-      "name": "<> Breadcrumbs",
-      "settings": {}
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -30,77 +32,14 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
-    },
-    "tnt_image_text_hELeik": {
-      "type": "tnt-image-text",
-      "blocks": {
-        "block_z3BrGW": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "New Arrivals",
-            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
-          }
-        },
-        "block_iReDKP": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Eid Collection",
-            "img": "shopify://shop_images/image_1_6cb9662c-5d0d-4458-b544-6917706cb6b6.png"
-          }
-        },
-        "block_gheyCM": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Summer Specials",
-            "img": "shopify://shop_images/image_2_35068754-dc0a-423c-95ee-97f411365c75.png"
-          }
-        },
-        "block_jWEmXC": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Character Shop",
-            "img": "shopify://shop_images/image_3_b61550d6-cc8b-436a-bfdd-ba91be0096b8.png"
-          }
-        },
-        "block_zdQtRX": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Top Rated",
-            "img": "shopify://shop_images/image_4.png"
-          }
-        },
-        "block_kmzgHG": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Spring Rompers",
-            "img": "shopify://shop_images/image_5.png"
-          }
-        }
-      },
-      "block_order": [
-        "block_z3BrGW",
-        "block_iReDKP",
-        "block_gheyCM",
-        "block_jWEmXC",
-        "block_zdQtRX",
-        "block_kmzgHG"
-      ],
-      "name": "<> Image Text",
-      "settings": {}
     }
   },
   "order": [
-    "tnt_breadcrumbs_4UXN64",
-    "product-grid",
-    "tnt_image_text_hELeik"
+    "banner",
+    "product-grid"
   ]
 }

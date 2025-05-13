@@ -1,55 +1,24 @@
 <div class="tnt-home-block__collection">
-  <h2 class="tnt-home-block__title"></h2>
-  <p class="tnt-home-block__collection-desc"></p>
-  <span class="tnt-home-block__collection-off-text"></span>
-  <div class="tnt-home-block__collection-grid grid-2">
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
-    <a href="" class="tnt-home-block__collection-link">
-      <img
-        class="img-responsive tnt-home-block__collection-img"
-        src="img/e549cc7e-e6e8-4ce5-a1bc-574b6b2d4366_full.jpg.png"
-        alt=""
-      >
-      <h4 class="tnt-home-block__collection-title">Shorts Set</h4>
-    </a>
+  <h2 class="tnt-home-block__title ">{{ block.settings.ttl }}</h2>
+  <p class="tnt-home-block__collection-desc">{{ block.settings.desc }}</p>
+  {% if block.settings.off != blank %}
+    <div class="tnt-home-block__collection-off-text">{{ block.settings.off }}</div>
+  {%- endif %}
+
+  <div class="tnt-home-block__collection-grid {{ block.settings.grid_layout }}">
+    {% if block.settings.collection != blank %}
+      {% for collection in block.settings.collection %}
+        <a href="{{ collection.url }}" class="tnt-home-block__collection-link">
+          {% if collection.image != blank %}
+            <img
+              class="img-responsive tnt-home-block__collection-img {% if block.settings.round_images == true %}tnt-rounded-full{% endif %}"
+              src="{{ collection.featured_image | image_url: width: 400 }}"
+              alt="{{ collection.title }}"
+            >
+          {% endif %}
+          {% comment %}<h4 class="tnt-home-block__collection-title">{{ collection.title }}</h4>{% endcomment %}
+        </a>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>

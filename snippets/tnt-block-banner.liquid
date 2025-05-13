@@ -1,11 +1,13 @@
 <div class="tnt-home-block__banner">
-  <h2 class="tnt-home-block__banner-title"></h2>
-  <span class="tnt-home-block__banner-off"></span>
-  <a href="" class="tnt-home-block__banner-link">
-    <img
-      class="tnt-home-block__banner-img"
-      src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1.png?v=1746383538"
-      alt=""
-    >
-  </a>
+  <h2 class="tnt-home-block__banner-title">{{ block.settings.ttl }}</h2>
+  <span class="tnt-home-block__banner-off">{{ block.settings.off_txt }}</span>
+  {% if block.settings.img != blank %}
+    <a href="{{ block.settings.url }}" class="tnt-home-block__banner-link">
+      <img
+        class="tnt-home-block__banner-img"
+        src="{{ block.settings.img | image_url: width: 800  }}"
+        alt=""
+      >
+    </a>
+  {% endif %}
 </div>

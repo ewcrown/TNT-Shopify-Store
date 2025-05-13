@@ -12,27 +12,20 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "text_pEU4r9": {
-          "type": "text",
-          "settings": {
-            "text": "Soft and Cozy Velvet Sets with sherpa linning",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
-        },
-        "text_RfpL6b": {
-          "type": "text",
-          "settings": {
-            "text": "Inclusive of all taxes",
-            "text_style": "body"
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -41,8 +34,8 @@
             "swatch_shape": "circle"
           }
         },
-        "offer_yydrnU": {
-          "type": "offer",
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {}
         },
         "buy_buttons": {
@@ -52,112 +45,47 @@
             "show_gift_card_recipient": true
           }
         },
-        "props_TAmVCT": {
-          "type": "props",
+        "description": {
+          "type": "description",
           "settings": {}
         },
-        "collapsible_tab_Ji4XC4": {
-          "type": "collapsible_tab",
+        "share": {
+          "type": "share",
           "settings": {
-            "heading": "Product Details",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_nEp7bK": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Fabric & Care",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_HcCk9w": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "silhouette",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible_tab_qPVtD4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Additional Information",
-            "icon": "box",
-            "content": "",
-            "page": ""
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
+        "vendor",
         "title",
-        "text_pEU4r9",
         "price",
-        "text_RfpL6b",
         "variant_picker",
-        "offer_yydrnU",
+        "quantity_selector",
         "buy_buttons",
-        "props_TAmVCT",
-        "collapsible_tab_Ji4XC4",
-        "collapsible_tab_nEp7bK",
-        "collapsible_tab_HcCk9w",
-        "collapsible_tab_qPVtD4"
+        "description",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "columns",
+        "gallery_layout": "stacked",
         "mobile_thumbnails": "hide",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 72,
-        "padding_bottom": 56
+        "padding_top": 36,
+        "padding_bottom": 12
       }
-    },
-    "tnt_multicolumn_text_image_7798bq": {
-      "type": "tnt-multicolumn-text-image",
-      "blocks": {
-        "block_PmEWtp": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "img": "shopify://shop_images/3_6baf23a8-271f-4c5a-a975-25d98edb725c_png.png",
-            "heading": "Relaxed Fit",
-            "description": "Roomy fit lets you layer underneath, keeping your little one extra warm."
-          }
-        },
-        "block_AxWTMG": {
-          "type": "block",
-          "settings": {
-            "rainbow": true,
-            "alignment": "right",
-            "img": "shopify://shop_images/4_69fa0d07-4c6e-4444-b5a0-66077e13a95b_png.png",
-            "heading": "Wide Neck",
-            "description": "Stretchable wide neck ensures easy, fuss-freeand comfortable dressing for your baby."
-          }
-        }
-      },
-      "block_order": [
-        "block_PmEWtp",
-        "block_AxWTMG"
-      ],
-      "name": "<> Multicolumn Box",
-      "settings": {}
     },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Similar products",
+        "heading": "You may also like",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -171,178 +99,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "tnt_image_text_hELeik": {
-      "type": "tnt-image-text",
-      "blocks": {
-        "block_z3BrGW": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "New Arrivals",
-            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
-          }
-        },
-        "block_iReDKP": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Eid Collection",
-            "img": "shopify://shop_images/image_1_6cb9662c-5d0d-4458-b544-6917706cb6b6.png"
-          }
-        },
-        "block_gheyCM": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Summer Specials",
-            "img": "shopify://shop_images/image_2_35068754-dc0a-423c-95ee-97f411365c75.png"
-          }
-        },
-        "block_jWEmXC": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Character Shop",
-            "img": "shopify://shop_images/image_3_b61550d6-cc8b-436a-bfdd-ba91be0096b8.png"
-          }
-        },
-        "block_zdQtRX": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Top Rated",
-            "img": "shopify://shop_images/image_4.png"
-          }
-        },
-        "block_kmzgHG": {
-          "type": "block",
-          "settings": {
-            "link": "#",
-            "heading": "Spring Rompers",
-            "img": "shopify://shop_images/image_5.png"
-          }
-        }
-      },
-      "block_order": [
-        "block_z3BrGW",
-        "block_iReDKP",
-        "block_gheyCM",
-        "block_jWEmXC",
-        "block_zdQtRX",
-        "block_kmzgHG"
-      ],
-      "name": "<> Image Text",
-      "settings": {}
-    },
-    "tnt_kids_section_mznpg7": {
-      "type": "tnt-kids-section",
-      "blocks": {
-        "content_ikWym9": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_9mxRGQ": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_CTan9L": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_7HftaG": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_wUYEkn": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_qgfyeQ": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_cm9PdQ": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_r3TKzn": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_BcnGEw": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_ikWym9",
-        "content_9mxRGQ",
-        "content_CTan9L",
-        "content_7HftaG",
-        "content_wUYEkn",
-        "content_qgfyeQ",
-        "content_cm9PdQ",
-        "content_r3TKzn",
-        "content_BcnGEw"
-      ],
-      "name": "TNT Kids",
-      "settings": {
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "main",
-    "tnt_multicolumn_text_image_7798bq",
-    "related-products",
-    "tnt_image_text_hELeik",
-    "tnt_kids_section_mznpg7"
+    "related-products"
   ]
 }
