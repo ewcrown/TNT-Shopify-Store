@@ -9,6 +9,16 @@
  */
 {
   "sections": {
+   "main": {
+      "type": "main-page",
+      "settings": {
+        "background_color": "#e03f3f",
+        "text_color": "#ffffff",
+        "text_align": "center",
+        "padding_top": 76,
+        "padding_bottom": 76
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -43,6 +53,7 @@
     }
   },
   "order": [
+    "main",
     "cart-items",
     "cart-footer"
   ]
