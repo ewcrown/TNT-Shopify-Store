@@ -20,20 +20,25 @@
   display: none;
 }
 
-.cart-drawer.cart-drawer .cart-item__price-wrapper>*:only-child {
+.cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
   color: #333;
-font-family: Helvetica;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .cart-item__name {
   color: #333;
-font-family: Helvetica;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#CartDrawer-Checkout {
+border-radius: 6.187px;
+background: #FF4848;
 }
