@@ -261,7 +261,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .mega-menu-row-wrapper {
-  padding: 0 20px 20px;
+  padding: 0 20px 0 20px;
 }
 
 .mega-menu-column .mega-menu__title h3 {
