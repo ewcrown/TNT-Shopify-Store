@@ -1,13 +1,17 @@
 .drawer__inner.gradient.color-scheme-1 {
-    padding: 44px 60px;
- border-radius: 40px 0px 0px 40px;
+  padding: 44px 60px;
+  border-radius: 40px 0px 0px 40px;
 }
 
 .drawer__heading {
   color: #000;
-font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 120% */
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+.drawer__header {
+  margin-bottom: 42px;
 }
