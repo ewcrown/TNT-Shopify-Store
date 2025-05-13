@@ -3762,11 +3762,9 @@ details-disclosure > details {
   gap: 6rem;
 }
 
-.tnt-mega-menu__catogory-wrapper.tnt-flex {
-  width: 100%;
-  flex-wrap: nowrap;
-  overflow: auto;
-  gap: 6rem;
+.tnt-mega-menu__catogory-item.tnt-flex {
+  align-items: center;
+  gap: 10px;
 }
 
 .tnt-mega-menu__catogory-item.tnt-flex p {
