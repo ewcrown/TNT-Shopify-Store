@@ -3706,7 +3706,7 @@ details-disclosure > details {
   }
 
   .tnt-mega-menu__catogory {
-    display: block;
+    display: block !important;
   }
 }
 
