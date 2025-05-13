@@ -7,9 +7,10 @@
   color: #333333;
 }
 
-.tnt-popular-search__content .tnt-popular-search__item:first-child::after {
+.tnt-popular-search__content .tnt-popular-search__item:first-child::before {
   display: none;
 }
+
 .tnt-popular-search__item {
   font-weight: 400;
   font-size: 15px;
@@ -21,7 +22,7 @@
   margin-right: 1.3rem;
 }
 
-.tnt-popular-search__item:after {
+.tnt-popular-search__item:before {
   content: "";
   border-right: 2px solid #777777;
   position: absolute;
@@ -29,4 +30,14 @@
   bottom: 0;
   left: -11px;
   height: 16px;
+}
+
+.tnt-popular-search__col {
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .tnt-popular-search__item {
+    line-height: 32px;
+  }
 }

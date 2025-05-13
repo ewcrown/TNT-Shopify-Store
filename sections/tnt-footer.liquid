@@ -3,8 +3,8 @@
 <div class="tnt-footer" id="tnt-footer">
   <div class="tnt-footer__row">
     <div class="tnt-footer__container page-width">
-      <div class="tnt-footer__content">
-        <div class="tnt-footer__brand">
+      <div class="tnt-footer__content tnt-flex tnt-align-items-center tnt-justify-content-between">
+        <div class="tnt-footer__brand tnt-flex tnt-align-items-center ">
           <div class="tnt-footer__logo">
             {% if section.settings.logo != blank %}
               <img src="{{ section.settings.logo | image_url: width: 200 }}" alt="Footer Logo" loading="lazy">
@@ -14,7 +14,7 @@
           <div class="tnt-footer__menu">
             {%- for block in section.blocks -%}
               {%- if block.settings.menu != blank and block.settings.menu.links.size > 0 -%}
-                <ul class="footer-block__details-content list-unstyled" {{ block.shopify_attributes }}>
+                <ul class="footer-block__details-content list-unstyled tnt-flex" {{ block.shopify_attributes }}>
                   {%- for link in block.settings.menu.links -%}
                     <li>
                       <a

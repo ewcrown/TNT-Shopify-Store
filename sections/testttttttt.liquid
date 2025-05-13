@@ -5,7 +5,6 @@
 {{ 'tnt-block-collection.css' | asset_url | stylesheet_tag }}
 {{ 'tnt-block-moment.css' | asset_url | stylesheet_tag }}
 {{ 'tnt-block-announcement.css' | asset_url | stylesheet_tag }}
-{{ 'tnt-block-img-grid.css' | asset_url | stylesheet_tag }}
 
 <div class="tnt-home-block" id="tnt-home-block">
   <div class="tnt-home-block__row">
@@ -13,28 +12,26 @@
       <div class="tnt-home-block__col">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-              <!-- banner block -->
+              <!-- banner block 1 -->
             {%- when 'tnt_banner' -%}
               {% render 'tnt-block-banner', block: block %}
 
-              <!-- Image Grid -->
-            {%- when 'img_grid' -%}
-              {% render 'tnt-block-img-grid', block: block %}
-
-              <!-- collection -->
+              <!-- collection 1 -->
             {%- when 'collection_list' -%}
-              {% render 'tnt-block-collection', block: block %}
+              {% render 'tnt-block-collection' %}
 
               <!-- Announcement bar -->
             {%- when 'announcement_bar' -%}
               <div class="tnt-home-block__collection-announcement-bar">
-                {% render 'tnt-block-announcement', block: block, title: block.settings.announcement_txt %}
+                <!-- block announcement -->
+                {% render 'tnt-block-announcement', block: block %}
 
                 <div class="tnt-home-block__title-wrap">
-                  <h2 class="tnt-home-block__title">{{ block.settings.ttl }}</h2>
+                  <h2 class="tnt-home-block__title">TodsNTeens Picks</h2>
                 </div>
 
-                {% render 'tnt-block-announcement', block: block, title: block.settings.announcement_txt2 %}
+                <!-- block announcement -->
+                {% render 'tnt-block-announcement', block: block %}
 
                 {% render 'tnt-block-collection', block: block %}
               </div>
@@ -59,7 +56,7 @@
 
 {% schema %}
 {
-  "name": "TNT Home Blocks",
+  "name": "Test Blocks",
   "settings": [],
   "blocks": [
     {
@@ -71,59 +68,7 @@
           "type": "text",
           "id": "announcement_txt",
           "label": "Discount Text"
-        },
-        {
-          "type": "text",
-          "id": "announcement_txt2",
-          "label": "Discount Text 2"
-        },
-                {
-          "type": "text",
-          "id": "ttl",
-          "label": "Title"
-        },
-        {
-          "type": "richtext",
-          "id": "desc",
-          "label": "Description"
-        },
-        {
-          "type": "text",
-          "id": "off",
-          "label": "Off Text"
-        },
-        {
-          "type": "collection_list",
-          "id": "collection",
-          "label": "Select Collection",
-          "limit": 12
-        },
- {
-      "type": "select",
-      "id": "grid_layout",
-      "label": "Grid Layout",
-      "options": [
-        {
-          "value": "grid-2",
-          "label": "2 Columns"
-        },
-        {
-          "value": "grid-3",
-          "label": "3 Columns"
-        },
-        {
-          "value": "grid-4",
-          "label": "4 Columns"
         }
-      ],
-      "default": "grid-3"
-    },
-    {
-      "type": "checkbox",
-      "id": "round_images",
-      "label": "Make Images Rounded",
-      "default": false
-    }
       ]
     },
     {
@@ -164,47 +109,16 @@
           "label": "Title"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "desc",
           "label": "Description"
-        },
-        {
-          "type": "text",
-          "id": "off",
-          "label": "Off Text"
         },
         {
           "type": "collection_list",
           "id": "collection",
           "label": "Select Collection",
           "limit": 12
-        },
-            {
-      "type": "select",
-      "id": "grid_layout",
-      "label": "Grid Layout",
-      "options": [
-        {
-          "value": "grid-2",
-          "label": "2 Columns"
-        },
-        {
-          "value": "grid-3",
-          "label": "3 Columns"
-        },
-        {
-          "value": "grid-4",
-          "label": "4 Columns"
         }
-      ],
-      "default": "grid-3"
-    },
-    {
-      "type": "checkbox",
-      "id": "round_images",
-      "label": "Make Images Rounded",
-      "default": false
-    }
       ]
     },
     {
@@ -290,22 +204,49 @@
       "limit": 2,
       "settings": [
         {
-          "type": "text",
-          "id": "ttl",
-          "label": "Title",
-          "default": "Save Big on Your First Order"
+          "type": "image_picker",
+          "id": "img_1",
+          "label": "Icon 1"
         },
         {
           "type": "text",
-          "id": "disc",
-          "label": "Discount Text",
-          "default": "Flat 5% Off"
+          "id": "ttl_1",
+          "label": "Title 1"
         },
         {
           "type": "text",
-          "id": "txt",
-          "label": "Text",
-          "default": "*on 649 | Code: JOY5"
+          "id": "txt_1",
+          "label": "Text 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "img_2",
+          "label": "Icon 2"
+        },
+        {
+          "type": "text",
+          "id": "ttl_2",
+          "label": "Title 2"
+        },
+        {
+          "type": "text",
+          "id": "txt_2",
+          "label": "Text 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "img_3",
+          "label": "Icon 3"
+        },
+        {
+          "type": "text",
+          "id": "ttl_3",
+          "label": "Title 3"
+        },
+        {
+          "type": "text",
+          "id": "txt_3",
+          "label": "Text 3"
         },
       ]
     },
@@ -314,17 +255,6 @@
       "name": "Moment",
       "limit": 1,
       "settings": [
-        {
-          "type": "text",
-          "id": "ttl",
-          "label": "Title"
-        },
-        {
-          "type": "richtext",
-          "id": "desc",
-          "label": "Description",
-          "default": "<p>Hopschotchers Share Their Favourite Moments.</p>"
-        },
         {
           "type": "image_picker",
           "id": "img_1",
@@ -366,68 +296,11 @@
           "label": "Moment img 8"
         },
       ]
-    },
-    {
-      "type": "img_grid",
-      "name": "Discount Images",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "ttl",
-          "label": "Title"
-        },
-        {
-          "type": "richtext",
-          "id": "desc",
-          "label": "Description"
-        },
-        {
-          "type": "image_picker",
-          "id": "img_1",
-          "label": "Banner img 1"
-        },
-        {
-          "type": "url",
-          "id": "url_1",
-          "label": "Image 1 URL"
-        },
-        {
-          "type": "image_picker",
-          "id": "img_2",
-          "label": "Banner img 2"
-        },
-        {
-          "type": "url",
-          "id": "url_2",
-          "label": "Image 2 URL"
-        },
-        {
-          "type": "image_picker",
-          "id": "img_3",
-          "label": "Banner img 3"
-        },
-        {
-          "type": "url",
-          "id": "url_3",
-          "label": "Image 3 URL"
-        },
-        {
-          "type": "image_picker",
-          "id": "img_4",
-          "label": "Banner img 4"
-        },
-        {
-          "type": "url",
-          "id": "url_4",
-          "label": "Image 4 URL"
-        }
-      ]
-    },
+    }
   ],
   "presets": [
     {
-      "name": "TNT Home Blocks"
+      "name": "Test Blocks"
     }
   ]
 }
