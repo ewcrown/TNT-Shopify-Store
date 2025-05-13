@@ -158,7 +158,7 @@
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
-                {%- endif -%}
+                {%- endif -%} 
                   {% render 'tnt-product-card',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
