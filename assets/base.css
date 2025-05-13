@@ -3760,6 +3760,8 @@ details-disclosure > details {
   flex-wrap: nowrap;
   overflow: auto;
   gap: 6rem;
+  -ms-overflow-style: none; /* For IE and Edge */
+  scrollbar-width: none; /* For Firefox */
 }
 
 .tnt-mega-menu__catogory-item.tnt-flex {
@@ -3772,4 +3774,12 @@ details-disclosure > details {
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
+}
+
+.scrollable-element {
+  overflow: scroll;
+}
+
+.tnt-mega-menu__catogory-wrapper.tnt-flex::-webkit-scrollbar {
+  display: none; /* For Webkit-based browsers */
 }
