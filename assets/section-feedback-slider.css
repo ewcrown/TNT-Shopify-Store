@@ -62,8 +62,12 @@
 }
 
 .tnt-feedback-slider__content .swiper-button-prev {
-  right: 60px;
+  right: 95px;
   left: unset;
+}
+
+.tnt-feedback-slider__content .swiper-button-next {
+  right: 50px;
 }
 
 @media (max-width: 767px) {
