@@ -74,7 +74,7 @@
   /* 22.704px */
 }
 
-.totals__total-value {
+#CartDrawer-Form .totals__total-value {
   color: #000;
   text-align: right;
   font-family: Helvetica;
