@@ -21,7 +21,7 @@
   display: none;
 }
 
-.cart-drawer.cart-drawer .cart-item__price-wrapper>*:only-child {
+.cart-drawer.cart-drawer .cart-item__price-wrapper > *:only-child {
   color: #333;
   font-family: Helvetica;
   font-size: 14px;
@@ -98,5 +98,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 141.9%;
-  /* 19.866px */
+  text-align: center;
 }
