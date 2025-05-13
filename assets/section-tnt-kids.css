@@ -1,0 +1,24 @@
+.tnt-kids__col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tnt-kids__content-date,
+.tnt-kids__content-text {
+  font-weight: 700;
+  font-size: 13.01px;
+  line-height: 13.66px;
+  letter-spacing: -0.65px;
+  color: #4cabbe;
+  text-align: center;
+  margin: 0;
+}
+
+.tnt-kids__content {
+  background: #e5f9fd;
+  padding: 24px 32px;
+  border-radius: 13px;
+}

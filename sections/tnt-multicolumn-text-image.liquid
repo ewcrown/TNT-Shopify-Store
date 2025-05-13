@@ -1,0 +1,97 @@
+{{ 'tnt-multicolumn-text-image.css' | asset_url | stylesheet_tag }}
+
+<section class="tnt-multicolumn-text-column-section" id="tnt-multicolumn-text-column-section">
+  <div class="tnt-multicolumn-text-column-row">
+    <div class="page-width">
+      <div class="tnt-multicolumn-text-column-wrap">
+        {% for block in section.blocks %}
+          <div class="tnt-multicolumn-text-block {% if block.settings.alignment == 'right' %}tnt-multicolumn-text-block-revert{% endif %}">
+            <div class="tnt-multicolumn-text-block-image">
+              {% if block.settings.img != blank %}
+              <img 
+                src="{{ block.settings.img | image_url }}"
+                class="img-fluid"
+                width="512"
+                height="512"
+              >
+              {% endif %}
+            </div>
+            <div class="tnt-multicolumn-text-block-text">
+              <h3>
+                {% if block.settings.rainbow %}
+                  <img 
+                    src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/rainbow.png?v=1747038314"
+                    class="img-fluid"
+                    width="512"
+                    height="512"
+                  >
+                {% endif %}
+                <span>{{ block.settings.heading }}</span>
+              </h3>
+              <p>{{ block.settings.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Multicolumn Box",
+  "settings": [],
+  "blocks": [
+    {
+      "name":"Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "rainbow",
+          "label": "Show Rainbow",
+          "default": false
+        },
+        {
+          "type": "radio",
+          "id": "alignment",
+          "label": "Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Image Text"
+            },
+            {
+              "value": "right",
+              "label": "Text Image"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Relaxed Fit"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Roomy fit lets you layer underneath, keeping your little one extra warm."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Multicolumn Box"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,40 @@
+.tnt-image-text-row {
+  padding: 60px 0px 120px;
+}
+
+.tnt-image-text-wrap {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 27px;
+}
+
+.tnt-image-text-block span {
+  display: block;
+  color: #000;
+  text-align: center;
+  font-size: 21.437px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.262px;
+  margin-top: 16px;
+}
+
+@media(max-width:768px) {
+  .tnt-image-text-row {
+    overflow-x: scroll;
+  }
+
+  .tnt-image-text-block img {
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .tnt-image-text-block span {
+    font-size: 7.151px;
+  }
+
+  .tnt-image-text-wrap {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}

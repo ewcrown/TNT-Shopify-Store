@@ -1,0 +1,11 @@
+<div class="quickview-inner">
+  <h2>{{ product.title }}</h2>
+  <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+  <div>{{ product.price | money }}</div>
+  <select name="id">
+    {% for variant in product.variants %}
+      <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
+    {% endfor %}
+  </select>
+  <button class="quickview-add-to-cart">Add to Cart</button>
+</div>

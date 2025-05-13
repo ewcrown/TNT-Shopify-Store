@@ -1,0 +1,88 @@
+{{ 'section-tnt-kids.css' | asset_url | stylesheet_tag }}
+
+<div class="tnt-kids" id="tnt-kids">
+  <div class="tnt-kids__row">
+    <div class="page-width">
+      <div class="tnt-kids__col">
+        {% for block in section.blocks %}
+          <a href="{{ block.settings.url }}">
+            <div class="tnt-kids__content">
+              {% if block.settings.img != blank %}
+                <img class="tnt-kids__content-img" src="{{ block.settings.img | image_url: width: '800' }}" alt="">
+              {% endif %}
+              <p class="tnt-kids__content-date">{{ block.settings.date }}</p>
+              <p class="tnt-kids__content-text">{{ block.settings.txt }}</p>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "TNT Kids",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "default": 60
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "TNT Content",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+        {
+          "type": "textarea",
+          "id": "txt",
+          "label": "Month/Year"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TNT Kids",
+      "blocks": [
+        {
+          "type": "content"
+        },
+        {
+          "type": "content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,60 @@
+{{ 'tnt-image-text.css' | asset_url | stylesheet_tag }}
+
+<section class="tnt-image-text-section tnt-image-text-section-{{ section.id }}" id="tnt-image-text-section">
+  <div class="tnt-image-text-row">
+    <div class="page-width">
+      <div class="tnt-image-text-wrap">
+        {% for block in section.blocks %}
+          <div class="tnt-image-text-block">
+            <a href="{{ block.settings.link }}">
+            <img 
+              src="{{ block.settings.img | image_url }}"
+              class="img-fluid"
+              width="400"
+              height="500"
+            >
+              <span>{{ block.settings.heading }}</span>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Image Text",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link Here"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "New Arrivals"
+        },
+        {
+
+          "type": "image_picker",
+          "id": "img",
+          "label": "Image Here"
+        }
+      ],
+    },
+  ],
+  "presets": [
+    {
+      "name": "<> Image Text",
+    }
+  ]
+}
+{% endschema %}

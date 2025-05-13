@@ -1,0 +1,97 @@
+{{ 'section-tnt-popular-search.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="tnt-popular-search"
+  id="tnt-popular-search"
+  style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;"
+>
+  <div class="tnt-popular-search__row">
+    <div class="page-width">
+      <div class="tnt-popular-search__col">
+        {% if section.settings.ttl or section.settings.desc %}
+          <div class="tnt-popular-search__heading">
+            <h2>{{ section.settings.ttl }}</h2>
+            <p>{{ section.settings.desc }}</p>
+          </div>
+        {% endif %}
+        <div class="tnt-popular-search__content">
+          {% for block in section.blocks %}
+            <a class="tnt-popular-search__item" href="{{ block.settings.link }}">
+              {{ block.settings.text }}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "TNT Popular Search",
+  "settings": [
+    {
+      "type": "text",
+      "id": "ttl",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "label": "Description"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "search_item",
+      "name": "Search Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Link Text",
+          "default": "Popular Search"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TNT Popular Search",
+      "blocks": [
+        {
+          "type": "search_item"
+        },
+        {
+          "type": "search_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
