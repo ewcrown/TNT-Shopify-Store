@@ -3704,6 +3704,14 @@ details-disclosure > details {
     column-count: 3;
     gap: 111px;
   }
+
+  .tnt-mega-menu__catogory {
+    display: block;
+  }
+}
+
+.tnt-mega-menu__catogory {
+  display: none;
 }
 
 .mega-menu-column {
