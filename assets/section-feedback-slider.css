@@ -1,8 +1,10 @@
+
+@media(max-width: 1600px) and (min-width: 1300px){
 .tnt-feedback-slider__slider-wrap.page-width {
   margin-right: 0;
   padding-right: 0;
 }
-
+}
 .feedback-swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
