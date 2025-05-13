@@ -38,6 +38,15 @@
   line-height: normal;
 }
 
+#checkout {
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 #checkout,
 #CartDrawer-Checkout {
   border-radius: 6.187px;
