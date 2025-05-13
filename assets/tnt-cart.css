@@ -30,15 +30,6 @@
   line-height: normal;
 }
 
-.cart-item__name {
-  color: #333;
-  font-family: Helvetica;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 #checkout {
   color: #fff;
   text-align: center;
@@ -105,6 +96,15 @@
   color: #333;
   font-family: Helvetica;
   font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#CartDrawer-Form .cart-item__name {
+  color: #333;
+  font-family: Helvetica;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
