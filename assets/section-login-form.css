@@ -51,11 +51,19 @@
   font-size: 18px;
   line-height: 100%;
   padding: 18px;
-    margin: 31px 0 1.5rem;
-  width: 100%
+  margin: 31px 0 1.5rem;
+  width: 100%;
 }
 
 .tnt-customer__form button:after,
 .tnt-customer__form button:before {
   display: none;
+}
+
+.tnt-customer__form ::placeholder {
+  color: #00000066;
+}
+
+.tnt-customer__form #CustomerPassword::placeholder {
+  transform: translate(0px, 7px);
 }
