@@ -20,5 +20,16 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  margin-top: 0;
+  margin-top: 3px !important;
+}
+
+.tnt-field {
+  text-align: left;
+}
+
+.tnt-field label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000;
 }
