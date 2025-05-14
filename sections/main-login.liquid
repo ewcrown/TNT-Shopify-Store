@@ -72,10 +72,10 @@
           {%- endform -%}
         </div>
 
-        <h1 id="login" class="tnt-form__title tnt-flex tnt-direction-column" tabindex="-1">
-          {{ 'customer.login_page.welcome' | t }}
+        <div id="login" class="tnt-form__title tnt-flex tnt-direction-column" tabindex="-1">
+          <h1>{{ 'customer.login_page.welcome' | t }}</h1>
           <span class="tnt-form__desc">{{ 'customer.login_page.desc' | t }}</span>
-        </h1>
+        </div>
 
         <div>
           {%- if recover_success == true -%}
