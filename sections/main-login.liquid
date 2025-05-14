@@ -110,6 +110,9 @@
             {%- endif -%}
 
             <div class="field">
+              <label for="CustomerEmail">
+                {{ 'customer.login_page.email' | t }}
+              </label>
               <input
                 type="email"
                 name="customer[email]"
@@ -123,12 +126,13 @@
                 placeholder="{{ 'customer.login_page.email' | t }}"
               >
             </div>
-            <label for="CustomerEmail">
-              {{ 'customer.login_page.email' | t }}
-            </label>
 
             {%- if form.password_needed -%}
               <div class="field">
+                <label for="CustomerPassword">
+                  {{ 'customer.login_page.password' | t }}
+                </label>
+
                 <input
                   type="password"
                   value=""
@@ -140,9 +144,6 @@
                   {% endif %}
                   placeholder="{{ 'customer.login_page.password' | t }}"
                 >
-                <label for="CustomerPassword">
-                  {{ 'customer.login_page.password' | t }}
-                </label>
               </div>
 
               <a href="#recover">
