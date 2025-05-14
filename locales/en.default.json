@@ -506,9 +506,10 @@
       "submit": "Sign Up"
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password",
+      "title": "Set a new Password",
+      "subtext": "Must be at least 8 Characters",
       "password": "Password",
+      "placeholder_password": "*************",
       "password_confirm": "Confirm password",
       "submit": "Reset password"
     }
