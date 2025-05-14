@@ -25,6 +25,7 @@
 
 .tnt-field {
   text-align: left;
+  margin-bottom: 15px;
 }
 
 .tnt-field label {
@@ -33,6 +34,7 @@
   line-height: 100%;
   color: #000;
   margin-bottom: 13px;
+  display: inline-block;
 }
 
 .tnt-field input {
