@@ -9,3 +9,9 @@
 .tnt-customer__form {
   width: 100%;
 }
+
+.tnt-form__title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 100%;
+}
