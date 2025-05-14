@@ -1,0 +1,11 @@
+.tnt-customer-form__col.tnt-flex {
+  gap: 100px;
+}
+
+.tnt-customer-form__row {
+  padding: 34px 0;
+}
+
+.tnt-customer__form {
+  width: 100%;
+}
