@@ -435,7 +435,7 @@
     "log_in": "Log in",
     "log_out": "Log out",
     "login_page": {
-      "cancel": "Cancel",
+      "cancel": "Back to Login",
       "create_account": "Create account",
       "email": "Enter your email",
       "recovery_email": "Email",
