@@ -446,6 +446,7 @@
       "welcome": "Welcome Back!",
       "desc": "Retail therapy starts here!",
       "sign_in": "Sign in",
+      "log_in": "Log in",
       "submit": "Submit",
       "alternate_provider_separator": "or"
     },
