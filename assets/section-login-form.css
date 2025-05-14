@@ -68,10 +68,14 @@
   transform: translate(0px, 7px);
 }
 
-a.tnt-form__forget-btn {
+a.tnt-form__forget-btn,
+.tnt-form__signUp-btn,
+.tnt-form__signUp-btn a {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+}
+a.tnt-form__forget-btn {
   text-decoration: unset;
   width: 100%;
   text-align: end;
@@ -79,17 +83,12 @@ a.tnt-form__forget-btn {
 
 .tnt-form__signUp-btn {
   gap: 20px;
-  font-weight: 400;
-  font-size: 18px;
   line-height: 100%;
   color: #626262;
 }
 
 .tnt-form__signUp-btn a {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
   color: #ff4848;
-  width: unset;
+  margin: unset;
   text-decoration: unset;
 }
