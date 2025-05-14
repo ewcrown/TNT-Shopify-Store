@@ -52,3 +52,7 @@
   line-height: 100%;
   padding: 18px;
 }
+
+.tnt-customer__form button:after{
+  display: none;
+}
