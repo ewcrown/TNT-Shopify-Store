@@ -489,8 +489,8 @@
       "none": "You haven't placed any orders yet."
     },
     "recover_password": {
-      "title": "Reset your password",
-      "subtext": "We will send you an email to reset your password",
+      "title": "Forget Password?",
+      "subtext": "No Worries, We ‘ll send you reset instructions",
       "success": "We've sent you an email with a link to update your password."
     },
     "register": {
