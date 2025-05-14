@@ -437,11 +437,11 @@
     "login_page": {
       "cancel": "Cancel",
       "create_account": "Create account",
-      "email": "Email",
+      "email": "Enter your email",
       "forgot_password": "Forgot your password?",
       "guest_continue": "Continue",
       "guest_title": "Continue as a guest",
-      "password": "Password",
+      "password": "****************",
       "title": "Login",
       "welcome": "Welcome Back!",
       "desc": "Retail therapy starts here!",
