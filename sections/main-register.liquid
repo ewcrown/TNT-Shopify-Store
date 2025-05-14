@@ -19,9 +19,11 @@
   <div class="page-width">
     <div class="tnt-customer-form__col tnt-flex tnt-align-items-center ">
       <div class="tnt-customer__form customer register section-{{ section.id }}-padding">
-        <h1>
-          {{ 'customer.register.title' | t }}
-        </h1>
+        <div class="tnt-form__title tnt-flex tnt-direction-column">
+          <h1>{{ 'customer.register.title' | t }}</h1>
+          <span class="tnt-form__desc">{{ 'customer.login_page.desc' | t }}</span>
+        </div>
+
         {%- form 'create_customer', novalidate: 'novalidate' -%}
           {%- if form.errors -%}
             <h2 class="form__message" tabindex="-1" autofocus>
