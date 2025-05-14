@@ -62,7 +62,9 @@
 }
 
 .tnt-customer__form button:after,
-.tnt-customer__form button:before {
+.tnt-customer__form button:before,
+.template-login .tnt-footer,
+.template-register .tnt-footer {
   display: none;
 }
 
