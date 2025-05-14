@@ -72,7 +72,7 @@
   color: #00000066;
 }
 
-.tnt-customer__form #CustomerPassword::placeholder {
+.tnt-customer__form [type="password"]::placeholder {
   transform: translate(0px, 7px);
 }
 
