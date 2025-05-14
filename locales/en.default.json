@@ -496,9 +496,11 @@
     },
     "register": {
       "title": "Welcome",
+      "user_name": "Username",
       "first_name": "First name",
       "last_name": "Last name",
       "email": "Email",
+      "placeholder_email": "Enter your email",
       "password": "Password",
       "submit": "Create"
     },
