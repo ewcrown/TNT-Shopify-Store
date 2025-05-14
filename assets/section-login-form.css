@@ -67,3 +67,10 @@
 .tnt-customer__form #CustomerPassword::placeholder {
   transform: translate(0px, 7px);
 }
+
+.tnt-form__forget-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-decoration: unset;
+}
