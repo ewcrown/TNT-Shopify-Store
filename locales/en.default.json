@@ -502,7 +502,8 @@
       "email": "Email",
       "placeholder_email": "Enter your email",
       "password": "Password",
-      "submit": "Create"
+      "placeholder_password": "****************",
+      "submit": "Sign Up"
     },
     "reset_password": {
       "title": "Reset account password",
