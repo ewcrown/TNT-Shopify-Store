@@ -1,3 +1,9 @@
+*:focus-visible {
+  outline: unset;
+  outline-offset: unset;
+  box-shadow: unset;
+}
+
 .tnt-customer-form__col.tnt-flex {
   gap: 100px;
 }
@@ -71,7 +77,7 @@
 a.tnt-form__forget-btn,
 .tnt-form__signUp-btn,
 .tnt-form__signUp-btn a,
-a.tnt-recocery-form__back-btn{
+a.tnt-recocery-form__back-btn {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -98,6 +104,6 @@ a.tnt-form__forget-btn {
   margin-top: 15px !important;
 }
 
-.tnt-recovery-form__wrapper .tnt-field{
+.tnt-recovery-form__wrapper .tnt-field {
   margin-bottom: 0;
 }
