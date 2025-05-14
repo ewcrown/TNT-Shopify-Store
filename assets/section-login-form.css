@@ -93,3 +93,7 @@ a.tnt-form__forget-btn {
   margin: unset;
   text-decoration: unset;
 }
+
+.tnt-recovery-form__wrapper .tnt-form__desc {
+  margin-top: 15px !important;
+}
