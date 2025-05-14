@@ -44,3 +44,10 @@
   border: 1.5px solid #000;
   padding: 17px 20px;
 }
+
+.tnt-customer__form button {
+  background-color: #ff4848;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
