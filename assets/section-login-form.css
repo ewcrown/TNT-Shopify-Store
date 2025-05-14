@@ -51,6 +51,8 @@
   font-size: 18px;
   line-height: 100%;
   padding: 18px;
+    margin: 31px 0 1.5rem;
+  width: 100%
 }
 
 .tnt-customer__form button:after,
