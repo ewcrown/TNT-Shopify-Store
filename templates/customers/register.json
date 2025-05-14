@@ -12,6 +12,7 @@
     "main": {
       "type": "main-register",
       "settings": {
+        "img": "shopify://shop_images/Group_131_1_4.png",
         "padding_top": 36,
         "padding_bottom": 36
       }
