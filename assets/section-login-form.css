@@ -76,3 +76,20 @@ a.tnt-form__forget-btn {
   width: 100%;
   text-align: end;
 }
+
+.tnt-form__signUp-btn {
+  gap: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #626262;
+}
+
+.tnt-form__signUp-btn a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ff4848;
+  width: unset;
+  text-decoration: unset;
+}
