@@ -74,8 +74,9 @@
 
         <h1 id="login" class="tnt-form__title" tabindex="-1">
           {{ 'customer.login_page.welcome' | t }}
+          <span class="tnt-form__desc">{{ 'customer.login_page.desc' | t }}</span>
         </h1>
-        <p class="tnt-form__desc">{{ 'customer.login_page.desc' | t }}</p>
+
         <div>
           {%- if recover_success == true -%}
             <h3 class="form__message" tabindex="-1" autofocus>
