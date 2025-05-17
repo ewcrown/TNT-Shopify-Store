@@ -1,4 +1,4 @@
-{{ 'section-tnt-footer.css' | asset_url | stylesheet_tag }}
+co{{ 'section-tnt-footer.css' | asset_url | stylesheet_tag }}
 
 <div class="tnt-footer" id="tnt-footer">
   <div class="tnt-footer__row">
@@ -34,23 +34,26 @@
         <div class="tnt-footer__bottom">
           <div class="footer__copyright caption">
             <small class="copyright__content">
-              &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url }}
+              &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url }}.
             </small>
-            <small class="copyright__content">{{ powered_by_link }}</small>
+            All rights reserved.
+            {% comment %}
+              <small class="copyright__content">{{ powered_by_link }}</small>
 
-            {% if section.settings.show_policy and shop.policies.size > 0 %}
-              <ul class="policies list-unstyled">
-                {%- for policy in shop.policies -%}
-                  {% if policy != blank %}
-                    <li>
-                      <small class="copyright__content">
-                        <a href="{{ policy.url }}">{{ policy.title | escape }}</a>
-                      </small>
-                    </li>
-                  {% endif %}
-                {%- endfor -%}
-              </ul>
-            {% endif %}
+              {% if section.settings.show_policy and shop.policies.size > 0 %}
+                <ul class="policies list-unstyled">
+                  {%- for policy in shop.policies -%}
+                    {% if policy != blank %}
+                      <li>
+                        <small class="copyright__content">
+                          <a href="{{ policy.url }}">{{ policy.title | escape }}</a>
+                        </small>
+                      </li>
+                    {% endif %}
+                  {%- endfor -%}
+                </ul>
+              {% endif %}
+            {% endcomment %}
           </div>
         </div>
       </div>
