@@ -53,10 +53,8 @@
   display: none;
 }
 
-.tnt-footer__menu
-  .footer-block__details-content
-  li:last-child a{
-    margin-right: 0;
+.tnt-footer__menu .footer-block__details-content li:last-child a {
+  margin-right: 0;
 }
 
 @media (max-width: 767px) {
@@ -66,5 +64,8 @@
   }
   .tnt-footer__brand {
     gap: 10px;
+  }
+  .tnt-footer__menu .list-menu__item--link:before {
+    top: 14px;
   }
 }
