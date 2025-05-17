@@ -54,7 +54,11 @@
 }
 
 @media (max-width: 767px) {
-  .tnt-footer__content {
+  .tnt-footer__content,
+  .tnt-footer__brand {
     flex-direction: column;
+  }
+  .tnt-footer__brand {
+    gap: 10px;
   }
 }
