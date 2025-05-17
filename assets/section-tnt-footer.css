@@ -62,8 +62,11 @@
   .tnt-footer__brand {
     flex-direction: column;
   }
+  .tnt-footer__content {
+    gap: 20px;
+  }
   .tnt-footer__brand {
-    gap: 10px;
+    gap: 15px;
   }
   .tnt-footer__menu .list-menu__item--link:before {
     top: 14px;
