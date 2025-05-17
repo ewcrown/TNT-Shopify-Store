@@ -280,7 +280,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 /* Ensure drawer submenu doesn't overflow */
 .menu-drawer__inner-submenu {
-  max-height: 80vh;
+  max-height: 95vh;
   overflow-y: auto;
 }
 
