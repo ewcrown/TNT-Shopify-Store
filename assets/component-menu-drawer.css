@@ -371,10 +371,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: block;
 }
 
-.tnt-header-top__account-mob .icon.icon-account {
+/* .tnt-header-top__account-mob .icon.icon-account {
   width: 4.5rem;
   height: 4.5rem;
-}
+} */
 
 .tnt-mob-menu-icons-wrap {
   display: flex;
