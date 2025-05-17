@@ -105,3 +105,36 @@ a.tnt-form__forget-btn {
 .tnt-recovery-form__wrapper .tnt-field {
   margin-bottom: 0;
 }
+
+@media (max-width: 767px) {
+  .tnt-customer-form__col.tnt-flex {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .tnt-field label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .tnt-field input {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+
+  a.tnt-form__forget-btn,
+  .tnt-form__signUp-btn,
+  .tnt-form__signUp-btn a,
+  a.tnt-recocery-form__back-btn {
+    font-size: 16px;
+  }
+
+  .tnt-customer__form button {
+    font-size: 16px;
+    padding: 12px;
+    margin: 31px 0 1rem;
+  }
+
+  .tnt-customer-form__image {
+    display: none;
+  }
+}
