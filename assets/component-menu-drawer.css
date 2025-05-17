@@ -44,6 +44,7 @@ menu-drawer > details[open] > summary::before {
       var(--drawer-shadow-blur-radius)
       rgba(var(--color-shadow), var(--drawer-shadow-opacity))
   );
+  height: 100vh !important;
 }
 
 .js .menu-drawer {
