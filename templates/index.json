@@ -17,7 +17,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1_2f1d4414-a4d7-4c07-a0d7-6d837a0be1d1.webp",
+            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1.png",
             "url": ""
           }
         },
@@ -43,10 +43,10 @@
             "desc": "",
             "off": "",
             "collection": [
-              "newborn-accessories-menu-1",
-              "diapering-menu-1",
-              "gear",
-              "nursery-menu-1"
+              "birthday",
+              "holiday",
+              "fun-weekends",
+              "wedding-party"
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -108,13 +108,10 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
-            "icon_1": "shopify://shop_images/AqZY06_tif.png",
             "title_1": "Ship",
             "text_1": "Discount",
-            "icon_2": "shopify://shop_images/CgKoHk_tif.png",
             "title_2": "Ship",
             "text_2": "Discount",
-            "icon_3": "shopify://shop_images/0aB4wc.png",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
@@ -141,7 +138,6 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -150,7 +146,6 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/e4f41552-73e3-44aa-988f-ed099f301a76_full.jpg_1.png",
             "url": ""
           }
         },
@@ -159,7 +154,6 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -198,7 +192,6 @@
             "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
             "img_5": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
             "img_6": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
-            "img_7": "shopify://shop_images/effa2e41-cbe1-4f7b-9ee4-e9f61151ba36_full_jpg.png",
             "img_8": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png"
           }
         },
@@ -342,7 +335,6 @@
         "slider_U3FH7M": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -350,7 +342,6 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -358,7 +349,6 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -366,7 +356,6 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }
@@ -374,7 +363,6 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -382,7 +370,6 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -390,7 +377,6 @@
         "slider_dcCeKA": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -398,7 +384,6 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }
