@@ -50,6 +50,15 @@
       "disabled": true,
       "settings": {}
     },
+    "tnt_blog_post_layout_VCFUbr": {
+      "type": "tnt-blog-post-layout",
+      "name": "<> Blog Layout",
+      "settings": {
+        "heading": "The Latest",
+        "blog": "news",
+        "post_limit": 3
+      }
+    },
     "tnt_recommended_blogs_XBRJwH": {
       "type": "tnt-recommended-blogs",
       "name": "<> Recommended Blogs",
@@ -63,6 +72,7 @@
   "order": [
     "tnt_banner_text_rYALC7",
     "main",
+    "tnt_blog_post_layout_VCFUbr",
     "tnt_recommended_blogs_XBRJwH"
   ]
 }

@@ -1,0 +1,134 @@
+.tnt-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.tnt-popup-wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 900px;
+  width: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tnt-popup-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.tnt-popup-image img {
+  object-fit: cover;
+  height: 400px;
+  object-position: top;
+}
+
+.tnt-popup-form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tnt-popup-form h3 {
+
+  color: #000;
+  font-family: Helvetica;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.tnt-popup-form p {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26.4px;
+  /* 146.667% */
+  margin-bottom: 20px;
+}
+
+.tnt-popup-form input[type="email"]::placeholder {
+  color: #ccc;
+}
+
+.tnt-popup-form input[type="email"] {
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.tnt-popup-form button {
+  background: #ff4d4d;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tnt-popup-form button:hover {
+  background: #e44040;
+}
+
+.tnt-popup-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+
+.tnt-popup-image {
+  flex-grow: 1;
+}
+
+@media(max-width:767px) {
+  .tnt-popup-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tnt-popup-image img {
+    height: 250px;
+  }
+
+  .tnt-popup-form h3 {
+    font-size: 26px;
+  }
+
+  .tnt-popup-form p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .tnt-popup-form {
+    padding: 20px;
+  }
+
+  .tnt-popup-close {
+    color: #fff;
+  }
+}

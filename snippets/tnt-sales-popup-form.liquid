@@ -1,0 +1,86 @@
+{{ 'tnt-sales-popup.css' | asset_url | stylesheet_tag }}
+
+{% if settings.left_heading or settings.timer_heading or settings.discount_text %}
+<div id="tnt-sales-popup" class="tnt-sales-popup-overlay" style="display: none;">
+  <div class="tnt-sales-popup-wrapper">
+    <button class="tnt-sales-popup-close" onclick="tntCloseSalesPopup()">×</button>
+    <div class="tnt-sales-popup-content">
+      
+      {% if settings.left_heading %}
+        <div class="tnt-sales-popup-left" style="background-color: {{ settings.left_bg_color }};">
+          <h2>{{ settings.left_heading }}</h2>
+        </div>
+      {% endif %}
+      
+      <div class="tnt-sales-popup-right">
+        {% if settings.timer_heading != blank %}
+          <h3>{{ settings.timer_heading }}</h3>
+        {% endif %}
+        {% if settings.sale_label != blank %}
+          <h4 style="color: #ff3c3c;">{{ settings.sale_label }}</h4>
+        {% endif %}
+        {% if settings.discount_text != blank %}
+          <p><strong>{{ settings.discount_text }}</strong><br>{{ settings.sales_subtext }}</p>
+        {% endif %}
+
+        <div class="tnt-sales-popup-timer">
+          <div><span id="days">00</span><br>Days</div>
+          <div><span id="hours">00</span><br>Hours</div>
+          <div><span id="minutes">00</span><br>Minutes</div>
+          <div><span id="seconds">00</span><br>Seconds</div>
+        </div>
+
+        {% if settings.timer_message != blank %}
+          <p><strong>{{ settings.timer_message }}</strong></p>
+        {% endif %}
+        {% if settings.description != blank %}
+          <p class="tnt-sales-popup-description">{{ settings.description }}</p>
+        {% endif %}
+
+        {% if settings.sales_button_text != blank and settings.button_link != blank %}
+          <a href="{{ settings.button_link }}" class="tnt-sales-popup-button">{{ settings.sales_button_text }}
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path d="M2.04248 2.13306H3.11343C3.77815 2.13306 4.30131 2.70546 4.24592 3.36403L3.73506 9.49424C3.64889 10.4975 4.44287 11.3592 5.45226 11.3592H12.0072C12.8935 11.3592 13.669 10.6329 13.7367 9.75276L14.069 5.13662C14.1429 4.11492 13.3674 3.28401 12.3395 3.28401H4.39364M6.35087 5.82596H13.7367M11.5825 13.6734C11.5825 14.0983 11.238 14.4427 10.8131 14.4427C10.3882 14.4427 10.0438 14.0983 10.0438 13.6734C10.0438 13.2485 10.3882 12.904 10.8131 12.904C11.238 12.904 11.5825 13.2485 11.5825 13.6734ZM6.65861 13.6734C6.65861 14.0983 6.31416 14.4427 5.88926 14.4427C5.46435 14.4427 5.1199 14.0983 5.1199 13.6734C5.1199 13.2485 5.46435 12.904 5.88926 12.904C6.31416 12.904 6.65861 13.2485 6.65861 13.6734Z" stroke="white" stroke-width="0.923227" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function tntCloseSalesPopup() {
+    document.getElementById('tnt-sales-popup').style.display = 'none';
+    localStorage.setItem('tntSalesPopupClosed', 'true');
+  }
+
+  function tntShowSalesPopup() {
+    const popup = document.getElementById('tnt-sales-popup');
+    if (!localStorage.getItem('tntSalesPopupClosed')) {
+      popup.style.display = 'flex';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(tntShowSalesPopup, {{ settings.sales_delay_seconds | default: 5 }} * 1000);
+
+    const targetDate = new Date("{{ settings.countdown_date }}T23:59:59").getTime();
+    const countdown = setInterval(function () {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+
+      if (distance < 0) {
+        clearInterval(countdown);
+        ['days', 'hours', 'minutes', 'seconds'].forEach(id => document.getElementById(id).innerText = '00');
+        return;
+      }
+
+      document.getElementById('days').innerText = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
+      document.getElementById('hours').innerText = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+      document.getElementById('minutes').innerText = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+      document.getElementById('seconds').innerText = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+    }, 1000);
+  });
+</script>
+{% endif %}

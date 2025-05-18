@@ -1,0 +1,49 @@
+{{ 'tnt-subscriber-form.css' | asset_url | stylesheet_tag }}
+
+{% if settings.popup_image or settings.heading or settings.subtext or settings.button_text %}
+  <div id="tnt-newsletter-popup" class="tnt-popup-overlay" style="display: none;">
+    <div class="tnt-popup-wrapper">
+      <button class="tnt-popup-close" onclick="tntClosePopup()">×</button>
+      <div class="tnt-popup-content">
+        
+        {% if settings.popup_image %}
+          <div class="tnt-popup-image">
+            <img src="{{ settings.popup_image | img_url: '500x' }}" alt="Popup Image" class="img-fluid">
+          </div>
+        {% endif %}
+        
+        <div class="tnt-popup-form">
+          {% if settings.heading != blank %}
+            <h3>{{ settings.heading }}</h3>
+          {% endif %}
+          {% if settings.subtext != blank %}
+            <p>{{ settings.subtext }}</p>
+          {% endif %}
+          <form method="post" action="/contact#ContactFooter">
+            <input type="email" name="contact[email]" placeholder="{{ settings.email_placeholder | default: 'Enter your email' }}" required>
+            <button type="submit">{{ settings.button_text | default: 'Subscribe' }}</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function tntClosePopup() {
+      document.getElementById('tnt-newsletter-popup').style.display = 'none';
+      localStorage.setItem('tntNewsletterClosed', 'true');
+    }
+
+    function tntShowPopup() {
+      const popup = document.getElementById('tnt-newsletter-popup');
+      if (!localStorage.getItem('tntNewsletterClosed')) {
+        popup.style.display = 'flex';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(tntShowPopup, {{ settings.delay_seconds | default: 5 }} * 1000);
+    });
+  </script>
+{% endif %}

@@ -1,0 +1,172 @@
+.tnt-sales-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.tnt-sales-popup-wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 900px;
+  width: 95%;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tnt-sales-popup-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tnt-sales-popup-content {
+  display: flex;
+  width: 100%;
+}
+
+.tnt-sales-popup-left {
+  flex: 1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.tnt-sales-popup-left>h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 59.086px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%;
+  letter-spacing: -2.363px;
+}
+
+.tnt-sales-popup-right {
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+}
+
+.tnt-sales-popup-right h3 {
+  color: #020112;
+  text-align: center;
+  font-size: 29.543px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.182px;
+}
+
+.tnt-sales-popup-right h4 {
+  color: #FF4848;
+  font-size: 29.543px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.182px;
+  margin-bottom: 12px;
+}
+
+.tnt-sales-popup-right p {
+  color: #020112;
+  text-align: center;
+  font-size: 14.772px;
+  font-style: normal;
+  line-height: 124%;
+  /* 18.317px */
+  letter-spacing: -0.591px;
+  margin-bottom: 10px;
+}
+
+.tnt-sales-popup-timer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.tnt-sales-popup-timer div {
+  line-height: normal;
+  background: #f2f2f2;
+  padding: 16px;
+  border-radius: 6px;
+  min-width: 60px;
+  color: #282828;
+  text-align: center;
+  font-size: 14.772px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124%;
+  /* 18.317px */
+  letter-spacing: -0.591px;
+}
+
+.tnt-sales-popup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 12px;
+  background: #ff4d4d;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 16px;
+  max-width: 200px;
+  margin: 30px auto 0;
+}
+
+.tnt-sales-popup-description {
+  font-size: 13px;
+  color: #555;
+}
+
+@media(max-width:767px) {
+  .tnt-sales-popup-left>h2 {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .tnt-sales-popup-content {
+    flex-direction: column;
+  }
+
+  .tnt-sales-popup-left {
+    font-size: 28px;
+    padding: 30px 20px;
+  }
+
+  .tnt-sales-popup-right h4 {
+    font-size: 22px;
+  }
+
+  .tnt-sales-popup-right {
+    padding: 20px;
+  }
+
+  .tnt-sales-popup-close {
+    color: #fff;
+  }
+
+  .tnt-sales-popup-timer div {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

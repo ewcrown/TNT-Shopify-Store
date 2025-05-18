@@ -395,6 +395,14 @@
       </div>
     </div>
 
+    {% if settings.show_subscriber_form %}
+      {% render 'tnt-subscriber-form' %}
+    {% endif %}
+
+    {% if settings.show_sales_popup %}
+      {% render 'tnt-sales-popup-form' %}
+    {% endif %}
+
     {{ 'tnt-card-add.js' | asset_url | script_tag }}
   </body>
 </html>

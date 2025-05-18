@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "tnt_home_blocks_yGfr7M": {
       "type": "tnt-home-blocks",
@@ -426,116 +426,6 @@
       "name": "TNT Slider",
       "settings": {}
     },
-    "tnt_popular_search_TPbyY7": {
-      "type": "tnt-popular-search",
-      "blocks": {
-        "search_item_abmnGn": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_cBagwB": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_kCAGVY": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_giW8k9": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_njwTGj": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_FRkykp": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_jpeTxg": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_rzx7hC": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_wYXtGm": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_rfrFYz": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_TfbYmG": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        },
-        "search_item_hK7Jpp": {
-          "type": "search_item",
-          "settings": {
-            "text": "Popular Search",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "search_item_abmnGn",
-        "search_item_cBagwB",
-        "search_item_kCAGVY",
-        "search_item_giW8k9",
-        "search_item_njwTGj",
-        "search_item_FRkykp",
-        "search_item_jpeTxg",
-        "search_item_rzx7hC",
-        "search_item_wYXtGm",
-        "search_item_rfrFYz",
-        "search_item_TfbYmG",
-        "search_item_hK7Jpp"
-      ],
-      "name": "TNT Popular Search",
-      "settings": {
-        "ttl": "Popular Searches",
-        "desc": "",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "tnt_multicolumn_eFUTCD": {
       "type": "tnt-multicolumn",
       "blocks": {
@@ -631,7 +521,6 @@
     "tnt_home_blocks_yGfr7M",
     "tnt_kids_section_mznpg7",
     "tnt_slider_dmLJBq",
-    "tnt_popular_search_TPbyY7",
     "tnt_multicolumn_eFUTCD"
   ]
 }
