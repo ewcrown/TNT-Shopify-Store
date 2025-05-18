@@ -1,0 +1,20 @@
+<a href="{{ url }}" class="tnt-article-preview-card-link">
+  <div class="tnt-article-preview-card" style="--bg-image: url('{{ image | img_url: '800x' }}')">
+    <div class="tnt-article-card-overlay">
+      <div class="tnt-article-card-content">
+        <h3 class="tnt-article-card-title">{{ title }}</h3>
+        <div class="tnt-article-card-meta">
+          <span>{{ published_at | date: "%B %d, %Y" }}</span>
+          <span class="tnt-article-card-divider">—</span>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19Z" stroke="#121416" stroke-opacity="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11.9993 12L9.66602 13.5555M11.9993 8.11108V12" stroke="#121416" stroke-opacity="0.81" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            2 minute read
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

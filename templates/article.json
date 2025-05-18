@@ -9,15 +9,21 @@
  */
 {
   "sections": {
+    "tnt_banner_text_rYALC7": {
+      "type": "tnt-banner-text",
+      "name": "<> Banner Text",
+      "settings": {
+        "background_image": "{{ article.image }}",
+        "heading": "{{ article.title }}",
+        "subheading": "E Commerce",
+        "button_text": "",
+        "button_link": "",
+        "text_alignment": "left"
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "adapt"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -37,15 +43,26 @@
         }
       },
       "block_order": [
-        "featured_image",
         "title",
         "share",
         "content"
       ],
+      "disabled": true,
       "settings": {}
+    },
+    "tnt_recommended_blogs_XBRJwH": {
+      "type": "tnt-recommended-blogs",
+      "name": "<> Recommended Blogs",
+      "settings": {
+        "heading": "You May Also Like",
+        "blog": "news",
+        "post_limit": 9
+      }
     }
   },
   "order": [
-    "main"
+    "tnt_banner_text_rYALC7",
+    "main",
+    "tnt_recommended_blogs_XBRJwH"
   ]
 }
