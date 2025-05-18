@@ -17,7 +17,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1_2f1d4414-a4d7-4c07-a0d7-6d837a0be1d1.png",
+            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1_2f1d4414-a4d7-4c07-a0d7-6d837a0be1d1.webp",
             "url": ""
           }
         },
@@ -43,10 +43,10 @@
             "desc": "",
             "off": "",
             "collection": [
-              "wedding-party",
-              "holiday",
-              "fun-weekends",
-              "birthday"
+              "newborn-accessories-menu-1",
+              "diapering-menu-1",
+              "gear",
+              "nursery-menu-1"
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -69,12 +69,12 @@
             "desc": "",
             "off": "",
             "collection": [
-              "skirt-sets",
-              "short-sets",
-              "party-and-enthic",
-              "onesies",
-              "casual-wear",
-              "footwear"
+              "newborn-accessories-menu-1",
+              "diapering-menu-1",
+              "nursery-menu-1",
+              "gear",
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-online-hygiene-baby-essentials"
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -95,10 +95,10 @@
             "desc": "",
             "off": "30% OFF",
             "collection": [
-              "accessories",
-              "confy-bottoms",
-              "cool-tops",
-              "inner-wear"
+              "newborn-accessories-menu-1",
+              "diapering-menu-1",
+              "gear",
+              "nursery-menu-1"
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -108,13 +108,13 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
-            "icon_1": "shopify://shop_images/AqZY06_tif.svg",
+            "icon_1": "shopify://shop_images/AqZY06_tif.png",
             "title_1": "Ship",
             "text_1": "Discount",
-            "icon_2": "shopify://shop_images/CgKoHk_tif.svg",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.png",
             "title_2": "Ship",
             "text_2": "Discount",
-            "icon_3": "shopify://shop_images/0aB4wc.svg",
+            "icon_3": "shopify://shop_images/0aB4wc.png",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
@@ -128,9 +128,9 @@
             "desc": "",
             "off": "",
             "collection": [
-              "boy",
-              "baby",
-              "girl"
+              "buy-best-online-baby-boy-pants-and-trousers",
+              "buy-best-quality-kids-shalwar-kameez-online",
+              "buy-best-quality-baby-shoes-socks-boots-online"
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -141,7 +141,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif.png",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -150,7 +150,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/Link.png",
+            "img": "shopify://shop_images/e4f41552-73e3-44aa-988f-ed099f301a76_full.jpg_1.png",
             "url": ""
           }
         },
@@ -159,7 +159,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif.png",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -170,18 +170,18 @@
             "desc": "",
             "off": "",
             "collection": [
-              "summer-25",
-              "denim-collection",
-              "ethnic",
-              "footwear-1",
-              "jeans-sets-and-more",
-              "night-suits",
-              "onesies-1",
-              "skirt-sets-1",
-              "tees",
-              "tops-and-bottoms",
-              "dresses",
-              "short-sets-1"
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-quality-baby-care-products-online",
+              "baby-carriers",
+              "apparel-tags",
+              "buy-best-online-hygiene-baby-essentials",
+              "bathers",
+              "buy-best-quality-online-baby-bathing-towels-in-pakistan",
+              "carry-nest-new",
+              "buy-online-best-quality-bibs-napkins-for-babies",
+              "buy-best-online-baby-printed-rompers",
+              "bouncers-rockers",
+              "carry-cots-cribs"
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -192,14 +192,14 @@
           "settings": {
             "ttl": "Moments",
             "desc": "<p>Hopschotchers Share Their Favourite Moments.</p>",
-            "img_1": "shopify://shop_images/Link_2ed2b2c8-e72b-487f-b26f-4047794da750.png",
-            "img_2": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
-            "img_3": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png",
+            "img_1": "shopify://shop_images/1f8048db-24fc-4785-b733-9d81b69844eb_full_jpg.png",
+            "img_2": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
+            "img_3": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
             "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
-            "img_5": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
-            "img_6": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
-            "img_7": "shopify://shop_images/cc635bdf-1444-4158-8b52-adc25a43a88d_full_jpg.png",
-            "img_8": "shopify://shop_images/1f8048db-24fc-4785-b733-9d81b69844eb_full_jpg.png"
+            "img_5": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
+            "img_6": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
+            "img_7": "shopify://shop_images/effa2e41-cbe1-4f7b-9ee4-e9f61151ba36_full_jpg.png",
+            "img_8": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png"
           }
         },
         "collection_list_C4YYwU": {
@@ -209,14 +209,14 @@
             "desc": "",
             "off": "",
             "collection": [
-              "summer-26",
-              "denim-collection-1",
-              "footwear-2",
-              "formal-sets",
-              "jeans-and-pant-sets",
-              "onesies-2",
-              "short-sets-2",
-              "tees-1"
+              "apparel-tags",
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-quality-baby-care-products-online",
+              "baby-carriers",
+              "buy-best-online-hygiene-baby-essentials",
+              "bathers",
+              "buy-best-quality-online-baby-bathing-towels-in-pakistan",
+              "carry-nest-new"
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -249,7 +249,6 @@
         "content_ikWym9": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -258,7 +257,6 @@
         "content_9mxRGQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -267,7 +265,6 @@
         "content_CTan9L": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -276,7 +273,6 @@
         "content_7HftaG": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -285,7 +281,6 @@
         "content_wUYEkn": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -294,7 +289,6 @@
         "content_qgfyeQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -303,7 +297,6 @@
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -312,7 +305,6 @@
         "content_r3TKzn": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -321,7 +313,6 @@
         "content_BcnGEw": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -351,7 +342,7 @@
         "slider_U3FH7M": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -359,7 +350,7 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
+            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -367,7 +358,7 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_1.png",
+            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -375,7 +366,7 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_2.png",
+            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }
@@ -383,7 +374,7 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_3.png",
+            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -391,7 +382,7 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_1.png",
+            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -399,7 +390,7 @@
         "slider_dcCeKA": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -407,7 +398,7 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
+            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }
@@ -426,13 +417,122 @@
       "name": "TNT Slider",
       "settings": {}
     },
+    "tnt_popular_search_TPbyY7": {
+      "type": "tnt-popular-search",
+      "blocks": {
+        "search_item_abmnGn": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_cBagwB": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_kCAGVY": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_giW8k9": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_njwTGj": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_FRkykp": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_jpeTxg": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_rzx7hC": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_wYXtGm": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_rfrFYz": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_TfbYmG": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_hK7Jpp": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "search_item_abmnGn",
+        "search_item_cBagwB",
+        "search_item_kCAGVY",
+        "search_item_giW8k9",
+        "search_item_njwTGj",
+        "search_item_FRkykp",
+        "search_item_jpeTxg",
+        "search_item_rzx7hC",
+        "search_item_wYXtGm",
+        "search_item_rfrFYz",
+        "search_item_TfbYmG",
+        "search_item_hK7Jpp"
+      ],
+      "name": "TNT Popular Search",
+      "settings": {
+        "ttl": "Popular Searches",
+        "desc": "",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "tnt_multicolumn_eFUTCD": {
       "type": "tnt-multicolumn",
       "blocks": {
         "column_LfpVCr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/info-icon_bb25cdfbf1ef1d38fa03c42cd7fdb341_svg.svg",
             "title": "Need help?",
             "text": "<p>View our knowledge</p>",
             "social_link1": "",
@@ -446,7 +546,6 @@
         "column_UVtMKQ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/mail-icon_de3600111bd7ba207509475f689e4141_svg.svg",
             "title": "24x7 support",
             "text": "<p>wecare@hopscotch.in</p>",
             "social_link1": "",
@@ -460,12 +559,9 @@
         "column_kjbrV3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
             "title": "Download our apps",
             "text": "",
-            "social_icon1": "shopify://shop_images/apple-icon_de7586e057326691c560a1d978523fe7_svg.svg",
             "social_link1": "",
-            "social_icon2": "shopify://shop_images/play-icon_a4d7e7ce45e5c99d8110dfa21223d776_svg.svg",
             "social_link2": "",
             "social_link3": "",
             "social_link4": "",
@@ -476,16 +572,11 @@
         "column_hJdUAT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/thumbsup-icon_260a8c05b1ad3bfbaf5c2e6b003a4c52_svg.svg",
             "title": "Connect with us",
             "text": "",
-            "social_icon1": "shopify://shop_images/facebook-icon_7dfa1483324e425b013f96fbbb8d82f8_svg.svg",
             "social_link1": "",
-            "social_icon2": "shopify://shop_images/twitter-icon_b908491df1c1340b7a1100d57c57e80d_svg.svg",
             "social_link2": "",
-            "social_icon3": "shopify://shop_images/pinterest-icon_230be23a09aaf64807ee39d93bcc91ad_svg.svg",
             "social_link3": "",
-            "social_icon4": "shopify://shop_images/instagram-icon_01cb3f35fd397430a9c4cc91de63b7c9_svg.svg",
             "social_link4": "",
             "link_label": "",
             "link": ""
@@ -521,6 +612,7 @@
     "tnt_home_blocks_yGfr7M",
     "tnt_kids_section_mznpg7",
     "tnt_slider_dmLJBq",
+    "tnt_popular_search_TPbyY7",
     "tnt_multicolumn_eFUTCD"
   ]
 }
