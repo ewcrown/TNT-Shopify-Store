@@ -1,0 +1,20 @@
+<article class="tnt-article-card-single">
+  <a href="{{ url }}" class="tnt-article-card-link">
+    <div class="tnt-article-card">
+      {% if image %}
+        <img src="{{ image | img_url: '400x200' }}" alt="{{ title }}" class="tnt-article-image img-fluid" height="400" width="400">
+      {% endif %}
+      <div class="tnt-article-content">
+        <h3 class="tnt-article-title">{{ title }}</h3>
+        <p class="tnt-article-excerpt">
+          {% if excerpt != blank %}
+            {{ excerpt | strip_html | truncate: 150 }}
+          {% else %}
+            {{ content | strip_html | truncate: 150 }}
+          {% endif %}
+        </p>
+        <span class="tnt-article-link">View Post</span>
+      </div>
+    </div>
+  </a>
+</article>

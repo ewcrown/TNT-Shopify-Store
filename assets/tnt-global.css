@@ -122,6 +122,7 @@ p {
 .tnt-flex-wrap {
   flex-wrap: wrap;
 }
+
 .tnt-flex-nowrap {
   flex-wrap: nowrap;
 }
@@ -129,19 +130,28 @@ p {
 .tnt-grid {
   display: grid;
 }
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
 }
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
   justify-content: space-between;
 }
+
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
