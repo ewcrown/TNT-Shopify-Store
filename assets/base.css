@@ -3775,6 +3775,7 @@ details-disclosure > details {
 .tnt-mega-menu__catogory-item.tnt-flex {
   align-items: center;
   gap: 10px;
+  color: #000;
 }
 
 .tnt-mega-menu__catogory-item.tnt-flex p {
@@ -3789,5 +3790,5 @@ details-disclosure > details {
 }
 
 .tnt-mega-menu__catogory-wrapper.tnt-flex::-webkit-scrollbar {
-  display: none; /* For Webkit-based browsers */
+  display: none; 
 }
