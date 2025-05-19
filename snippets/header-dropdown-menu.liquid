@@ -65,11 +65,11 @@
                   </div>
                 </div>
 
-                {% for block in section.blocks %}
-                  {% if block.type == 'category' %}
-                    <div class="tnt-mega-menu__catogory">
-                      <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
-                      <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
+                <div class="tnt-mega-menu__catogory">
+                  <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
+                  <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
+                    {% for block in section.blocks %}
+                      {% if block.type == 'category' and block.settings.img != blank %}
                         <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
                           <img
                             src="{{ block.settings.img | image_url: width: 100 }}"
@@ -77,10 +77,10 @@
                           >
                           <p>{{ block.settings.txt }}</p>
                         </a>
-                      </div>
-                    </div>
-                  {% endif %}
-                {% endfor %}
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
               </div>
             </div>
           </li>
