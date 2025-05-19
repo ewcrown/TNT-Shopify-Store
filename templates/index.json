@@ -275,6 +275,7 @@
         "content_7HftaG": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_1.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
