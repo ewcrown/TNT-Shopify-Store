@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
@@ -64,6 +64,7 @@
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "main-menu",
+        "title": "Shop by age",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
