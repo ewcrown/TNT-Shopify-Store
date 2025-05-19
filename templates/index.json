@@ -141,6 +141,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
             "url": ""
           }
         },
@@ -149,6 +150,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
+            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full_jpg.png",
             "url": ""
           }
         },
@@ -157,6 +159,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
             "url": ""
           }
         },
@@ -167,18 +170,7 @@
             "desc": "",
             "off": "",
             "collection": [
-              "buy-best-quality-online-baby-caps-in-pakistan",
-              "buy-best-quality-baby-care-products-online",
-              "baby-carriers",
-              "apparel-tags",
-              "buy-best-online-hygiene-baby-essentials",
-              "bathers",
-              "buy-best-quality-online-baby-bathing-towels-in-pakistan",
-              "carry-nest-new",
-              "buy-online-best-quality-bibs-napkins-for-babies",
-              "buy-best-online-baby-printed-rompers",
-              "bouncers-rockers",
-              "carry-cots-cribs"
+              "summer-25"
             ],
             "grid_layout": "grid-4",
             "round_images": false
