@@ -64,158 +64,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="tnt-mega-menu__catogory">
-                  <h3 class="tnt-mega-menu__catogory-title">Shop by age</h3>
-                  <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
+
+                {% for block in section.blocks %}
+                  {% if block.type == 'category' %}
+                    <div class="tnt-mega-menu__catogory">
+                      <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
+                      <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
+                        <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                          <img
+                            src="{{ block.settings.img | image_url: width: 100 }}"
+                            alt="{{ block.settings.ttl }}"
+                          >
+                          <p>{{ block.settings.ttl }}</p>
+                        </a>
+                      </div>
                     </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>6 - 9 Months</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>12 - 18 Months</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>2 to 4 Years</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>6 to 8 Years</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>10 to 12 Years</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>14 to 16 Years</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>18 to 20 Years</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                    <div class="tnt-mega-menu__catogory-item tnt-flex">
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0753/6184/5499/files/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png?v=1747161235"
-                        alt=""
-                      >
-                      <p>New Born</p>
-                    </div>
-                  </div>
-                </div>
+                  {% endif %}
+                {% endfor %}
               </div>
             </div>
           </li>
