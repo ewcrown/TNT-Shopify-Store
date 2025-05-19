@@ -284,6 +284,7 @@
         "content_wUYEkn": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_1.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -292,6 +293,7 @@
         "content_qgfyeQ": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_1.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -300,6 +302,7 @@
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_1.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -308,6 +311,7 @@
         "content_r3TKzn": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_2.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -316,6 +320,34 @@
         "content_BcnGEw": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group_3.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_3ybkYi": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group_3.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_a49hHF": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group_3.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_KBmt33": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group_3.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -331,7 +363,10 @@
         "content_qgfyeQ",
         "content_cm9PdQ",
         "content_r3TKzn",
-        "content_BcnGEw"
+        "content_BcnGEw",
+        "content_3ybkYi",
+        "content_a49hHF",
+        "content_KBmt33"
       ],
       "name": "TNT Kids",
       "settings": {
