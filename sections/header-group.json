@@ -55,10 +55,19 @@
             "caption_4": "",
             "link_4": ""
           }
+        },
+        "category_Mhcy4z": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "menu_dTCRHe"
+        "menu_dTCRHe",
+        "category_Mhcy4z"
       ],
       "settings": {
         "logo_position": "middle-center",
