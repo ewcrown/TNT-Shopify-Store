@@ -71,12 +71,129 @@
             "txt": "New Born",
             "url": ""
           }
+        },
+        "category_cHxa7T": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_CKhTYK": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_MNnpjC": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_MeH4d9": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_ffGT9G": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_jn3rPk": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_dYVpd7": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_U6b7Mm": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_eyapTU": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_TNGKzx": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_PEfNjX": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_DNNrf8": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
+        },
+        "category_8DWzcH": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
+            "txt": "New Born",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "menu_dTCRHe",
         "category_Mhcy4z",
-        "category_q6UbWG"
+        "category_q6UbWG",
+        "category_cHxa7T",
+        "category_CKhTYK",
+        "category_MNnpjC",
+        "category_MeH4d9",
+        "category_ffGT9G",
+        "category_jn3rPk",
+        "category_dYVpd7",
+        "category_U6b7Mm",
+        "category_eyapTU",
+        "category_TNGKzx",
+        "category_PEfNjX",
+        "category_DNNrf8",
+        "category_8DWzcH"
       ],
       "settings": {
         "logo_position": "middle-center",
