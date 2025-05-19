@@ -108,10 +108,13 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
+            "icon_1": "shopify://shop_images/AqZY06_tif.svg",
             "title_1": "Ship",
             "text_1": "Discount",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.svg",
             "title_2": "Ship",
             "text_2": "Discount",
+            "icon_3": "shopify://shop_images/0aB4wc.svg",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
