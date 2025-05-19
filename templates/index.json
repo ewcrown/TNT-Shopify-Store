@@ -380,6 +380,7 @@
         "slider_U3FH7M": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image.png",
             "ttl": "",
             "url": ""
           }
@@ -387,6 +388,7 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
             "ttl": "",
             "url": ""
           }
@@ -394,6 +396,7 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_2.png",
             "ttl": "",
             "url": ""
           }
@@ -401,6 +404,7 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_1.png",
             "ttl": "",
             "url": ""
           }
@@ -408,6 +412,7 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_3.png",
             "ttl": "",
             "url": ""
           }
@@ -415,6 +420,7 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_5da5f1a7-8a7c-4137-8981-d4c1bd2e593a.png",
             "ttl": "",
             "url": ""
           }
@@ -422,6 +428,7 @@
         "slider_dcCeKA": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_2.png",
             "ttl": "",
             "url": ""
           }
@@ -429,6 +436,7 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
+            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
             "ttl": "",
             "url": ""
           }
