@@ -257,6 +257,7 @@
         "content_9mxRGQ": {
           "type": "content",
           "settings": {
+            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
