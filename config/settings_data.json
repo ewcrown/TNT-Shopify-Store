@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "show_sales_popup": true,
+    "show_sales_popup": false,
     "sales_subtext": "To stay update on our latest products, news and trends.\nDon’t worry, we won’t spam you!",
     "button_link": "#",
     "sales_delay_seconds": 1,

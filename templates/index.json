@@ -302,7 +302,11 @@
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
+<<<<<<< HEAD
             "img": "shopify://shop_images/Group_1.svg",
+=======
+            "img": "shopify://shop_images/Group_2.svg",
+>>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -321,6 +325,7 @@
           "type": "content",
           "settings": {
             "img": "shopify://shop_images/Group_3.svg",
+<<<<<<< HEAD
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -348,6 +353,8 @@
           "type": "content",
           "settings": {
             "img": "shopify://shop_images/Group_3.svg",
+=======
+>>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "date": "3 - 6",
             "txt": "Months",
             "url": ""

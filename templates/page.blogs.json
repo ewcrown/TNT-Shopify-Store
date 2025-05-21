@@ -36,9 +36,8 @@
       "type": "tnt-blogs",
       "name": "<> Blog Posts",
       "settings": {
-        "blog": "news",
-        "post_limit": 10,
         "banner_image": "shopify://shop_images/image_7_f156a694-3cf5-46db-89bf-dae0f0d6e924.png",
+        "post_limit": 10,
         "banner_heading": "Richird Norton photorealistic rendering as real photos",
         "banner_text": "Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.",
         "banner_button_text": "Start planning your trip",

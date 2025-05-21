@@ -42,12 +42,12 @@
         "menu_dTCRHe": {
           "type": "menu",
           "settings": {
-            "title": "Mega Menu",
-            "linklist": "mega-menu",
-            "image_1": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full_jpg.png",
+            "title": "Our Deals",
+            "linklist": "test-menu",
+            "image_1": "shopify://shop_images/IMG_2193.jpg",
             "caption_1": "",
             "link_1": "",
-            "image_2": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
+            "image_2": "shopify://shop_images/IMG_2189.jpg",
             "caption_2": "",
             "link_2": "",
             "caption_3": "",
@@ -56,6 +56,7 @@
             "link_4": ""
           }
         },
+<<<<<<< HEAD
         "category_Mhcy4z": {
           "type": "category",
           "settings": {
@@ -173,12 +174,19 @@
           "settings": {
             "img": "shopify://shop_images/image_4_eb04f93a-9476-4361-a94e-7e21804e73ab.png",
             "txt": "New Born",
+=======
+        "category_HCbAqe": {
+          "type": "category",
+          "settings": {
+            "txt": "",
+>>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "url": ""
           }
         }
       },
       "block_order": [
         "menu_dTCRHe",
+<<<<<<< HEAD
         "category_Mhcy4z",
         "category_q6UbWG",
         "category_cHxa7T",
@@ -194,6 +202,9 @@
         "category_PEfNjX",
         "category_DNNrf8",
         "category_8DWzcH"
+=======
+        "category_HCbAqe"
+>>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
       ],
       "settings": {
         "logo_position": "middle-center",
@@ -205,8 +216,8 @@
         "show_line_separator": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
         "padding_top": 20,

@@ -403,6 +403,7 @@
       {% render 'tnt-sales-popup-form' %}
     {% endif %}
 
+    {{ 'tnt-custom.js' | asset_url | script_tag }}
     {{ 'tnt-card-add.js' | asset_url | script_tag }}
   </body>
 </html>

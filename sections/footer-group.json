@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
@@ -17,7 +17,7 @@
         "menu_njeKwj": {
           "type": "menu",
           "settings": {
-            "menu": "footer-menu"
+            "menu": "footer"
           }
         }
       },
@@ -26,7 +26,7 @@
       ],
       "name": "Custom Footer",
       "settings": {
-        "logo": "shopify://shop_images/Group_125_7721763b-963e-4ce2-944c-72aa6ebb0870.svg",
+        "logo": "shopify://shop_images/Group_125.png",
         "show_policy": true
       }
     },
@@ -36,7 +36,6 @@
         "image_TWrAyk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_125_7721763b-963e-4ce2-944c-72aa6ebb0870.svg",
             "image_width": 200,
             "alignment": ""
           }
