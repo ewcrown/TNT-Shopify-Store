@@ -8,6 +8,8 @@
     <link rel="canonical" href="{{ canonical_url }}">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -405,5 +407,16 @@
 
     {{ 'tnt-custom.js' | asset_url | script_tag }}
     {{ 'tnt-card-add.js' | asset_url | script_tag }}
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        Fancybox.bind("[data-fancybox]", {
+          Youtube: {
+            autoplay: true,
+          },
+        });
+      });
+    </script>
   </body>
 </html>

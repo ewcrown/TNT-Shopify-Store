@@ -17,11 +17,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1.png",
-=======
-            "img": "shopify://shop_images/443-x-443--1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1_2f1d4414-a4d7-4c07-a0d7-6d837a0be1d1.webp",
             "url": ""
           }
         },
@@ -30,13 +26,13 @@
           "settings": {
             "ttl": "",
             "desc": "",
-            "img_1": "shopify://shop_images/221-x-309---sale.jpg",
+            "img_1": "shopify://shop_images/9102a86a-b709-4a36-89a0-59846ca39b1e_full_jpg.png",
             "url_1": "",
-            "img_2": "shopify://shop_images/221-x-309.jpg",
+            "img_2": "shopify://shop_images/005947fd-43b2-4c79-b6c7-0e02d3c4bfc9_full_jpg.png",
             "url_2": "",
-            "img_3": "shopify://shop_images/221-x-3090-2.jpg",
+            "img_3": "shopify://shop_images/59b4adbd-18d5-4eb2-aed1-52e2c4a6e76c_full_jpg.png",
             "url_3": "",
-            "img_4": "shopify://shop_images/221-x-309--value-paack.jpg",
+            "img_4": "shopify://shop_images/d68614cb-9b90-43ff-85f5-d95f5e8069fa_full_jpg.png",
             "url_4": ""
           }
         },
@@ -47,17 +43,10 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "birthday",
-              "holiday",
-              "fun-weekends",
-              "wedding-party"
-=======
-              "eid-collection-1",
-              "summer-outfits",
-              "tropical-outfits",
-              "winter-outfits"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "newborn-accessories-menu-1",
+              "diapering-menu-1",
+              "gear",
+              "nursery-menu-1"
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -81,21 +70,12 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "short-sets",
-              "skirt-sets",
-              "party-and-enthic",
-              "casual-wear",
-              "footwear",
-              "onesies"
-=======
-              "pram-strollers",
-              "memories",
+              "newborn-accessories-menu-1",
               "diapering-menu-1",
-              "baby-carriers",
-              "ride-on-scooters",
-              "bouncers-rockers"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "nursery-menu-1",
+              "gear",
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-online-hygiene-baby-essentials"
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -110,23 +90,6 @@
             "discount_code": "TEST123"
           }
         },
-        "collection_list_AqPAH6": {
-          "type": "collection_list",
-          "disabled": true,
-          "settings": {
-            "ttl": "Shop by Occasion123",
-            "desc": "",
-            "off": "",
-            "collection": [
-              "buy-best-online-hygiene-baby-essentials",
-              "buy-best-quality-baby-diaper-bags-for-kids-online",
-              "carry-nest-new",
-              "buy-best-quality-baby-starter-sets-online"
-            ],
-            "grid_layout": "grid-2",
-            "round_images": false
-          }
-        },
         "collection_list_tRCMfC": {
           "type": "collection_list",
           "settings": {
@@ -134,17 +97,10 @@
             "desc": "",
             "off": "30% OFF",
             "collection": [
-<<<<<<< HEAD
-              "cool-tops",
-              "confy-bottoms",
-              "inner-wear",
-              "accessories"
-=======
-              "buy-best-online-hygiene-baby-essentials",
-              "buy-best-quality-baby-diaper-bags-for-kids-online",
-              "carry-nest-new",
-              "buy-best-quality-baby-starter-sets-online"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "newborn-accessories-menu-1",
+              "diapering-menu-1",
+              "gear",
+              "nursery-menu-1"
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -154,13 +110,13 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
-            "icon_1": "shopify://shop_images/AqZY06_tif.svg",
+            "icon_1": "shopify://shop_images/AqZY06_tif.png",
             "title_1": "Ship",
             "text_1": "Discount",
-            "icon_2": "shopify://shop_images/CgKoHk_tif.svg",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.png",
             "title_2": "Ship",
             "text_2": "Discount",
-            "icon_3": "shopify://shop_images/0aB4wc.svg",
+            "icon_3": "shopify://shop_images/0aB4wc.png",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
@@ -174,15 +130,9 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "baby",
-              "boy",
-              "girl"
-=======
-              "newborn-apparel",
-              "boys-apparel",
-              "girls-apparel"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "buy-best-online-baby-boy-pants-and-trousers",
+              "buy-best-quality-kids-shalwar-kameez-online",
+              "buy-best-quality-baby-shoes-socks-boots-online"
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -193,11 +143,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
-=======
-            "img": "shopify://shop_images/443-x-221-sale-banner_1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -206,11 +152,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full_jpg.png",
-=======
-            "img": "shopify://shop_images/443-x-443_2.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/e4f41552-73e3-44aa-988f-ed099f301a76_full.jpg_1.png",
             "url": ""
           }
         },
@@ -219,11 +161,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
-=======
-            "img": "shopify://shop_images/443-x-221-sale-banner--600-DPI.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full.gif_1.png",
             "url": ""
           }
         },
@@ -234,33 +172,18 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "summer-25",
-              "denim-collection",
-              "dresses",
-              "short-sets-1",
-              "tees",
-              "skirt-sets-1",
-              "jeans-sets-and-more",
-              "footwear-1",
-              "onesies-1",
-              "ethnic",
-              "tops-and-bottoms",
-              "night-suits"
-=======
-              "pram-strollers",
-              "walkers",
-              "bouncers-rockers",
-              "high-chairs",
-              "carry-cots-cribs",
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-quality-baby-care-products-online",
               "baby-carriers",
-              "baby-safety",
-              "ride-ons",
-              "cycles",
-              "playmats-playgyms",
-              "toys-rattles",
-              "gifting"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "apparel-tags",
+              "buy-best-online-hygiene-baby-essentials",
+              "bathers",
+              "buy-best-quality-online-baby-bathing-towels-in-pakistan",
+              "carry-nest-new",
+              "buy-online-best-quality-bibs-napkins-for-babies",
+              "buy-best-online-baby-printed-rompers",
+              "bouncers-rockers",
+              "carry-cots-cribs"
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -270,34 +193,23 @@
           "type": "moment",
           "settings": {
             "ttl": "Moments",
-<<<<<<< HEAD
             "desc": "<p>Hopschotchers Share Their Favourite Moments.</p>",
             "img_1": "shopify://shop_images/1f8048db-24fc-4785-b733-9d81b69844eb_full_jpg.png",
-            "img_2": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
-            "img_3": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
-            "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
-            "img_5": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
-            "img_6": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
-            "img_8": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png"
-=======
-            "desc": "<p>Life in Little Moments<br/></p>",
-            "img_1": "shopify://shop_images/1_f2365575-7e48-4a17-9094-7d766af8f143.jpg",
             "video_1": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_2": "shopify://shop_images/6_b0b40492-4efa-4c53-8a56-60702f83b94e.jpg",
+            "img_2": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
             "video_2": "https://youtu.be/7b1M7Prd078?si=3QLm88_5z8q6bOfG",
-            "img_3": "shopify://shop_images/7_2446ff70-18b7-46af-bf8c-43a9bc1407b7.jpg",
+            "img_3": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
             "video_3": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_4": "shopify://shop_images/8_a5c8c994-86e2-4f37-9bf1-58c397990d74.jpg",
+            "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
             "video_4": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_5": "shopify://shop_images/3_019e0e2c-b6b7-4d59-af10-f6ddcd6ca13d.jpg",
+            "img_5": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
             "video_5": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_6": "shopify://shop_images/4_f4e19a36-aef2-4df3-b8cb-df68f987cbae.jpg",
+            "img_6": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
             "video_6": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_7": "shopify://shop_images/2_a22a172c-c7c6-48c8-a86b-56ced7d337c9.jpg",
+            "img_7": "shopify://shop_images/effa2e41-cbe1-4f7b-9ee4-e9f61151ba36_full_jpg.png",
             "video_7": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_8": "shopify://shop_images/5_9f2ed7a5-f3ab-43c8-9e6f-8c148ad71945.jpg",
+            "img_8": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png",
             "video_8": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
           }
         },
         "collection_list_C4YYwU": {
@@ -307,25 +219,14 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "summer-26",
-              "denim-collection-1",
-              "formal-sets",
-              "short-sets-2",
-              "tees-1",
-              "jeans-and-pant-sets",
-              "onesies-2",
-              "footwear-2"
-=======
-              "feeding-bottles",
-              "sterilizers-warmers",
-              "soothers-pacifiers-teething",
-              "utensils-dishes",
-              "wardrobes",
-              "playpen",
-              "grooming-care",
-              "mommies"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+              "apparel-tags",
+              "buy-best-quality-online-baby-caps-in-pakistan",
+              "buy-best-quality-baby-care-products-online",
+              "baby-carriers",
+              "buy-best-online-hygiene-baby-essentials",
+              "bathers",
+              "buy-best-quality-online-baby-bathing-towels-in-pakistan",
+              "carry-nest-new"
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -339,7 +240,6 @@
         "discount_38H6hV",
         "announcement_bar_gT4Jmf",
         "discount_yzFMMD",
-        "collection_list_AqPAH6",
         "collection_list_tRCMfC",
         "info_hC6afy",
         "collection_list_4feyxq",
@@ -427,38 +327,7 @@
             "url": ""
           }
         },
-        "content_Rgc7iD": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_1.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_cNaDUj": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_1.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
         "content_cm9PdQ": {
-          "type": "content",
-          "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/Group_1.svg",
-=======
-            "img": "shopify://shop_images/Group_2.svg",
->>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_CUEhCA": {
           "type": "content",
           "settings": {
             "img": "shopify://shop_images/Group_2.svg",
@@ -480,36 +349,6 @@
           "type": "content",
           "settings": {
             "img": "shopify://shop_images/Group_3.svg",
-<<<<<<< HEAD
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_3ybkYi": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_a49hHF": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_KBmt33": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-=======
->>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -525,15 +364,9 @@
         "content_7HftaG",
         "content_wUYEkn",
         "content_qgfyeQ",
-        "content_Rgc7iD",
-        "content_cNaDUj",
         "content_cm9PdQ",
-        "content_CUEhCA",
         "content_r3TKzn",
-        "content_BcnGEw",
-        "content_3ybkYi",
-        "content_a49hHF",
-        "content_KBmt33"
+        "content_BcnGEw"
       ],
       "settings": {
         "padding_top": 60,
@@ -546,11 +379,7 @@
         "slider_U3FH7M": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image.png",
-=======
-            "img": "shopify://shop_images/358-x-447.4.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -558,11 +387,7 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
-=======
-            "img": "shopify://shop_images/358-x-447.5.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -570,11 +395,7 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_2.png",
-=======
-            "img": "shopify://shop_images/358-x-447.6.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -582,11 +403,7 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_1.png",
-=======
-            "img": "shopify://shop_images/358-x-447.3.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }
@@ -594,11 +411,7 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_3.png",
-=======
-            "img": "shopify://shop_images/358-x-447.2.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/1.webp",
             "ttl": "",
             "url": ""
           }
@@ -606,11 +419,7 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_5da5f1a7-8a7c-4137-8981-d4c1bd2e593a.png",
-=======
-            "img": "shopify://shop_images/358-x-447-1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/2_ec0777d8-e533-4b14-ba7c-feb0503d7f47.webp",
             "ttl": "",
             "url": ""
           }
@@ -618,11 +427,7 @@
         "slider_dcCeKA": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_2.png",
-=======
-            "img": "shopify://shop_images/358-x-447.8.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/3.webp",
             "ttl": "",
             "url": ""
           }
@@ -630,11 +435,7 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
-=======
-            "img": "shopify://shop_images/358-x-447.9.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
+            "img": "shopify://shop_images/5_cb55964b-3107-4f44-bceb-55a309d17fae.png",
             "ttl": "",
             "url": ""
           }

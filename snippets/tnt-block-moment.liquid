@@ -1,46 +1,27 @@
 <div class="tnt-home-block__moments">
   <h2 class="tnt-home-block__momemt-title tnt-home-block__title">{{ block.settings.ttl }}</h2>
   <div class="tnt-home-block__moment-desc">{{ block.settings.desc }}</div>
+
   <div class="tnt-home-block__moments-grid grid-4">
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_1 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_2 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_3 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_4 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_5 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_6 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_7 | image_url: width: 400  }}"
-      alt=""
-    >
-    <img
-      class="img-responsive tnt-home-block__moments-img "
-      src="{{ block.settings.img_8 | image_url: width: 400  }}"
-      alt=""
-    >
+    {% for i in (1..8) %}
+      {% assign img_key = 'img_' | append: i %}
+      {% assign video_key = 'video_' | append: i %}
+      {% assign image = block.settings[img_key] %}
+      {% assign video = block.settings[video_key] %}
+      {% if image and video %}
+        <a
+          data-fancybox
+          data-type="iframe"
+          data-src="{{ video }}"
+          href="javascript:;"
+        >
+          <img
+            class="img-responsive tnt-home-block__moments-img"
+            src="{{ image | image_url: width: 400 }}"
+            alt="Video {{ i }}"
+          >
+        </a>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>

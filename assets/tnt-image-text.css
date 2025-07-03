@@ -1,11 +1,5 @@
 .tnt-image-text-row {
-  padding: 60px 0px 120px;
-}
-
-.tnt-image-text-wrap {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 27px;
+  padding: 60px 0px;
 }
 
 .tnt-image-text-block span {
@@ -19,22 +13,35 @@
   margin-top: 16px;
 }
 
-@media(max-width:768px) {
-  .tnt-image-text-row {
-    overflow-x: scroll;
+#imageTextSwiper .swiper-button-next,
+#imageTextSwiper .swiper-button-prev {
+  display: block;
+  background: #f9f9f9;
+  color: #000;
+  border: 1px solid #ececec;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+#imageTextSwiper .swiper-button-next:after,
+#imageTextSwiper .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  #imageTextSwiper .swiper-button-next,
+  #imageTextSwiper .swiper-button-prev {
+    height: 30px;
+    width: 30px;
+    top: 90px;
   }
 
-  .tnt-image-text-block img {
-    height: 100px;
-    object-fit: cover;
-  }
-
-  .tnt-image-text-block span {
-    font-size: 7.151px;
-  }
-
-  .tnt-image-text-wrap {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  #imageTextSwiper .swiper-button-next:after,
+  #imageTextSwiper .swiper-button-prev:after {
+    font-size: 13px;
   }
 }

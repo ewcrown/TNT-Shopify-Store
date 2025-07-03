@@ -9,3 +9,22 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
+
+.tnt-home-block__moments-img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.tnt-home-block__moments-img:hover {
+  transform: scale(1.05);
+}
+
+.with-fancybox body .fancybox__track {
+  display: flex !important;
+  transform: unset !important;
+}
+
+.with-fancybox body .fancybox__backdrop {
+  display: block !important;
+}

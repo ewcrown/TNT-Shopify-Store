@@ -42,12 +42,10 @@
         "menu_dTCRHe": {
           "type": "menu",
           "settings": {
-            "title": "Our Deals",
-            "linklist": "test-menu",
-            "image_1": "shopify://shop_images/IMG_2193.jpg",
+            "title": "Shop By Category",
+            "linklist": "main-menu-top",
             "caption_1": "",
             "link_1": "",
-            "image_2": "shopify://shop_images/IMG_2189.jpg",
             "caption_2": "",
             "link_2": "",
             "caption_3": "",
@@ -178,14 +176,60 @@
         "category_HCbAqe": {
           "type": "category",
           "settings": {
+<<<<<<< HEAD
             "txt": "",
 >>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
+=======
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+            "url": ""
+          }
+        },
+        "category_RFEMx4": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+            "url": ""
+          }
+        },
+        "category_cMkB9R": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+            "url": ""
+          }
+        },
+        "category_MJpQFE": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+            "url": ""
+          }
+        },
+        "category_K486Rt": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+            "url": ""
+          }
+        },
+        "category_JcbyMi": {
+          "type": "category",
+          "settings": {
+            "img": "shopify://shop_images/image.png",
+            "txt": "Test",
+>>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "url": ""
           }
         }
       },
       "block_order": [
         "menu_dTCRHe",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "category_Mhcy4z",
         "category_q6UbWG",
@@ -205,12 +249,24 @@
 =======
         "category_HCbAqe"
 >>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
+=======
+        "category_HCbAqe",
+        "category_RFEMx4",
+        "category_cMkB9R",
+        "category_MJpQFE",
+        "category_K486Rt",
+        "category_JcbyMi"
+>>>>>>> 2d667f4 (Updated 2-Jul-2025)
       ],
       "settings": {
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
+<<<<<<< HEAD
         "menu": "main-menu",
         "title": "Shop by age",
+=======
+        "menu": "enigma-main-menu",
+>>>>>>> 2d667f4 (Updated 2-Jul-2025)
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,

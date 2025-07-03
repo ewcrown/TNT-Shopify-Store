@@ -3,18 +3,25 @@
 <div class="tnt-kids" id="tnt-kids">
   <div class="tnt-kids__row">
     <div class="page-width">
-      <div class="tnt-kids__col">
-        {% for block in section.blocks %}
-          <a href="{{ block.settings.url }}">
-            <div class="tnt-kids__content">
-              {% if block.settings.img != blank %}
-                <img class="tnt-kids__content-img" src="{{ block.settings.img | image_url: width: '800' }}" alt="">
-              {% endif %}
-              <p class="tnt-kids__content-date">{{ block.settings.date }}</p>
-              <p class="tnt-kids__content-text">{{ block.settings.txt }}</p>
+      <div class="swiper tnt-kids__col" id="tntKidsSwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <a href="{{ block.settings.url }}">
+                <div class="tnt-kids__content">
+                  {% if block.settings.img != blank %}
+                    <img class="tnt-kids__content-img" src="{{ block.settings.img | image_url: width: '800' }}" alt="">
+                  {% endif %}
+                  <p class="tnt-kids__content-date">{{ block.settings.date }}</p>
+                  <p class="tnt-kids__content-text">{{ block.settings.txt }}</p>
+                </div>
+              </a>
             </div>
-          </a>
-        {% endfor %}
+          {% endfor %}
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </div>

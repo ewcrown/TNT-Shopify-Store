@@ -222,6 +222,14 @@
             "heading": "Spring Rompers",
             "img": "shopify://shop_images/image_5.png"
           }
+        },
+        "block_xMbU6D": {
+          "type": "block",
+          "settings": {
+            "link": "#",
+            "heading": "New Arrivals",
+            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
+          }
         }
       },
       "block_order": [
@@ -230,7 +238,8 @@
         "block_gheyCM",
         "block_jWEmXC",
         "block_zdQtRX",
-        "block_kmzgHG"
+        "block_kmzgHG",
+        "block_xMbU6D"
       ],
       "name": "<> Image Text",
       "settings": {}
@@ -318,6 +327,24 @@
             "txt": "Months",
             "url": ""
           }
+        },
+        "content_e7wDH3": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
+        },
+        "content_M98zpC": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group.svg",
+            "date": "3 - 6",
+            "txt": "Months",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -329,7 +356,9 @@
         "content_qgfyeQ",
         "content_cm9PdQ",
         "content_r3TKzn",
-        "content_BcnGEw"
+        "content_BcnGEw",
+        "content_e7wDH3",
+        "content_M98zpC"
       ],
       "name": "TNT Kids",
       "settings": {

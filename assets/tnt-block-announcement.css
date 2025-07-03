@@ -34,6 +34,6 @@
 
 @media (max-width: 767px) {
   .tnt-home-block__collection-announcement-bar {
-    display: none !important;
+    margin-top: 0;
   }
 }

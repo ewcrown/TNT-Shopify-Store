@@ -4,16 +4,16 @@
 }
 
 .tnt-product-card {
-  border-top: 1px solid #CDCDCD;
-  border-left: 1px solid #CDCDCD;
+  border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
 }
 
 .tnt-product-card:nth-child(4n) {
-  border-right: 1px solid #CDCDCD;
+  border-right: 1px solid #cdcdcd;
 }
 
 .tnt-product-card:nth-last-child(-n + 4) {
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 #product-grid {
@@ -37,13 +37,17 @@
   margin-bottom: 6px;
 }
 
-.tnt-product-price .price--on-sale .price__container>.price__sale {
+.tnt-product-price .price--on-sale .price__container > .price__sale {
   display: flex;
   flex-direction: column-reverse;
 }
 
 .tnt-product-price .price:not(.price--on-sale) .price__regular,
-.tnt-product-price .price--on-sale .price__container>.price__sale .price-item--sale {
+.tnt-product-price
+  .price--on-sale
+  .price__container
+  > .price__sale
+  .price-item--sale {
   color: #333;
   font-family: Helvetica;
   font-size: 16px;
@@ -53,8 +57,12 @@
   margin-bottom: 6px;
 }
 
-.tnt-product-price .price--on-sale .price__container>.price__sale .price-item--regular {
-  color: #A4A4A4;
+.tnt-product-price
+  .price--on-sale
+  .price__container
+  > .price__sale
+  .price-item--regular {
+  color: #a4a4a4;
   font-family: Helvetica;
   font-size: 13.185px;
   font-style: normal;
@@ -89,7 +97,6 @@
   display: none;
 }
 
-
 .tnt-product-cart-variants {
   padding: 13px 16px;
   display: flex;
@@ -121,11 +128,11 @@
   font-size: 8px;
 }
 
-.ew-product-variant-color input:checked+label span {
+.ew-product-variant-color input:checked + label span {
   border: 1px solid #ff4848;
 }
 
-.ew-product-variant-size input:checked+label span {
+.ew-product-variant-size input:checked + label span {
   background: #000;
   color: #fff;
 }
@@ -159,7 +166,7 @@
 }
 
 .tnt-product-card-button-add {
-  background: #FF4848;
+  background: #ff4848;
 }
 
 .tnt-product-card-button-quick-view {
@@ -167,7 +174,7 @@
 }
 
 .tnt-product-card {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .tnt-product-card .tnt-product-popup {
@@ -184,7 +191,11 @@
   display: none;
 }
 
-@media(max-width:768px) {
+.tnt-product-card {
+  padding-top: 5px;
+}
+
+@media (max-width: 768px) {
   .tnt-product-gallery img {
     height: 216px;
   }

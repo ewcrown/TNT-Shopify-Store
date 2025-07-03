@@ -9,15 +9,15 @@
  */
 {
   "current": {
-    "show_sales_popup": false,
+    "show_sales_popup": true,
     "sales_subtext": "To stay update on our latest products, news and trends.\nDon’t worry, we won’t spam you!",
     "button_link": "#",
     "sales_delay_seconds": 1,
     "countdown_date": "2025-06-01",
-    "show_subscriber_form": false,
+    "show_subscriber_form": true,
     "popup_image": "shopify://shop_images/image_12.png",
     "delay_seconds": 1,
-    "logo": "shopify://shop_images/Group_125.svg",
+    "logo": "shopify://shop_images/9x9_5ae66b3e-5051-490e-b14a-a2f07df020d9.png",
     "logo_width": 90,
     "type_header_font": "assistant_n7",
     "heading_scale": 100,

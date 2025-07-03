@@ -3,20 +3,24 @@
 <section class="tnt-image-text-section tnt-image-text-section-{{ section.id }}" id="tnt-image-text-section">
   <div class="tnt-image-text-row">
     <div class="page-width">
-      <div class="tnt-image-text-wrap">
-        {% for block in section.blocks %}
-          <div class="tnt-image-text-block">
-            <a href="{{ block.settings.link }}">
-            <img 
-              src="{{ block.settings.img | image_url }}"
-              class="img-fluid"
-              width="400"
-              height="500"
-            >
-              <span>{{ block.settings.heading }}</span>
-            </a>
-          </div>
-        {% endfor %}
+      <div class="swiper tnt-image-text-swiper" id="imageTextSwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide tnt-image-text-block">
+              <a href="{{ block.settings.link }}">
+                <img
+                  src="{{ block.settings.img | image_url }}"
+                  class="img-fluid"
+                  width="400"
+                  height="500"
+                >
+                <span>{{ block.settings.heading }}</span>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </div>
