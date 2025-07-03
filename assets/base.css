@@ -3792,7 +3792,6 @@ details-disclosure > details {
 .tnt-mega-menu__catogory-item.tnt-flex {
   align-items: center;
   gap: 10px;
-  color: #000;
 }
 
 .tnt-mega-menu__catogory-item.tnt-flex p {
@@ -3807,9 +3806,5 @@ details-disclosure > details {
 }
 
 .tnt-mega-menu__catogory-wrapper.tnt-flex::-webkit-scrollbar {
-<<<<<<< HEAD
-  display: none; 
-=======
   display: none;
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
 }

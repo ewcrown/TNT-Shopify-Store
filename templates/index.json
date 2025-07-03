@@ -17,11 +17,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full.jpg_1.png",
-=======
             "img": "shopify://shop_images/443-x-443--1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "url": ""
           }
         },
@@ -47,17 +43,10 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "birthday",
-              "holiday",
-              "fun-weekends",
-              "wedding-party"
-=======
               "eid-collection-1",
               "summer-outfits",
               "tropical-outfits",
               "winter-outfits"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -81,21 +70,12 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "short-sets",
-              "skirt-sets",
-              "party-and-enthic",
-              "casual-wear",
-              "footwear",
-              "onesies"
-=======
               "pram-strollers",
               "memories",
               "diapering-menu-1",
               "baby-carriers",
               "ride-on-scooters",
               "bouncers-rockers"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -134,17 +114,10 @@
             "desc": "",
             "off": "30% OFF",
             "collection": [
-<<<<<<< HEAD
-              "cool-tops",
-              "confy-bottoms",
-              "inner-wear",
-              "accessories"
-=======
               "buy-best-online-hygiene-baby-essentials",
               "buy-best-quality-baby-diaper-bags-for-kids-online",
               "carry-nest-new",
               "buy-best-quality-baby-starter-sets-online"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-2",
             "round_images": false
@@ -154,13 +127,13 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
-            "icon_1": "shopify://shop_images/AqZY06_tif.svg",
+            "icon_1": "shopify://shop_images/AqZY06_tif.png",
             "title_1": "Ship",
             "text_1": "Discount",
-            "icon_2": "shopify://shop_images/CgKoHk_tif.svg",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.png",
             "title_2": "Ship",
             "text_2": "Discount",
-            "icon_3": "shopify://shop_images/0aB4wc.svg",
+            "icon_3": "shopify://shop_images/0aB4wc.png",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
@@ -174,15 +147,9 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "baby",
-              "boy",
-              "girl"
-=======
               "newborn-apparel",
               "boys-apparel",
               "girls-apparel"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -193,11 +160,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
-=======
             "img": "shopify://shop_images/443-x-221-sale-banner_1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "url": ""
           }
         },
@@ -206,11 +169,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/c4442033-1572-47a9-b30b-cc930193656b_full_jpg.png",
-=======
             "img": "shopify://shop_images/443-x-443_2.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "url": ""
           }
         },
@@ -219,11 +178,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-<<<<<<< HEAD
-            "img": "shopify://shop_images/9c40d8ab-5883-4b2a-9be9-8c036e03108e_full_gif_a1ab98f1-8b5d-47fb-a91b-084e17490e90.png",
-=======
             "img": "shopify://shop_images/443-x-221-sale-banner--600-DPI.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "url": ""
           }
         },
@@ -234,20 +189,6 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "summer-25",
-              "denim-collection",
-              "dresses",
-              "short-sets-1",
-              "tees",
-              "skirt-sets-1",
-              "jeans-sets-and-more",
-              "footwear-1",
-              "onesies-1",
-              "ethnic",
-              "tops-and-bottoms",
-              "night-suits"
-=======
               "pram-strollers",
               "walkers",
               "bouncers-rockers",
@@ -260,7 +201,6 @@
               "playmats-playgyms",
               "toys-rattles",
               "gifting"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -270,16 +210,6 @@
           "type": "moment",
           "settings": {
             "ttl": "Moments",
-<<<<<<< HEAD
-            "desc": "<p>Hopschotchers Share Their Favourite Moments.</p>",
-            "img_1": "shopify://shop_images/1f8048db-24fc-4785-b733-9d81b69844eb_full_jpg.png",
-            "img_2": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
-            "img_3": "shopify://shop_images/cad740e5-f6cf-4399-b91c-a701de1060cb_full_jpg.png",
-            "img_4": "shopify://shop_images/aafda336-e0dc-4070-a597-66e15f1207c9_full_jpg.png",
-            "img_5": "shopify://shop_images/91242444-f11c-4ca0-a5b5-58fb28b198a9_full_jpg.png",
-            "img_6": "shopify://shop_images/9519e0da-68ac-4a1e-9b33-f5ca0e1eff3b_full_jpg.png",
-            "img_8": "shopify://shop_images/df44e9aa-dcfa-49bf-a54d-e4ef4d028dbe_full_jpg.png"
-=======
             "desc": "<p>Life in Little Moments<br/></p>",
             "img_1": "shopify://shop_images/1_f2365575-7e48-4a17-9094-7d766af8f143.jpg",
             "video_1": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
@@ -297,7 +227,6 @@
             "video_7": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
             "img_8": "shopify://shop_images/5_9f2ed7a5-f3ab-43c8-9e6f-8c148ad71945.jpg",
             "video_8": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
           }
         },
         "collection_list_C4YYwU": {
@@ -307,16 +236,6 @@
             "desc": "",
             "off": "",
             "collection": [
-<<<<<<< HEAD
-              "summer-26",
-              "denim-collection-1",
-              "formal-sets",
-              "short-sets-2",
-              "tees-1",
-              "jeans-and-pant-sets",
-              "onesies-2",
-              "footwear-2"
-=======
               "feeding-bottles",
               "sterilizers-warmers",
               "soothers-pacifiers-teething",
@@ -325,7 +244,6 @@
               "playpen",
               "grooming-care",
               "mommies"
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             ],
             "grid_layout": "grid-4",
             "round_images": false
@@ -448,11 +366,7 @@
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/Group_1.svg",
-=======
             "img": "shopify://shop_images/Group_2.svg",
->>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -480,36 +394,6 @@
           "type": "content",
           "settings": {
             "img": "shopify://shop_images/Group_3.svg",
-<<<<<<< HEAD
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_3ybkYi": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_a49hHF": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
-          }
-        },
-        "content_KBmt33": {
-          "type": "content",
-          "settings": {
-            "img": "shopify://shop_images/Group_3.svg",
-=======
->>>>>>> 3c53336 (Coupon Code Added & Feedback Updated!)
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -530,10 +414,7 @@
         "content_cm9PdQ",
         "content_CUEhCA",
         "content_r3TKzn",
-        "content_BcnGEw",
-        "content_3ybkYi",
-        "content_a49hHF",
-        "content_KBmt33"
+        "content_BcnGEw"
       ],
       "settings": {
         "padding_top": 60,
@@ -546,11 +427,7 @@
         "slider_U3FH7M": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image.png",
-=======
             "img": "shopify://shop_images/358-x-447.4.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -558,11 +435,7 @@
         "slider_Ufinqn": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
-=======
             "img": "shopify://shop_images/358-x-447.5.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -570,11 +443,7 @@
         "slider_PhEMV4": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_2.png",
-=======
             "img": "shopify://shop_images/358-x-447.6.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -582,11 +451,7 @@
         "slider_CB9jxc": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_1.png",
-=======
             "img": "shopify://shop_images/358-x-447.3.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -594,11 +459,7 @@
         "slider_TQbmmw": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_3.png",
-=======
             "img": "shopify://shop_images/358-x-447.2.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -606,11 +467,7 @@
         "slider_kfAe4Q": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_5da5f1a7-8a7c-4137-8981-d4c1bd2e593a.png",
-=======
             "img": "shopify://shop_images/358-x-447-1.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -618,11 +475,7 @@
         "slider_dcCeKA": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_2.png",
-=======
             "img": "shopify://shop_images/358-x-447.8.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
@@ -630,11 +483,7 @@
         "slider_xx6BNr": {
           "type": "slider",
           "settings": {
-<<<<<<< HEAD
-            "img": "shopify://shop_images/image_560752d9-9cd7-4ddc-a3c7-d3589aa34ccf.png",
-=======
             "img": "shopify://shop_images/358-x-447.9.jpg",
->>>>>>> 2d667f4 (Updated 2-Jul-2025)
             "ttl": "",
             "url": ""
           }
