@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -24,7 +15,7 @@
       "type": "tnt-banner-text",
       "name": "<> Banner Text",
       "settings": {
-        "background_image": "shopify://shop_images/image_6_0ee90559-570e-44c5-ae3c-f64ca730e0ed.png",
+        "background_image": "shopify:\/\/shop_images\/image_6_0ee90559-570e-44c5-ae3c-f64ca730e0ed.png",
         "heading": "TOP 10 PAKISTAN STORES",
         "subheading": "E Commerce",
         "button_text": "Explore More",
@@ -36,7 +27,7 @@
       "type": "tnt-blogs",
       "name": "<> Blog Posts",
       "settings": {
-        "banner_image": "shopify://shop_images/image_7_f156a694-3cf5-46db-89bf-dae0f0d6e924.png",
+        "banner_image": "shopify:\/\/shop_images\/image_7_f156a694-3cf5-46db-89bf-dae0f0d6e924.png",
         "post_limit": 10,
         "banner_heading": "Richird Norton photorealistic rendering as real photos",
         "banner_text": "Progressively incentivize cooperative systems through technically sound functionalities. The credibly productivate seamless data.",

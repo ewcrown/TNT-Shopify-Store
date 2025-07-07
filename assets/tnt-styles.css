@@ -96,3 +96,7 @@
 .quickview-inner .section-header {
   display: none !important;
 }
+
+.ew-has-fourth-lvl > a{
+  font-weight: bold !important;
+}

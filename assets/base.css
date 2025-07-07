@@ -3701,7 +3701,7 @@ details-disclosure > details {
     padding: 55px 0;
   }
   .mega-menu-row {
-    column-count: 3;
+    display:flex;
     gap: 111px;
   }
 }

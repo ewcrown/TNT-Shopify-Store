@@ -1,46 +1,42 @@
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
-    {% for link in section.settings.menu.links %}
-      {% assign mega_menu = false %}
-      {% for block in section.blocks %}
-        {% if block.settings.title == link.title %}
-          {% assign mega_menu = true %}
+    {% for block in section.blocks %}
+      {% assign mega_menu = block.settings.is_megammenu %}
+        {% if block.settings.link != blank %}
+        {% assign mega_menu = true %}
           <li class="mega-menu-list">
-            <a href="#" class="header__menu-item list-menu__item link link--text focus-inset">
-              {{ link.title }}
-              <!--
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  height="10px"
-                  width="10px"
-                  version="1.1"
-                  id="Layer_1"
-                  viewBox="0 0 407.437 407.437"
-                  xml:space="preserve"
-                >
-                  <polygon points="386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815 "/>
-                </svg>
-              -->
+            <a href="{{  block.settings.link }}" class="header__menu-item list-menu__item link link--text focus-inset">
+              {{ block.settings.title }}
             </a>
             <div class="mega-menu-wrapper">
               <div class="page-width">
                 <div class="mega-menu-row-wrapper tnt-flex tnt-justify-content-between">
                   <div class="mega-menu-row">
-                    {% for child_link in block.settings.linklist.links -%}
-                      <div class="mega-menu-column">
-                        <div class="menu-item-inner">
-                          <h3>{{ child_link.title }}</h3>
-                          <ul>
-                            {% for sub_child_link in child_link.links %}
-                              <li>
-                                <a href="{{ sub_child_link.url }}">{{ sub_child_link.title }}</a>
-                              </li>
-                            {% endfor %}
-                          </ul>
+                      {% for link in block.settings.linklist.links -%}
+                        <div class="mega-menu-column">
+                          <div class="menu-item-inner">
+                            <h3>{{ link.title }}</h3>
+                            {% if link.links != blank %}
+                            <ul>
+                              {% for child_link in link.links %}
+                                <li class="{% if child_link.links != blank %}ew-has-fourth-lvl{% endif %}">
+                                  <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+                                  {% if child_link.links != blank %}
+                                  <ul  class="ew-fourth-lvl">
+                                    {% for sub_child_link in child_link.links %}
+                                      <li>
+                                        <a href="{{ sub_child_link.url }}">{{ sub_child_link.title }}</a>
+                                      </li>
+                                    {%  endfor  %}
+                                  </ul>
+                                {% endif %}
+                                </li>
+                              {% endfor %}
+                              </ul>
+                            {% endif %}
+                          </div>
                         </div>
-                      </div>
-                    {% endfor %}
+                      {% endfor %}
                   </div>
                   <div class="mega-menu-column mega-menu-image">
                     <div class="image-grid">
@@ -68,17 +64,15 @@
                 <div class="tnt-mega-menu__catogory">
                   <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
                   <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
-                    {% for block in section.blocks %}
-                      {% if block.type == 'category' and block.settings.img != blank %}
-                        <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
-                          <img
-                            src="{{ block.settings.img | image_url: width: 100 }}"
-                            alt="{{ block.settings.txt }}"
-                          >
-                          <p>{{ block.settings.txt }}</p>
-                        </a>
-                      {% endif %}
-                    {% endfor %}
+                    {% if block.type == 'category' and block.settings.img != blank %}
+                      <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                        <img
+                          src="{{ block.settings.img | image_url: width: 100 }}"
+                          alt="{{ block.settings.txt }}"
+                        >
+                        <p>{{ block.settings.txt }}</p>
+                      </a>
+                    {% endif %} 
                   </div>
                 </div>
               </div>
@@ -94,6 +88,6 @@
           </a>
         </li>
       {% endif %}
-    {% endfor %}
+    
   </ul>
 </nav>

@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "tnt_breadcrumbs_4UXN64": {
@@ -37,12 +28,44 @@
     "tnt_image_text_hELeik": {
       "type": "tnt-image-text",
       "blocks": {
+        "block_xthA7U": {
+          "type": "block",
+          "settings": {
+            "link": "",
+            "heading": "",
+            "img": "shopify:\/\/shop_images\/8_1.jpg"
+          }
+        },
+        "block_y3z4Wn": {
+          "type": "block",
+          "settings": {
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/9_1.jpg"
+          }
+        },
+        "block_WNmMY8": {
+          "type": "block",
+          "settings": {
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/4_1_a0b156b9-bd2f-49dd-b735-d299bda906b8.jpg"
+          }
+        },
+        "block_fFrLcP": {
+          "type": "block",
+          "settings": {
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/3_2_eaf7b431-8dcf-4966-8835-53be956ad653.jpg"
+          }
+        },
         "block_z3BrGW": {
           "type": "block",
           "settings": {
             "link": "#",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
+            "img": "shopify:\/\/shop_images\/7_1.jpg"
           }
         },
         "block_iReDKP": {
@@ -50,7 +73,7 @@
           "settings": {
             "link": "#",
             "heading": "Eid Collection",
-            "img": "shopify://shop_images/image_1_6cb9662c-5d0d-4458-b544-6917706cb6b6.png"
+            "img": "shopify:\/\/shop_images\/1_6_d1c4bb30-ff6c-4d13-a131-7459fb80146f.jpg"
           }
         },
         "block_gheyCM": {
@@ -58,7 +81,7 @@
           "settings": {
             "link": "#",
             "heading": "Summer Specials",
-            "img": "shopify://shop_images/image_2_35068754-dc0a-423c-95ee-97f411365c75.png"
+            "img": "shopify:\/\/shop_images\/6_1.jpg"
           }
         },
         "block_jWEmXC": {
@@ -66,7 +89,7 @@
           "settings": {
             "link": "#",
             "heading": "Character Shop",
-            "img": "shopify://shop_images/image_3_b61550d6-cc8b-436a-bfdd-ba91be0096b8.png"
+            "img": "shopify:\/\/shop_images\/5_1.jpg"
           }
         },
         "block_zdQtRX": {
@@ -74,7 +97,7 @@
           "settings": {
             "link": "#",
             "heading": "Top Rated",
-            "img": "shopify://shop_images/image_4.png"
+            "img": "shopify:\/\/shop_images\/2_3_8c479763-8974-4af7-9c6e-e7a1fe61e629.jpg"
           }
         },
         "block_kmzgHG": {
@@ -82,11 +105,15 @@
           "settings": {
             "link": "#",
             "heading": "Spring Rompers",
-            "img": "shopify://shop_images/image_5.png"
+            "img": "shopify:\/\/shop_images\/10_1.jpg"
           }
         }
       },
       "block_order": [
+        "block_xthA7U",
+        "block_y3z4Wn",
+        "block_WNmMY8",
+        "block_fFrLcP",
         "block_z3BrGW",
         "block_iReDKP",
         "block_gheyCM",

@@ -262,7 +262,9 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .mega-menu-row-wrapper {
-  padding: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
+    max-height: 68vh;
+    overflow-y: auto;
 }
 
 .mega-menu-column .mega-menu__title h3 {
