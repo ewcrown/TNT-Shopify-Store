@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "ew_order_tracking_eEAiVN": {
+      "type": "ew-order-tracking",
+      "name": "<> Track Order",
+      "settings": {}
+    }
+  },
+  "order": [
+    "ew_order_tracking_eEAiVN"
+  ]
+}

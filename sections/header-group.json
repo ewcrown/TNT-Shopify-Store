@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -39,11 +30,120 @@
     "header": {
       "type": "header",
       "blocks": {
-        "menu_dTCRHe": {
+        "menu_bJzV6Q": {
           "type": "menu",
           "settings": {
-            "title": "Shop By Category",
-            "linklist": "main-menu-top",
+            "title": "New Arrivals",
+            "link": "",
+            "is_megammenu": false,
+            "linklist": "",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_ka3hMF": {
+          "type": "menu",
+          "settings": {
+            "title": "Apparel",
+            "link": "#",
+            "is_megammenu": true,
+            "linklist": "enigma-apparel",
+            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_6tyXNY": {
+          "type": "menu",
+          "settings": {
+            "title": "Baby Essentials",
+            "link": "#",
+            "is_megammenu": true,
+            "linklist": "enigma-baby-menu",
+            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_KDt37P": {
+          "type": "menu",
+          "settings": {
+            "title": "Baby Basics",
+            "link": "#",
+            "is_megammenu": false,
+            "linklist": "enigma-baby-basics",
+            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_PfPTat": {
+          "type": "menu",
+          "settings": {
+            "title": "Gears & Nursery",
+            "link": "#",
+            "is_megammenu": true,
+            "linklist": "enigma-gear-nursery",
+            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_VPbiaq": {
+          "type": "menu",
+          "settings": {
+            "title": "Rides, Toys & Gifts",
+            "link": "#",
+            "is_megammenu": false,
+            "linklist": "enigma-rides-toys-gifts",
+            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_QpngnL": {
+          "type": "menu",
+          "settings": {
+            "title": "Clearance Sale",
+            "link": "#",
+            "is_megammenu": false,
+            "linklist": "",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -57,7 +157,7 @@
         "category_HCbAqe": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -65,7 +165,7 @@
         "category_RFEMx4": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -73,7 +173,7 @@
         "category_cMkB9R": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -81,7 +181,7 @@
         "category_MJpQFE": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -89,7 +189,7 @@
         "category_K486Rt": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -97,14 +197,20 @@
         "category_JcbyMi": {
           "type": "category",
           "settings": {
-            "img": "shopify://shop_images/image.png",
+            "img": "shopify:\/\/shop_images\/image.png",
             "txt": "Test",
             "url": ""
           }
         }
       },
       "block_order": [
-        "menu_dTCRHe",
+        "menu_bJzV6Q",
+        "menu_ka3hMF",
+        "menu_6tyXNY",
+        "menu_KDt37P",
+        "menu_PfPTat",
+        "menu_VPbiaq",
+        "menu_QpngnL",
         "category_HCbAqe",
         "category_RFEMx4",
         "category_cMkB9R",
@@ -113,6 +219,10 @@
         "category_JcbyMi"
       ],
       "settings": {
+        "underline_items": "For Newborn, Sweat Shirts",
+        "sale_animation_items": "Apparel, Cycles & Scooties",
+        "bold_items": "Costumes, Towels",
+        "colored_items": "Grooming, Play Fence",
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "enigma-main-menu",

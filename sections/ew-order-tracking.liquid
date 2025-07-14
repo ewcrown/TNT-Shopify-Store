@@ -1,0 +1,83 @@
+{% assign api_key = "NDdiNzhjOWNlOGZlNGJhMWI4OTZlMmQ2Yzg1NGMyODc6NjhiMWM0MzY1NjQ0NDBhNThhZGFlNjU2NDY0MTVmYjY=" %}
+
+<div class="postex-track-wrapper">
+  <div class="page-width">
+    <div class="pospte-tracking-inner">
+      <h2 class="track-title">Track Your Order</h2>
+      
+      <div id="postex-track-data" data-token="{{ api_key }}"></div>
+      
+      <input id="tracking-number" type="text" placeholder="Enter tracking number..." class="track-input" />
+      <button onclick="trackOrder()" class="track-btn">Track</button>
+      
+      <div id="tracking-result" class="tracking-result"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  async function trackOrder() {
+    const trackingNumber = document.getElementById('tracking-number').value.trim();
+    const resultDiv = document.getElementById('tracking-result');
+    const apiKey = document.getElementById('postex-track-data').dataset.token;
+
+    resultDiv.innerHTML = 'Loading...';
+
+    if (!trackingNumber) {
+      resultDiv.innerHTML = 'Please enter a tracking number.';
+      return;
+    }
+
+    try {
+      const response = await fetch(`https://api.postex.pk/services/integration/api/order/v1/track-order/${trackingNumber}`, {
+        method: 'GET',
+        headers: {
+          'token': apiKey,
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error('Order not found or API error.');
+      }
+
+      const data = await response.json();
+      const dist = data.dist;
+      const lastStatus = dist.transactionStatusHistory?.[0];
+
+      resultDiv.innerHTML = `
+        <table class="tracking-table">
+          <tr><th>Order Ref</th><td>${dist.orderRefNumber || 'N/A'}</td></tr>
+          <tr><th>Customer</th><td>${dist.customerName || 'N/A'}</td></tr>
+          <tr><th>Phone</th><td>${dist.customerPhone || 'N/A'}</td></tr>
+          <tr><th>Address</th><td>${dist.deliveryAddress || 'N/A'}</td></tr>
+          <tr><th>Order</th><td>${dist.orderDetail || 'N/A'}</td></tr>
+          <tr><th>Invoice Amount</th><td>PKR ${dist.invoicePayment || '0.00'}</td></tr>
+          <tr><th>Status</th><td>${dist.transactionStatus || 'N/A'}</td></tr>
+          <tr><th>City</th><td>${dist.cityName || 'N/A'}</td></tr>
+          <tr><th>Merchant</th><td>${dist.merchantName || 'N/A'}</td></tr>
+          <tr><th>Last Update</th>
+            <td>
+              ${lastStatus?.transactionStatusMessage || 'N/A'}<br>
+              <small>${lastStatus?.updatedAt?.replace('T', ' ').split('+')[0] || ''}</small>
+            </td>
+          </tr>
+        </table>
+      `;
+    } catch (error) {
+      resultDiv.innerHTML = 'Unable to fetch tracking info. Please try again.';
+    }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Track Order",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Track Order"
+    }
+  ]
+}
+{% endschema %}

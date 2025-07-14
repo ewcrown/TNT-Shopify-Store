@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -131,7 +122,7 @@
           "settings": {
             "rainbow": false,
             "alignment": "left",
-            "img": "shopify://shop_images/3_6baf23a8-271f-4c5a-a975-25d98edb725c_png.png",
+            "img": "shopify:\/\/shop_images\/3_6baf23a8-271f-4c5a-a975-25d98edb725c_png.png",
             "heading": "Relaxed Fit",
             "description": "Roomy fit lets you layer underneath, keeping your little one extra warm."
           }
@@ -141,7 +132,7 @@
           "settings": {
             "rainbow": true,
             "alignment": "right",
-            "img": "shopify://shop_images/4_69fa0d07-4c6e-4444-b5a0-66077e13a95b_png.png",
+            "img": "shopify:\/\/shop_images\/4_69fa0d07-4c6e-4444-b5a0-66077e13a95b_png.png",
             "heading": "Wide Neck",
             "description": "Stretchable wide neck ensures easy, fuss-freeand comfortable dressing for your baby."
           }
@@ -180,7 +171,7 @@
           "settings": {
             "link": "#",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
+            "img": "shopify:\/\/shop_images\/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
           }
         },
         "block_iReDKP": {
@@ -188,7 +179,7 @@
           "settings": {
             "link": "#",
             "heading": "Eid Collection",
-            "img": "shopify://shop_images/image_1_6cb9662c-5d0d-4458-b544-6917706cb6b6.png"
+            "img": "shopify:\/\/shop_images\/image_1_6cb9662c-5d0d-4458-b544-6917706cb6b6.png"
           }
         },
         "block_gheyCM": {
@@ -196,7 +187,7 @@
           "settings": {
             "link": "#",
             "heading": "Summer Specials",
-            "img": "shopify://shop_images/image_2_35068754-dc0a-423c-95ee-97f411365c75.png"
+            "img": "shopify:\/\/shop_images\/image_2_35068754-dc0a-423c-95ee-97f411365c75.png"
           }
         },
         "block_jWEmXC": {
@@ -204,7 +195,7 @@
           "settings": {
             "link": "#",
             "heading": "Character Shop",
-            "img": "shopify://shop_images/image_3_b61550d6-cc8b-436a-bfdd-ba91be0096b8.png"
+            "img": "shopify:\/\/shop_images\/image_3_b61550d6-cc8b-436a-bfdd-ba91be0096b8.png"
           }
         },
         "block_zdQtRX": {
@@ -212,7 +203,7 @@
           "settings": {
             "link": "#",
             "heading": "Top Rated",
-            "img": "shopify://shop_images/image_4.png"
+            "img": "shopify:\/\/shop_images\/image_4.png"
           }
         },
         "block_kmzgHG": {
@@ -220,7 +211,7 @@
           "settings": {
             "link": "#",
             "heading": "Spring Rompers",
-            "img": "shopify://shop_images/image_5.png"
+            "img": "shopify:\/\/shop_images\/image_5.png"
           }
         },
         "block_xMbU6D": {
@@ -228,7 +219,7 @@
           "settings": {
             "link": "#",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
+            "img": "shopify:\/\/shop_images\/image_bf7bc9a3-8bad-4772-9756-1c82d5285a96.png"
           }
         }
       },
@@ -250,7 +241,7 @@
         "content_ikWym9": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -259,7 +250,7 @@
         "content_9mxRGQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -268,7 +259,7 @@
         "content_CTan9L": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -277,7 +268,7 @@
         "content_7HftaG": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -286,7 +277,7 @@
         "content_wUYEkn": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -295,7 +286,7 @@
         "content_qgfyeQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -304,7 +295,7 @@
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -313,7 +304,7 @@
         "content_r3TKzn": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -322,7 +313,7 @@
         "content_BcnGEw": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -331,7 +322,7 @@
         "content_e7wDH3": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""
@@ -340,7 +331,7 @@
         "content_M98zpC": {
           "type": "content",
           "settings": {
-            "img": "shopify://shop_images/Group.svg",
+            "img": "shopify:\/\/shop_images\/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
             "url": ""

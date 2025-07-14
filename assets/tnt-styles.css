@@ -21,16 +21,46 @@
   display: none;
 }
 
+.ew-animate-item {
+  color: #ff4848;
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  from {
+    color: #000;
+  }
+
+  to {
+    color: #ff4848;
+  }
+}
+
+.ew-colored-item {
+  color: #ff4848 !important;
+}
+
+.ew-bold-item {
+  font-weight: bold !important;
+}
+
+.ew-menu-underline-item {
+  text-decoration: underline !important;
+}
+
+
 /* Modal content */
 .quickview-inner {
   background: #fff;
   padding: 2rem;
   max-width: 900px;
   width: 90%;
+  max-height: 70%;
   border-radius: 8px;
   position: relative;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   animation: fadeIn 0.3s ease;
+  overflow-y: auto;
 }
 
 /* Close button */
@@ -97,6 +127,84 @@
   display: none !important;
 }
 
-.ew-has-fourth-lvl > a{
+.ew-has-fourth-lvl>a {
   font-weight: bold !important;
+}
+
+.postex-track-wrapper {
+  padding: 120px 0px;
+}
+
+.track-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.track-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16x;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.track-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4848;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tracking-result {
+  margin-top: 20px;
+}
+
+.tracking-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tracking-table th,
+.tracking-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 16px;
+  color:#000;
+}
+
+.tracking-table th {
+  background-color: #ff4848;
+  font-weight: 600;
+  color: #fff;
+}
+
+.tracking-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pospte-tracking-inner {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media(max-width:600px) {
+  .postex-track-wrapper {
+    padding: 60px 0px;
+  }
+
+  .tracking-table th,
+  .tracking-table td {
+    font-size: 14px;
+  }
 }

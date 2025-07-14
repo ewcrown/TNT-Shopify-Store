@@ -33,7 +33,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/8_1.jpg"
+            "img": "shopify:\/\/shop_images\/Apparel---215-x-215.jpg"
           }
         },
         "block_y3z4Wn": {
@@ -41,7 +41,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify:\/\/shop_images\/9_1.jpg"
+            "img": "shopify:\/\/shop_images\/Feeding-215-x-215.jpg"
           }
         },
         "block_WNmMY8": {
@@ -49,7 +49,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify:\/\/shop_images\/4_1_a0b156b9-bd2f-49dd-b735-d299bda906b8.jpg"
+            "img": "shopify:\/\/shop_images\/Fun-_-Play-215-x-215.jpg"
           }
         },
         "block_fFrLcP": {
@@ -57,7 +57,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify:\/\/shop_images\/3_2_eaf7b431-8dcf-4966-8835-53be956ad653.jpg"
+            "img": "shopify:\/\/shop_images\/Bedding--215-x-215.jpg"
           }
         },
         "block_z3BrGW": {
@@ -65,47 +65,47 @@
           "settings": {
             "link": "#",
             "heading": "New Arrivals",
-            "img": "shopify:\/\/shop_images\/7_1.jpg"
+            "img": "shopify:\/\/shop_images\/Mommies-215-x-215.jpg"
           }
         },
-        "block_iReDKP": {
+        "block_hReBmR": {
           "type": "block",
           "settings": {
-            "link": "#",
-            "heading": "Eid Collection",
-            "img": "shopify:\/\/shop_images\/1_6_d1c4bb30-ff6c-4d13-a131-7459fb80146f.jpg"
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/Footwear-215-x-215.jpg"
           }
         },
-        "block_gheyCM": {
+        "block_VtdNwQ": {
           "type": "block",
           "settings": {
-            "link": "#",
-            "heading": "Summer Specials",
-            "img": "shopify:\/\/shop_images\/6_1.jpg"
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/Baby-Essentials-215-x-215.jpg"
           }
         },
-        "block_jWEmXC": {
+        "block_8GgyEF": {
           "type": "block",
           "settings": {
-            "link": "#",
-            "heading": "Character Shop",
-            "img": "shopify:\/\/shop_images\/5_1.jpg"
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/Gifting-215-x-215.jpg"
           }
         },
-        "block_zdQtRX": {
+        "block_dNFPwc": {
           "type": "block",
           "settings": {
-            "link": "#",
-            "heading": "Top Rated",
-            "img": "shopify:\/\/shop_images\/2_3_8c479763-8974-4af7-9c6e-e7a1fe61e629.jpg"
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/Gear--215-x-215.jpg"
           }
         },
-        "block_kmzgHG": {
+        "block_EL3zXg": {
           "type": "block",
           "settings": {
-            "link": "#",
-            "heading": "Spring Rompers",
-            "img": "shopify:\/\/shop_images\/10_1.jpg"
+            "link": "",
+            "heading": "New Arrivals",
+            "img": "shopify:\/\/shop_images\/Wardrobe-215-x-215.jpg"
           }
         }
       },
@@ -115,11 +115,11 @@
         "block_WNmMY8",
         "block_fFrLcP",
         "block_z3BrGW",
-        "block_iReDKP",
-        "block_gheyCM",
-        "block_jWEmXC",
-        "block_zdQtRX",
-        "block_kmzgHG"
+        "block_hReBmR",
+        "block_VtdNwQ",
+        "block_8GgyEF",
+        "block_dNFPwc",
+        "block_EL3zXg"
       ],
       "name": "<> Image Text",
       "settings": {}

@@ -8,7 +8,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/Summer-Collection.jpg",
+            "img": "shopify:\/\/shop_images\/800_x_800.jpg",
             "url": ""
           }
         },
@@ -17,13 +17,13 @@
           "settings": {
             "ttl": "",
             "desc": "",
-            "img_1": "shopify:\/\/shop_images\/1_57e19d13-ae4f-435c-a7aa-3800930a218c.jpg",
+            "img_1": "shopify:\/\/shop_images\/3_865b5f7e-dc43-4df9-8ed8-7f82a50cc327.jpg",
             "url_1": "",
-            "img_2": "shopify:\/\/shop_images\/2_d6cd4b3d-7350-481f-b079-9d040d68c849.jpg",
+            "img_2": "shopify:\/\/shop_images\/221-x-309.-2.jpg",
             "url_2": "",
-            "img_3": "shopify:\/\/shop_images\/3_afd5fe97-d6b7-4bb3-ac9c-8c08f00c8929.jpg",
+            "img_3": "shopify:\/\/shop_images\/1_6d1f4043-84be-44c9-8fee-b3b6f00d1ed6.jpg",
             "url_3": "",
-            "img_4": "shopify:\/\/shop_images\/4_33dd5050-5a64-4427-a0cf-5d6d01a9bd8e.jpg",
+            "img_4": "shopify:\/\/shop_images\/4_c85bf83c-7066-4f00-89fa-96b8bdca292c.jpg",
             "url_4": ""
           }
         },
@@ -61,12 +61,12 @@
             "desc": "",
             "off": "",
             "collection": [
-              "pram-strollers",
               "memories",
               "diapering-menu-1",
-              "baby-carriers",
               "ride-on-scooters",
-              "bouncers-rockers"
+              "hot-sellers-homepage",
+              "nursery-menu-1",
+              "scooties"
             ],
             "grid_layout": "grid-3",
             "round_images": false
@@ -151,7 +151,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/443-x-221-sale-banner_d6d4ccbf-4601-43ca-ac58-03ed1a227edc.jpg",
+            "img": "shopify:\/\/shop_images\/443-x-221-sale-banner_08aa7b78-7398-4016-82c1-4a01d9230395.jpg",
             "url": ""
           }
         },
@@ -160,7 +160,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/New-Arrivals.jpg",
+            "img": "shopify:\/\/shop_images\/443-x-443--New-Arrival.jpg",
             "url": ""
           }
         },
@@ -169,7 +169,7 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/443-x-221-Hot-Seller.jpg",
+            "img": "shopify:\/\/shop_images\/443-x-221-Hot-seller_4da820d1-0d1d-4295-953d-e1421c92b419.jpg",
             "url": ""
           }
         },
@@ -202,21 +202,21 @@
           "settings": {
             "ttl": "Moments",
             "desc": "<p>Life in Little Moments<br\/><\/p>",
-            "img_1": "shopify:\/\/shop_images\/1_f2365575-7e48-4a17-9094-7d766af8f143.jpg",
+            "img_1": "shopify:\/\/shop_images\/5_c5637a7c-d94a-4393-9924-36694285efa2.jpg",
             "video_1": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_2": "shopify:\/\/shop_images\/6_b0b40492-4efa-4c53-8a56-60702f83b94e.jpg",
+            "img_2": "shopify:\/\/shop_images\/3_1c1eb128-0bcf-48bd-9b77-ae993915c090.jpg",
             "video_2": "https:\/\/youtu.be\/7b1M7Prd078?si=3QLm88_5z8q6bOfG",
-            "img_3": "shopify:\/\/shop_images\/7_2446ff70-18b7-46af-bf8c-43a9bc1407b7.jpg",
+            "img_3": "shopify:\/\/shop_images\/2_fa05e15e-4ac3-4714-ab13-151e08cef117.jpg",
             "video_3": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_4": "shopify:\/\/shop_images\/8_a5c8c994-86e2-4f37-9bf1-58c397990d74.jpg",
+            "img_4": "shopify:\/\/shop_images\/1_785aa737-8489-49ce-9b14-622d099b581b.jpg",
             "video_4": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_5": "shopify:\/\/shop_images\/3_019e0e2c-b6b7-4d59-af10-f6ddcd6ca13d.jpg",
+            "img_5": "shopify:\/\/shop_images\/7_5f462d28-1df7-4685-8d7a-c39b5c1ad623.jpg",
             "video_5": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_6": "shopify:\/\/shop_images\/4_f4e19a36-aef2-4df3-b8cb-df68f987cbae.jpg",
+            "img_6": "shopify:\/\/shop_images\/8_5acc4b8d-faf1-449d-828a-e957ab6a48a3.jpg",
             "video_6": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_7": "shopify:\/\/shop_images\/2_a22a172c-c7c6-48c8-a86b-56ced7d337c9.jpg",
+            "img_7": "shopify:\/\/shop_images\/6_6dd06a59-2fc3-40a6-bdaf-013f788e14c6.jpg",
             "video_7": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_8": "shopify:\/\/shop_images\/5_9f2ed7a5-f3ab-43c8-9e6f-8c148ad71945.jpg",
+            "img_8": "shopify:\/\/shop_images\/4_2262373b-859a-4930-a099-7474905d5737.jpg",
             "video_8": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT"
           }
         },

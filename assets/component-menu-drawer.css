@@ -2,16 +2,14 @@
   position: initial;
 }
 
-.js menu-drawer > details > summary::before,
-.js menu-drawer > details[open]:not(.menu-opening) > summary::before {
+.js menu-drawer>details>summary::before,
+.js menu-drawer>details[open]:not(.menu-opening)>summary::before {
   content: "";
   position: absolute;
   cursor: default;
   width: 100%;
   height: calc(100vh - 100%);
-  height: calc(
-    var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%))
-  );
+  height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
   top: 100%;
   left: 0;
   background: rgba(var(--color-foreground), 0.5);
@@ -21,7 +19,7 @@
   transition: opacity 0s, visibility 0s;
 }
 
-menu-drawer > details[open] > summary::before {
+menu-drawer>details[open]>summary::before {
   visibility: visible;
   opacity: 1;
   transition: opacity var(--duration-default) ease,
@@ -37,37 +35,32 @@ menu-drawer > details[open] > summary::before {
   top: 100%;
   width: 100%;
   padding: 0;
-  background-color: #ff4848;
+  background-color: #fff;
   overflow-x: hidden;
-  filter: drop-shadow(
-    var(--drawer-shadow-horizontal-offset) var(--drawer-shadow-vertical-offset)
-      var(--drawer-shadow-blur-radius)
-      rgba(var(--color-shadow), var(--drawer-shadow-opacity))
-  );
+  filter: drop-shadow(var(--drawer-shadow-horizontal-offset) var(--drawer-shadow-vertical-offset) var(--drawer-shadow-blur-radius) rgba(var(--color-shadow), var(--drawer-shadow-opacity)));
   height: 100vh !important;
 }
 
 .js .menu-drawer {
   height: calc(100vh - 100%);
-  height: calc(
-    var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%))
-  );
+  height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
 }
 
-.js details[open] > .menu-drawer,
-.js details[open] > .menu-drawer__submenu {
+.js details[open]>.menu-drawer,
+.js details[open]>.menu-drawer__submenu {
   transition: transform var(--duration-default) ease,
     visibility var(--duration-default) ease;
 }
 
-.js details[open].menu-opening > .menu-drawer,
-details[open].menu-opening > .menu-drawer__submenu {
+.js details[open].menu-opening>.menu-drawer,
+details[open].menu-opening>.menu-drawer__submenu {
   transform: translateX(0);
   visibility: visible;
 }
 
 .js .menu-drawer__navigation .submenu-open {
-  visibility: hidden; /* hide menus from screen readers when hidden by submenu */
+  visibility: hidden;
+  /* hide menus from screen readers when hidden by submenu */
 }
 
 @media screen and (min-width: 750px) {
@@ -90,10 +83,6 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
   height: 100%;
-}
-
-.menu-drawer__navigation {
-  padding: 30px 20px;
 }
 
 .menu-drawer__inner-submenu {
@@ -133,12 +122,16 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: none;
 }
 
-.menu-drawer__menu-item > .svg-wrapper {
+.menu-drawer__menu-item>.svg-wrapper {
   width: 15px;
   position: absolute;
   right: 3rem;
   top: 50%;
   transform: translateY(-50%);
+}
+
+ul.menu-drawer__menu.list-menu {
+    padding: 0px 20px;
 }
 
 .js .menu-drawer__submenu {
@@ -147,7 +140,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: #ff4848;
+  background-color: #fff;
   z-index: 1;
   transform: translateX(100%);
   visibility: hidden;
@@ -188,17 +181,13 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 @media screen and (max-width: 749px) {
-  .header--has-account:where(
-      :not(.header--has-social):not(.header--has-localizations)
-    )
-    .menu-drawer__utility-links {
+  .header--has-account:where( :not(.header--has-social):not(.header--has-localizations)) .menu-drawer__utility-links {
     padding: 2rem 3rem;
   }
 }
 
 @media screen and (max-width: 989px) {
-  .header--has-localizations:where(:not(.header--has-social))
-    .menu-drawer__utility-links {
+  .header--has-localizations:where(:not(.header--has-social)) .menu-drawer__utility-links {
     padding: 2rem 3rem;
   }
 }
@@ -213,12 +202,11 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin-bottom: 0;
 }
 
-.menu-drawer__utility-links:has(.menu-drawer__localization)
-  .menu-drawer__account {
+.menu-drawer__utility-links:has(.menu-drawer__localization) .menu-drawer__account {
   margin: 0;
 }
 
-.menu-drawer__account account-icon > .svg-wrapper {
+.menu-drawer__account account-icon>.svg-wrapper {
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
@@ -230,7 +218,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin-left: -0.45rem;
 }
 
-.menu-drawer__account:hover account-icon > .svg-wrapper {
+.menu-drawer__account:hover account-icon>.svg-wrapper {
   transform: scale(1.07);
 }
 
@@ -262,17 +250,19 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .mega-menu-row-wrapper {
-    padding: 0 20px 0 20px;
-    max-height: 68vh;
-    overflow-y: auto;
+  padding: 0 20px 0 20px;
+  max-height: 68vh;
+  overflow-y: auto;
 }
 
 .mega-menu-column .mega-menu__title h3 {
+  font-family: var(--font-body-family);
   font-weight: 400;
-  font-size: 20px;
-  line-height: 16px;
-  color: #fff;
+  font-size: 16px;
+  color: #000;
   margin-bottom: 0px;
+  text-transform: none;
+  padding:0 !important;
 }
 
 .product-caption h4 {
@@ -287,29 +277,29 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__menu-item {
-  color: #fff;
+  color: #000;
   border-radius: 8px;
   font-weight: 400 !important;
-  font-size: 20px !important;
-  line-height: 16px !important;
-  padding: 20px;
+  font-size: 16px !important;
+  padding: 10px 20px;
   margin-bottom: 13px;
   width: 100%;
 }
 
 .mega-menu__submenu .menu-drawer__menu-item {
-  color: #fff !important;
-  padding: 20px 40px;
+  color: #000 !important;
+  padding: 10px 40px;
+  margin: 0;
 }
 
 .mega-menu__title {
-  width: 100%;
-  text-decoration: unset;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 20px;
-  margin-bottom: 13px;
+    width: 100%;
+    text-decoration: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 20px;
+    margin-bottom: 13px;
 }
 
 .mega-menu__title .icon-caret {
@@ -333,43 +323,38 @@ details[open].menu-opening > .menu-drawer__submenu {
   border-radius: 8px;
 }
 
-.mega-menu-column:has(.menu-opening[open]),
-.mega-menu-column .menu-opening .mega-menu__submenu {
-  background: #ff6a6a;
-}
-
 .mega-menu-column {
   border-radius: 8px;
   padding: 0;
+  flex-basis: 25%;
+}
+
+.mega-menu-column.mega-menu-image {
+
+  flex-shrink: 0;
 }
 
 #mega-menu-mega-menu .mega-menu-column.mega-menu-image,
-.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open])
-  .tnt-header-mob-search,
-.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open])
-  .header__icon,
-.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open])
-  .header__heading-link,
-.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open])
-  .tnt-mob-menu-icons-wrap,
+.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) .tnt-header-mob-search,
+.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) .header__icon,
+.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) .header__heading-link,
+.tnt-header__wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) .tnt-mob-menu-icons-wrap,
 .tnt-header-top__account-mob,
 .tnt-mob-cart-iocn.header__icon--cart,
 .menu-drawer__utility-links {
   display: none;
 }
 
-.header-wrapper:has(.Details-menu-drawer-mega.menu-opening[open])
-  .menu-drawer__close-button {
+.header-wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) .menu-drawer__close-button {
   margin-top: 0;
 }
+
 .header-wrapper:has(.Details-menu-drawer-mega.menu-opening[open]) {
   padding-bottom: 0px;
 }
 
-.tnt-header__wrapper:has(.menu-drawer-container.menu-opening[open])
-  .tnt-mob-cart-iocn.header__icon--cart,
-.tnt-header__wrapper:has(.menu-drawer-container.menu-opening[open])
-  .tnt-header-top__account-mob {
+.tnt-header__wrapper:has(.menu-drawer-container.menu-opening[open]) .tnt-mob-cart-iocn.header__icon--cart,
+.tnt-header__wrapper:has(.menu-drawer-container.menu-opening[open]) .tnt-header-top__account-mob {
   display: block;
 }
 

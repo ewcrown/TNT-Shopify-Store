@@ -1,3 +1,8 @@
+{% assign underline_items = section.settings.underline_items %}
+{% assign sale_items = section.settings.sale_animation_items %}
+{% assign bold_items = section.settings.bold_items %}
+{% assign colored_items = section.settings.colored_items %}
+
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {% for block in section.blocks %}
@@ -5,85 +10,135 @@
         {% if block.settings.link != blank %}
         {% assign mega_menu = true %}
           <li class="mega-menu-list">
-            <a href="{{  block.settings.link }}" class="header__menu-item list-menu__item link link--text focus-inset">
+            <a href="{{ block.settings.link }}"
+              class="
+                header__menu-item list-menu__item link link--text focus-inset
+                {%- if underline_items contains block.settings.title -%} ew-menu-underline-item{%- endif -%}
+                {%- if sale_items contains block.settings.title -%} ew-animate-item{%- endif -%}
+                {%- if bold_items contains block.settings.title -%} ew-bold-item{%- endif -%}
+                {%- if colored_items contains block.settings.title -%} ew-colored-item{%- endif -%}
+              ">
               {{ block.settings.title }}
             </a>
-            <div class="mega-menu-wrapper">
-              <div class="page-width">
-                <div class="mega-menu-row-wrapper tnt-flex tnt-justify-content-between">
-                  <div class="mega-menu-row">
-                      {% for link in block.settings.linklist.links -%}
-                        <div class="mega-menu-column">
-                          <div class="menu-item-inner">
-                            <h3>{{ link.title }}</h3>
-                            {% if link.links != blank %}
-                            <ul>
-                              {% for child_link in link.links %}
-                                <li class="{% if child_link.links != blank %}ew-has-fourth-lvl{% endif %}">
-                                  <a href="{{ child_link.url }}">{{ child_link.title }}</a>
-                                  {% if child_link.links != blank %}
-                                  <ul  class="ew-fourth-lvl">
-                                    {% for sub_child_link in child_link.links %}
-                                      <li>
-                                        <a href="{{ sub_child_link.url }}">{{ sub_child_link.title }}</a>
-                                      </li>
-                                    {%  endfor  %}
-                                  </ul>
-                                {% endif %}
-                                </li>
-                              {% endfor %}
-                              </ul>
-                            {% endif %}
-                          </div>
-                        </div>
-                      {% endfor %}
-                  </div>
-                  <div class="mega-menu-column mega-menu-image">
-                    <div class="image-grid">
-                      {% for i in (1..4) %}
-                        {% assign caption = 'caption_' | append: i %}
-                        {% assign image = 'image_' | append: i %}
-                        {% assign link = 'link_' | append: i %}
-                        {% if block.settings[image] != blank %}
-                          <a href="{{ block.settings[link] }}">
-                            <div class="image-box">
-                              <div class="img-product-meta">
-                                <img src="{{block.settings[image] | img_url: '500x'}}'" alt="Outerwear Image">
-                              </div>
-                              <div class="product-caption">
-                                <h4>{{ block.settings[caption] }}</h4>
-                              </div>
+            {% if block.settings.linklist.links != blank %}
+              <div class="mega-menu-wrapper">
+                <div class="page-width">
+                  <div class="mega-menu-row-wrapper tnt-flex tnt-justify-content-between">
+                    <div class="mega-menu-row">
+                        {% for link in block.settings.linklist.links -%}
+                          <div class="mega-menu-column">
+                            <div class="menu-item-inner">
+                              <h3 class="
+                                {%- if underline_items contains link.title -%} ew-menu-underline-item{%- endif -%}
+                                {%- if sale_items contains link.title -%} ew-animate-item{%- endif -%}
+                                {%- if bold_items contains link.title -%} ew-bold-item{%- endif -%}
+                                {%- if colored_items contains link.title -%} ew-colored-item{%- endif -%}
+                              ">{{ link.title }}</h3>
+                              {% if link.links != blank %}
+                              <ul>
+                                {% for child_link in link.links %}
+                                  <li class="{% if child_link.links != blank %}ew-has-fourth-lvl{% endif %}">
+                                    <a href="{{ child_link.url }}"
+                                     class="
+                                           {% if underline_items contains child_link.title %} 
+                                                      ew-menu-underline-item
+                                                    {%  elsif sale_items contains child_link.title %}
+                                                      ew-animate-item
+                                                    {%  elsif bold_items contains child_link.title %}
+                                                      ew-bold-item
+                                                    {%  elsif colored_items contains child_link.title %}
+                                                      ew-colored-item
+                                                    {% endif %}
+                                     "
+                                    >{{ child_link.title }}</a>
+                                    {% if child_link.links != blank %}
+                                    <ul  class="ew-fourth-lvl">
+                                      {% for sub_child_link in child_link.links %}
+                                        <li>
+                                          <a href="{{ sub_child_link.url }}"
+                                            class="
+                                           
+                                                    {% if underline_items contains sub_child_link.title %} 
+                                                      ew-menu-underline-item
+                                                    {%  elsif sale_items contains sub_child_link.title %}
+                                                      ew-animate-item
+                                                    {%  elsif bold_items contains sub_child_link.title %}
+                                                      ew-bold-item
+                                                    {%  elsif colored_items contains sub_child_link.title %}
+                                                      ew-colored-item
+                                                    {% endif %}
+                                            
+                                            "
+                                          >{{ sub_child_link.title }}</a>
+                                        </li>
+                                      {%  endfor  %}
+                                    </ul>
+                                  {% endif %}
+                                  </li>
+                                {% endfor %}
+                                </ul>
+                              {% endif %}
                             </div>
-                          </a>
-                        {% endif %}
-                      {% endfor %}
+                          </div>
+                        {% endfor %}
+                    </div>
+                    <div class="mega-menu-column mega-menu-image">
+                      <div class="image-grid">
+                        {% for i in (1..4) %}
+                          {% assign caption = 'caption_' | append: i %}
+                          {% assign image = 'image_' | append: i %}
+                          {% assign link = 'link_' | append: i %}
+                          {% if block.settings[image] != blank %}
+                            <a href="{{ block.settings[link] }}">
+                              <div class="image-box">
+                                <div class="img-product-meta">
+                                  <img src="{{block.settings[image] | img_url: '500x'}}'" alt="Outerwear Image">
+                                </div>
+                                <div class="product-caption">
+                                  <h4>{{ block.settings[caption] }}</h4>
+                                </div>
+                              </div>
+                            </a>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tnt-mega-menu__catogory">
+                    <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
+                    <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
+                      {% if block.type == 'category' and block.settings.img != blank %}
+                        <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                          <img
+                            src="{{ block.settings.img | image_url: width: 100 }}"
+                            alt="{{ block.settings.txt }}"
+                          >
+                          <p>{{ block.settings.txt }}</p>
+                        </a>
+                      {% endif %} 
                     </div>
                   </div>
                 </div>
-
-                <div class="tnt-mega-menu__catogory">
-                  <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
-                  <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
-                    {% if block.type == 'category' and block.settings.img != blank %}
-                      <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
-                        <img
-                          src="{{ block.settings.img | image_url: width: 100 }}"
-                          alt="{{ block.settings.txt }}"
-                        >
-                        <p>{{ block.settings.txt }}</p>
-                      </a>
-                    {% endif %} 
-                  </div>
-                </div>
               </div>
-            </div>
+            {% endif %}
           </li>
         {% endif %}
       {% endfor %}
 
       {% if mega_menu == false %}
         <li>
-          <a href="{{link.url}}" class="header__menu-item list-menu__item link link--text focus-inset ">
+          <a href="{{link.url}}" class="header__menu-item list-menu__item link link--text focus-inset 
+            {% if underline_items contains link.title %} 
+              ew-menu-underline-item
+            {%  elsif sale_items contains link.title %}
+              ew-animate-item
+            {%  elsif bold_items contains link.title %}
+              ew-bold-item
+            {%  elsif colored_items contains link.title %}
+              ew-colored-item
+            {% endif %}
+          ">
             {{- link.title -}}
           </a>
         </li>
