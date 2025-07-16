@@ -157,7 +157,7 @@
         "category_HCbAqe": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify:\/\/shop_images\/IMG_5043.jpg",
             "txt": "Test",
             "url": ""
           }
@@ -201,6 +201,13 @@
             "txt": "Test",
             "url": ""
           }
+        },
+        "category_GtArd3": {
+          "type": "category",
+          "settings": {
+            "txt": "",
+            "url": "#"
+          }
         }
       },
       "block_order": [
@@ -216,7 +223,8 @@
         "category_cMkB9R",
         "category_MJpQFE",
         "category_K486Rt",
-        "category_JcbyMi"
+        "category_JcbyMi",
+        "category_GtArd3"
       ],
       "settings": {
         "underline_items": "For Newborn, Sweat Shirts",

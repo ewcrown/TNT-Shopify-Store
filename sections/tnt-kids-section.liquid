@@ -1,5 +1,12 @@
 {{ 'section-tnt-kids.css' | asset_url | stylesheet_tag }}
 
+{% style %}
+
+.tnt-kids__content {
+  background: {{ section.settings.card_background_color }};
+}
+{% endstyle %}
+
 <div class="tnt-kids" id="tnt-kids">
   <div class="tnt-kids__row">
     <div class="page-width">
@@ -31,6 +38,12 @@
 {
   "name": "TNT Kids",
   "settings": [
+    {
+      "type": "color",
+      "id": "card_background_color",
+      "label": "Card Background Color",
+      "default": "#000000"
+    },
     {
       "type": "range",
       "id": "padding_top",

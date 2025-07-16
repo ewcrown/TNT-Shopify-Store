@@ -82,6 +82,20 @@
 
 @media(max-width:768px) {
   #product-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .tnt-product-cart-buttons {
+    grid-template-columns: repeat(1,1fr) !important;
+  }
+  .tnt-product-card-button {
+    padding: 8px;
+    font-size: 12px;
+  }
+  .tnt-product-popup {
+    display: block !important;
+    opacity: 1 !important;
+  }
+  .tnt-product-popup {
+    position: relative !important;
   }
 }

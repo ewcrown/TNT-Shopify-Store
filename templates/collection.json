@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "tnt_breadcrumbs_4UXN64": {
@@ -42,7 +33,7 @@
           "settings": {
             "link": "",
             "heading": "",
-            "img": "shopify://shop_images/Apparel---215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Apparel---215-x-215.jpg"
           }
         },
         "block_y3z4Wn": {
@@ -50,7 +41,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Feeding-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Feeding-215-x-215.jpg"
           }
         },
         "block_WNmMY8": {
@@ -58,7 +49,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Fun-_-Play-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Fun-_-Play-215-x-215.jpg"
           }
         },
         "block_fFrLcP": {
@@ -66,7 +57,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Bedding--215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Bedding--215-x-215.jpg"
           }
         },
         "block_z3BrGW": {
@@ -74,7 +65,7 @@
           "settings": {
             "link": "#",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Mommies-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Mommies-215-x-215.jpg"
           }
         },
         "block_hReBmR": {
@@ -82,7 +73,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Footwear-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Footwear-215-x-215.jpg"
           }
         },
         "block_VtdNwQ": {
@@ -90,7 +81,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Baby-Essentials-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Baby-Essentials-215-x-215.jpg"
           }
         },
         "block_8GgyEF": {
@@ -98,7 +89,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Gifting-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Gifting-215-x-215.jpg"
           }
         },
         "block_dNFPwc": {
@@ -106,7 +97,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Gear--215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Gear--215-x-215.jpg"
           }
         },
         "block_EL3zXg": {
@@ -114,7 +105,7 @@
           "settings": {
             "link": "",
             "heading": "New Arrivals",
-            "img": "shopify://shop_images/Wardrobe-215-x-215.jpg"
+            "img": "shopify:\/\/shop_images\/Wardrobe-215-x-215.jpg"
           }
         }
       },
