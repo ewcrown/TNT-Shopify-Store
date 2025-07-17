@@ -1,10 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "tnt_banner_text_UHULn8": {
       "type": "tnt-banner-text",
       "name": "<> Banner Text",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/image_8.png",
+        "background_image": "shopify://shop_images/image_8.png",
         "heading": "TOP 10 PAKISTAN STORES",
         "subheading": "E Commerce",
         "button_text": "Explore More",

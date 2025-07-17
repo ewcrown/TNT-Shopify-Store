@@ -1,11 +1,11 @@
 <div class="tnt-product-popup">
   <div class="tnt-product-cart-buttons">
     <button class="tnt-product-card-button tnt-product-card-button-add" data-card-cart-add data-variant-id="{{ card_product.selected_or_first_available_variant.id }}">Add to Cart</button>
-    <button class="tnt-product-card-button tnt-product-card-button-quick-view" data-url="{{ card_product.url }}" data-card-quick-view>Quick View</button>
+    <button class="tnt-product-card-button tnt-product-card-button-quick-view" data-url="{{ card_product.handle }}" data-card-quick-view>Quick View</button>
   </div>
 
   {% if card_product.variants.size > 1 %}
-    <select id="tnt-product-select">
+    <select name="product-variants" class="tnt-product-select">
       {% for variant in card_product.variants %}
       <option value="{{ variant.title }}" data-id="{{ variant.id }}">{{ variant.title }}</option>  
       {% endfor %}

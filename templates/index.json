@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "tnt_home_blocks_yGfr7M": {
@@ -8,8 +17,8 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/800_x_800.jpg",
-            "url": ""
+            "img": "shopify://shop_images/800_x_800.jpg",
+            "url": "shopify://collections/summer-short-shirt-sets"
           }
         },
         "img_grid_qBqmnc": {
@@ -17,14 +26,14 @@
           "settings": {
             "ttl": "",
             "desc": "",
-            "img_1": "shopify:\/\/shop_images\/3_865b5f7e-dc43-4df9-8ed8-7f82a50cc327.jpg",
-            "url_1": "",
-            "img_2": "shopify:\/\/shop_images\/221-x-309.-2.jpg",
-            "url_2": "",
-            "img_3": "shopify:\/\/shop_images\/1_6d1f4043-84be-44c9-8fee-b3b6f00d1ed6.jpg",
-            "url_3": "",
-            "img_4": "shopify:\/\/shop_images\/4_c85bf83c-7066-4f00-89fa-96b8bdca292c.jpg",
-            "url_4": ""
+            "img_1": "shopify://shop_images/3_865b5f7e-dc43-4df9-8ed8-7f82a50cc327.jpg",
+            "url_1": "shopify://collections/under-1000",
+            "img_2": "shopify://shop_images/221-x-309.-2.jpg",
+            "url_2": "shopify://collections/buy-best-online-baby-printed-rompers",
+            "img_3": "shopify://shop_images/1_6d1f4043-84be-44c9-8fee-b3b6f00d1ed6.jpg",
+            "url_3": "shopify://collections/little-nights",
+            "img_4": "shopify://shop_images/4_c85bf83c-7066-4f00-89fa-96b8bdca292c.jpg",
+            "url_4": "shopify://collections/pack-of-3-baby-bodysuits"
           }
         },
         "collection_list_67fVzN": {
@@ -118,13 +127,13 @@
           "type": "info",
           "settings": {
             "ttl": "The TodsNteens Promise",
-            "icon_1": "shopify:\/\/shop_images\/AqZY06_tif.png",
+            "icon_1": "shopify://shop_images/AqZY06_tif.png",
             "title_1": "Ship",
             "text_1": "Discount",
-            "icon_2": "shopify:\/\/shop_images\/CgKoHk_tif.png",
+            "icon_2": "shopify://shop_images/CgKoHk_tif.png",
             "title_2": "Ship",
             "text_2": "Discount",
-            "icon_3": "shopify:\/\/shop_images\/0aB4wc.png",
+            "icon_3": "shopify://shop_images/0aB4wc.png",
             "title_3": "Ship",
             "text_3": "Discount",
             "button_link": "",
@@ -151,8 +160,8 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/443-x-221-sale-banner_08aa7b78-7398-4016-82c1-4a01d9230395.jpg",
-            "url": ""
+            "img": "shopify://shop_images/443-x-221-sale-banner_08aa7b78-7398-4016-82c1-4a01d9230395.jpg",
+            "url": "shopify://collections/clearance-sale"
           }
         },
         "tnt_banner_ajjdyt": {
@@ -160,8 +169,8 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/443-x-443--New-Arrival.jpg",
-            "url": ""
+            "img": "shopify://shop_images/443-x-443--New-Arrival.jpg",
+            "url": "shopify://collections/best-baby-clothing-and-hygiene-products-new-arrivals"
           }
         },
         "tnt_banner_d7dLwg": {
@@ -169,8 +178,8 @@
           "settings": {
             "ttl": "",
             "off_txt": "",
-            "img": "shopify:\/\/shop_images\/443-x-221-Hot-seller_4da820d1-0d1d-4295-953d-e1421c92b419.jpg",
-            "url": ""
+            "img": "shopify://shop_images/443-x-221-Hot-seller_4da820d1-0d1d-4295-953d-e1421c92b419.jpg",
+            "url": "shopify://collections/hot-sellers-homepage"
           }
         },
         "collection_list_M4bGde": {
@@ -201,23 +210,23 @@
           "type": "moment",
           "settings": {
             "ttl": "Moments",
-            "desc": "<p>Life in Little Moments<br\/><\/p>",
-            "img_1": "shopify:\/\/shop_images\/5_c5637a7c-d94a-4393-9924-36694285efa2.jpg",
-            "video_1": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_2": "shopify:\/\/shop_images\/3_1c1eb128-0bcf-48bd-9b77-ae993915c090.jpg",
-            "video_2": "https:\/\/youtu.be\/7b1M7Prd078?si=3QLm88_5z8q6bOfG",
-            "img_3": "shopify:\/\/shop_images\/2_fa05e15e-4ac3-4714-ab13-151e08cef117.jpg",
-            "video_3": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_4": "shopify:\/\/shop_images\/1_785aa737-8489-49ce-9b14-622d099b581b.jpg",
-            "video_4": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_5": "shopify:\/\/shop_images\/7_5f462d28-1df7-4685-8d7a-c39b5c1ad623.jpg",
-            "video_5": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_6": "shopify:\/\/shop_images\/8_5acc4b8d-faf1-449d-828a-e957ab6a48a3.jpg",
-            "video_6": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_7": "shopify:\/\/shop_images\/6_6dd06a59-2fc3-40a6-bdaf-013f788e14c6.jpg",
-            "video_7": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
-            "img_8": "shopify:\/\/shop_images\/4_2262373b-859a-4930-a099-7474905d5737.jpg",
-            "video_8": "https:\/\/youtu.be\/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT"
+            "desc": "<p>Life in Little Moments<br/></p>",
+            "img_1": "shopify://shop_images/5_c5637a7c-d94a-4393-9924-36694285efa2.jpg",
+            "video_1": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_2": "shopify://shop_images/3_1c1eb128-0bcf-48bd-9b77-ae993915c090.jpg",
+            "video_2": "https://youtu.be/7b1M7Prd078?si=3QLm88_5z8q6bOfG",
+            "img_3": "shopify://shop_images/2_fa05e15e-4ac3-4714-ab13-151e08cef117.jpg",
+            "video_3": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_4": "shopify://shop_images/1_785aa737-8489-49ce-9b14-622d099b581b.jpg",
+            "video_4": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_5": "shopify://shop_images/7_5f462d28-1df7-4685-8d7a-c39b5c1ad623.jpg",
+            "video_5": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_6": "shopify://shop_images/8_5acc4b8d-faf1-449d-828a-e957ab6a48a3.jpg",
+            "video_6": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_7": "shopify://shop_images/6_6dd06a59-2fc3-40a6-bdaf-013f788e14c6.jpg",
+            "video_7": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT",
+            "img_8": "shopify://shop_images/4_2262373b-859a-4930-a099-7474905d5737.jpg",
+            "video_8": "https://youtu.be/9RIT2In3OW0?si=bjcpMqLzCvVoKkIT"
           }
         },
         "collection_list_C4YYwU": {
@@ -267,127 +276,145 @@
         "content_ikWym9": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group.svg",
+            "date": "0 - 3",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/0-3-months"
           }
         },
         "content_KrkFd6": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group.svg",
+            "img": "shopify://shop_images/Group.svg",
             "date": "3 - 6",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/3-6-months"
           }
         },
         "content_9mxRGQ": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group.svg",
+            "date": "6 - 9",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/6-9-months"
           }
         },
         "content_CTan9L": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group.svg",
+            "date": "9 - 12",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/9-12-months"
           }
         },
         "content_FxCTCr": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group.svg",
+            "date": "12 - 18",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/12-18-months"
           }
         },
         "content_7HftaG": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_1.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group_1.svg",
+            "date": "18 - 24",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/24-36-months"
           }
         },
         "content_wUYEkn": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_1.svg",
-            "date": "3 - 6",
+            "img": "shopify://shop_images/Group_1.svg",
+            "date": "24 - 36",
             "txt": "Months",
-            "url": ""
+            "url": "shopify://collections/24-36-months-1"
           }
         },
         "content_qgfyeQ": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_1.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_1.svg",
+            "date": "3 - 4",
+            "txt": "Years",
+            "url": "shopify://collections/3-4-years"
           }
         },
         "content_Rgc7iD": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_1.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_1.svg",
+            "date": "4 - 5",
+            "txt": "Years",
+            "url": "shopify://collections/4-5-years"
           }
         },
         "content_cNaDUj": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_1.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_1.svg",
+            "date": "5 - 7",
+            "txt": "Years",
+            "url": "shopify://collections/5-7-years"
           }
         },
         "content_cm9PdQ": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_2.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_2.svg",
+            "date": "7 - 9",
+            "txt": "Years",
+            "url": "shopify://collections/7-9-years"
           }
         },
         "content_CUEhCA": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_2.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_2.svg",
+            "date": "9 - 10",
+            "txt": "Years",
+            "url": "shopify://collections/9-10-years"
           }
         },
         "content_r3TKzn": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_2.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_2.svg",
+            "date": "10 - 12",
+            "txt": "Years",
+            "url": "shopify://collections/10-12-years"
           }
         },
         "content_BcnGEw": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Group_3.svg",
-            "date": "3 - 6",
-            "txt": "Months",
-            "url": ""
+            "img": "shopify://shop_images/Group_3.svg",
+            "date": "13 - 15",
+            "txt": "Years",
+            "url": "shopify://collections/13-15-years"
+          }
+        },
+        "content_QkybRg": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group_3_5a304ca8-4b2a-483f-a4af-aff3a4bbe269.svg",
+            "date": "15 - 17",
+            "txt": "Years",
+            "url": "shopify://collections/15-17-years"
+          }
+        },
+        "content_b7CWVf": {
+          "type": "content",
+          "settings": {
+            "img": "shopify://shop_images/Group_3_5a304ca8-4b2a-483f-a4af-aff3a4bbe269.svg",
+            "date": "17 - 19",
+            "txt": "Years",
+            "url": "shopify://collections/17-19-years"
           }
         }
       },
@@ -405,10 +432,11 @@
         "content_cm9PdQ",
         "content_CUEhCA",
         "content_r3TKzn",
-        "content_BcnGEw"
+        "content_BcnGEw",
+        "content_QkybRg",
+        "content_b7CWVf"
       ],
       "settings": {
-        "card_background_color": "#c43147",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -419,81 +447,81 @@
         "slider_Y4z6Ab": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/feeding_3cb04554-c7b3-45bc-8866-a5c7c93bee70.jpg",
+            "img": "shopify://shop_images/feeding_3cb04554-c7b3-45bc-8866-a5c7c93bee70.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/buy-best-online-hygiene-feeding-essentials-for-your-kids"
           }
         },
         "slider_R8jEA8": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/bedding_e449fccb-9b66-4b5a-a090-b57cbcce8637.jpg",
+            "img": "shopify://shop_images/bedding_e449fccb-9b66-4b5a-a090-b57cbcce8637.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/carry-nest-new"
           }
         },
         "slider_qYi9tN": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Wardrobe_714e09c8-8b81-43b9-8108-3a7b487a8380.jpg",
+            "img": "shopify://shop_images/Wardrobe_714e09c8-8b81-43b9-8108-3a7b487a8380.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/wardrobes"
           }
         },
         "slider_P4kapx": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/baby-Essentials_28b110e3-4f0f-4be1-9c4a-40ae7c74c1d5.jpg",
+            "img": "shopify://shop_images/baby-Essentials_28b110e3-4f0f-4be1-9c4a-40ae7c74c1d5.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/buy-best-online-hygiene-baby-essentials"
           }
         },
         "slider_NEBFQE": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Gear_cfcf2498-d7db-4874-9f5f-6040790786fb.jpg",
+            "img": "shopify://shop_images/Gear_cfcf2498-d7db-4874-9f5f-6040790786fb.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/gear"
           }
         },
         "slider_rzPDBx": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/PLay-n-fun_b40a4c64-1f37-4309-af66-3a0367c78677.jpg",
+            "img": "shopify://shop_images/PLay-n-fun_b40a4c64-1f37-4309-af66-3a0367c78677.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/playmats-playgyms"
           }
         },
         "slider_4tNp7Y": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mommies.jpg",
+            "img": "shopify://shop_images/Mommies.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/mommies"
           }
         },
         "slider_bzRyTJ": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/apperal_0d2494c6-3d2b-4ae9-a27c-ce51f6bfde4b.jpg",
+            "img": "shopify://shop_images/apperal_0d2494c6-3d2b-4ae9-a27c-ce51f6bfde4b.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/buy-best-online-baby-printed-rompers"
           }
         },
         "slider_cRhB8f": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Giffting_63d9bf0d-d422-4911-a6ca-b133d7d9370c.jpg",
+            "img": "shopify://shop_images/Giffting_63d9bf0d-d422-4911-a6ca-b133d7d9370c.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/gifting-1"
           }
         },
         "slider_apJ47N": {
           "type": "slider",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Footwear_fbb073a6-bf4e-45ad-a4a5-646025c838de.jpg",
+            "img": "shopify://shop_images/Footwear_fbb073a6-bf4e-45ad-a4a5-646025c838de.jpg",
             "ttl": "",
-            "url": ""
+            "url": "shopify://collections/fashion-shoes"
           }
         }
       },
@@ -515,6 +543,13 @@
       "type": "tnt-popular-search",
       "blocks": {
         "search_item_abmnGn": {
+          "type": "search_item",
+          "settings": {
+            "text": "Popular Search",
+            "link": ""
+          }
+        },
+        "search_item_JDWpPD": {
           "type": "search_item",
           "settings": {
             "text": "Popular Search",
@@ -601,6 +636,7 @@
       },
       "block_order": [
         "search_item_abmnGn",
+        "search_item_JDWpPD",
         "search_item_cBagwB",
         "search_item_kCAGVY",
         "search_item_giW8k9",
@@ -626,9 +662,9 @@
         "column_LfpVCr": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/info-icon_bb25cdfbf1ef1d38fa03c42cd7fdb341_svg.svg",
+            "image": "shopify://shop_images/info-icon_bb25cdfbf1ef1d38fa03c42cd7fdb341_svg.svg",
             "title": "Need help?",
-            "text": "<p>View our knowledge<\/p>",
+            "text": "<p>View our knowledge</p>",
             "social_link1": "",
             "social_link2": "",
             "social_link3": "",
@@ -640,9 +676,9 @@
         "column_UVtMKQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mail-icon_de3600111bd7ba207509475f689e4141_svg.svg",
+            "image": "shopify://shop_images/mail-icon_de3600111bd7ba207509475f689e4141_svg.svg",
             "title": "24x7 support",
-            "text": "<p>wecare@hopscotch.in<\/p>",
+            "text": "<p>wecare@hopscotch.in</p>",
             "social_link1": "",
             "social_link2": "",
             "social_link3": "",
@@ -654,12 +690,12 @@
         "column_kjbrV3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
+            "image": "shopify://shop_images/hs-icon_03afbb0a0b552f116bede3eeec5949ad_svg.svg",
             "title": "Download our apps",
             "text": "",
-            "social_icon1": "shopify:\/\/shop_images\/play-icon_a4d7e7ce45e5c99d8110dfa21223d776_svg.svg",
+            "social_icon1": "shopify://shop_images/play-icon_a4d7e7ce45e5c99d8110dfa21223d776_svg.svg",
             "social_link1": "",
-            "social_icon2": "shopify:\/\/shop_images\/apple-icon_de7586e057326691c560a1d978523fe7_svg.svg",
+            "social_icon2": "shopify://shop_images/apple-icon_de7586e057326691c560a1d978523fe7_svg.svg",
             "social_link2": "",
             "social_link3": "",
             "social_link4": "",
@@ -670,16 +706,16 @@
         "column_hJdUAT": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thumbsup-icon_260a8c05b1ad3bfbaf5c2e6b003a4c52_svg.svg",
+            "image": "shopify://shop_images/thumbsup-icon_260a8c05b1ad3bfbaf5c2e6b003a4c52_svg.svg",
             "title": "Connect with us",
             "text": "",
-            "social_icon1": "shopify:\/\/shop_images\/facebook-icon_7dfa1483324e425b013f96fbbb8d82f8_svg.svg",
+            "social_icon1": "shopify://shop_images/facebook-icon_7dfa1483324e425b013f96fbbb8d82f8_svg.svg",
             "social_link1": "",
-            "social_icon2": "shopify:\/\/shop_images\/twitter-icon_b908491df1c1340b7a1100d57c57e80d_svg.svg",
+            "social_icon2": "shopify://shop_images/twitter-icon_b908491df1c1340b7a1100d57c57e80d_svg.svg",
             "social_link2": "",
-            "social_icon3": "shopify:\/\/shop_images\/instagram-icon_01cb3f35fd397430a9c4cc91de63b7c9_svg.svg",
+            "social_icon3": "shopify://shop_images/instagram-icon_01cb3f35fd397430a9c4cc91de63b7c9_svg.svg",
             "social_link3": "",
-            "social_icon4": "shopify:\/\/shop_images\/pinterest-icon_230be23a09aaf64807ee39d93bcc91ad_svg.svg",
+            "social_icon4": "shopify://shop_images/pinterest-icon_230be23a09aaf64807ee39d93bcc91ad_svg.svg",
             "social_link4": "",
             "link_label": "",
             "link": ""

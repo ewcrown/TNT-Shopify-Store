@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -54,7 +63,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-apparel",
-            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -72,7 +81,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-baby-menu",
-            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -90,7 +99,7 @@
             "link": "#",
             "is_megammenu": false,
             "linklist": "enigma-baby-basics",
-            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -108,7 +117,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-gear-nursery",
-            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -126,7 +135,7 @@
             "link": "#",
             "is_megammenu": false,
             "linklist": "enigma-rides-toys-gifts",
-            "image_1": "shopify:\/\/shop_images\/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -157,7 +166,7 @@
         "category_HCbAqe": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/IMG_5043.jpg",
+            "img": "shopify://shop_images/IMG_5043.jpg",
             "txt": "Test",
             "url": ""
           }
@@ -165,7 +174,7 @@
         "category_RFEMx4": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify://shop_images/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -173,7 +182,7 @@
         "category_cMkB9R": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify://shop_images/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -181,7 +190,7 @@
         "category_MJpQFE": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify://shop_images/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -189,7 +198,7 @@
         "category_K486Rt": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify://shop_images/image.png",
             "txt": "Test",
             "url": ""
           }
@@ -197,7 +206,7 @@
         "category_JcbyMi": {
           "type": "category",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image.png",
+            "img": "shopify://shop_images/image.png",
             "txt": "Test",
             "url": ""
           }

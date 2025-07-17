@@ -143,6 +143,7 @@ const loader = (state) => {
 
 function bindQuickViewHandlers() {
   const quickViewButtons = document.querySelectorAll('.tnt-product-card-button-quick-view');
+  console.log('quickViewButtons==>',quickViewButtons)
   const quickViewModal = document.getElementById('quickview-modal');
   const quickViewDetails = document.getElementById('quickview-details');
   const quickViewClose = document.querySelector('.quickview-close');
@@ -193,7 +194,7 @@ function bindProductCardHandlers() {
   productCards?.forEach(productCard => {
     const colorInputs = productCard.querySelectorAll('input[name="color"]');
     const sizeInputs = productCard.querySelectorAll('input[name="size"]');
-    const select = productCard.querySelector('#tnt-product-select');
+    const select = productCard.querySelector('.tnt-product-select');
     const addToCartBtn = productCard.querySelector('.tnt-product-card-button-add');
 
     async function updateVariantSelection(e) {

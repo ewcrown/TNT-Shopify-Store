@@ -105,12 +105,10 @@
                     </div>
                   </div>
 
-                  {{ block | json }}
-
                   <div class="tnt-mega-menu__catogory">
                     <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
                     <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
-                      {% if block.settings.img != blank %}
+                      {% if block.type == 'category' and block.settings.img != blank %}
                         <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
                           <img
                             src="{{ block.settings.img | image_url: width: 100 }}"
