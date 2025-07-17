@@ -3730,7 +3730,7 @@ details-disclosure>details {
   width: 100%;
   flex-wrap: nowrap;
   overflow: auto;
-  gap: 6rem;
+  gap: 3rem;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -3738,6 +3738,7 @@ details-disclosure>details {
 .tnt-mega-menu__catogory-item.tnt-flex {
   align-items: center;
   gap: 10px;
+  flex-shrink: 0;
 }
 
 .tnt-mega-menu__catogory-item.tnt-flex p {

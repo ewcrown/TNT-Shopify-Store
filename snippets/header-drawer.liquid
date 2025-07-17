@@ -110,7 +110,6 @@
                             {{ block.settings.title }}
                           </button>
 
-
                           <div class="mega-menu-row-wrapper">
                             <div class="mega-menu-row">
                               
@@ -196,17 +195,105 @@
                           <div class="tnt-mega-menu__catogory">
                             <h3 class="tnt-mega-menu__catogory-title">{{ section.settings.title }}</h3>
                             <div class="tnt-mega-menu__catogory-wrapper tnt-flex">
-                              {% for block in section.blocks %}
-                                {% if block.type == 'category' and block.settings.img != blank %}
-                                  <a href="{{ block.settings.url }}" class="tnt-mega-menu__catogory-item tnt-flex">
-                                    <img
-                                      src="{{ block.settings.img | image_url: width: 100 }}"
-                                      alt="{{ block.settings.txt }}"
-                                    >
-                                    <p>{{ block.settings.txt }}</p>
-                                  </a>
-                                {% endif %}
-                              {% endfor %}
+                              {% if block.settings.img_1 != blank %}
+                                <a href="{{ block.settings.url_1 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_1 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_1 }}"
+                                  >
+                                  <p>{{ block.settings.txt_1 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_2 != blank %}
+                                <a href="{{ block.settings.url_2 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_2 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_2 }}"
+                                  >
+                                  <p>{{ block.settings.txt_2 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_3 != blank %}
+                                <a href="{{ block.settings.url_3 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_3 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_3 }}"
+                                  >
+                                  <p>{{ block.settings.txt_3 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_4 != blank %}
+                                <a href="{{ block.settings.url_4 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_4 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_4 }}"
+                                  >
+                                  <p>{{ block.settings.txt_4 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_5 != blank %}
+                                <a href="{{ block.settings.url_5 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_5 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_5 }}"
+                                  >
+                                  <p>{{ block.settings.txt_5 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_6 != blank %}
+                                <a href="{{ block.settings.url_6 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_6 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_6 }}"
+                                  >
+                                  <p>{{ block.settings.txt_6 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_7 != blank %}
+                                <a href="{{ block.settings.url_7 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_7 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_7 }}"
+                                  >
+                                  <p>{{ block.settings.txt_7 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_8 != blank %}
+                                <a href="{{ block.settings.url_8 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_8 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_8 }}"
+                                  >
+                                  <p>{{ block.settings.txt_8 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_9 != blank %}
+                                <a href="{{ block.settings.url_9 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_9 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_9 }}"
+                                  >
+                                  <p>{{ block.settings.txt_9 }}</p>
+                                </a>
+                              {% endif %}
+
+                              {% if block.settings.img_10 != blank %}
+                                <a href="{{ block.settings.url_10 }}" class="tnt-mega-menu__catogory-item tnt-flex">
+                                  <img
+                                    src="{{ block.settings.img_10 | image_url: width: 100 }}"
+                                    alt="{{ block.settings.txt_10 }}"
+                                  >
+                                  <p>{{ block.settings.txt_10 }}</p>
+                                </a>
+                              {% endif %}
                             </div>
                           </div>
                         </div>

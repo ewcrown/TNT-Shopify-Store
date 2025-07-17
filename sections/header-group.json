@@ -43,9 +43,9 @@
           "type": "menu",
           "settings": {
             "title": "New Arrivals",
-            "link": "",
-            "is_megammenu": false,
-            "linklist": "",
+            "link": "#",
+            "is_megammenu": true,
+            "linklist": "test-nav",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -53,7 +53,30 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "img_1": "shopify://shop_images/IMG_4965.jpg",
+            "txt_1": "dsfdsf",
+            "url_1": "#",
+            "img_2": "shopify://shop_images/IMG_4968.jpg",
+            "txt_2": "sdfdsf",
+            "url_2": "#",
+            "img_3": "shopify://shop_images/IMG_5043.jpg",
+            "txt_3": "dfdsf",
+            "url_3": "#",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_ka3hMF": {
@@ -71,7 +94,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_6tyXNY": {
@@ -89,7 +132,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_KDt37P": {
@@ -107,7 +170,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_PfPTat": {
@@ -125,7 +208,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_VPbiaq": {
@@ -143,7 +246,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         },
         "menu_QpngnL": {
@@ -160,62 +283,27 @@
             "caption_3": "",
             "link_3": "",
             "caption_4": "",
-            "link_4": ""
-          }
-        },
-        "category_HCbAqe": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/IMG_5043.jpg",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_RFEMx4": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/image.png",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_cMkB9R": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/image.png",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_MJpQFE": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/image.png",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_K486Rt": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/image.png",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_JcbyMi": {
-          "type": "category",
-          "settings": {
-            "img": "shopify://shop_images/image.png",
-            "txt": "Test",
-            "url": ""
-          }
-        },
-        "category_GtArd3": {
-          "type": "category",
-          "settings": {
-            "txt": "",
-            "url": "#"
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
           }
         }
       },
@@ -226,14 +314,7 @@
         "menu_KDt37P",
         "menu_PfPTat",
         "menu_VPbiaq",
-        "menu_QpngnL",
-        "category_HCbAqe",
-        "category_RFEMx4",
-        "category_cMkB9R",
-        "category_MJpQFE",
-        "category_K486Rt",
-        "category_JcbyMi",
-        "category_GtArd3"
+        "menu_QpngnL"
       ],
       "settings": {
         "underline_items": "For Newborn, Sweat Shirts",
