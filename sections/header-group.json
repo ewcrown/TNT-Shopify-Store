@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -43,9 +34,9 @@
           "type": "menu",
           "settings": {
             "title": "New Arrivals",
-            "link": "#",
-            "is_megammenu": true,
-            "linklist": "test-nav",
+            "link": "shopify:\/\/collections\/best-baby-clothing-and-hygiene-products-new-arrivals",
+            "is_megammenu": false,
+            "linklist": "",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -54,14 +45,11 @@
             "link_3": "",
             "caption_4": "",
             "link_4": "",
-            "img_1": "shopify://shop_images/IMG_4965.jpg",
-            "txt_1": "dsfdsf",
+            "txt_1": "",
             "url_1": "#",
-            "img_2": "shopify://shop_images/IMG_4968.jpg",
-            "txt_2": "sdfdsf",
+            "txt_2": "",
             "url_2": "#",
-            "img_3": "shopify://shop_images/IMG_5043.jpg",
-            "txt_3": "dfdsf",
+            "txt_3": "",
             "url_3": "#",
             "txt_4": "",
             "url_4": "",
@@ -86,7 +74,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-apparel",
-            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify:\/\/shop_images\/ChatGPT_Image_Jul_19_2025_11_05_02_AM.png",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -124,7 +112,6 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-baby-menu",
-            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -160,9 +147,8 @@
           "settings": {
             "title": "Baby Basics",
             "link": "#",
-            "is_megammenu": false,
+            "is_megammenu": true,
             "linklist": "enigma-baby-basics",
-            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -200,7 +186,6 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-gear-nursery",
-            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -236,9 +221,9 @@
           "settings": {
             "title": "Rides, Toys & Gifts",
             "link": "#",
-            "is_megammenu": false,
+            "is_megammenu": true,
             "linklist": "enigma-rides-toys-gifts",
-            "image_1": "shopify://shop_images/466_x_466_300_DPI_copy.jpg",
+            "image_1": "shopify:\/\/shop_images\/ChatGPT_Image_Jul_19_2025_11_48_51_AM.png",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -305,6 +290,43 @@
             "txt_10": "",
             "url_10": ""
           }
+        },
+        "menu_fGWHwa": {
+          "type": "menu",
+          "settings": {
+            "title": "Track Order",
+            "link": "shopify:\/\/pages\/order-tracking",
+            "is_megammenu": false,
+            "linklist": "",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": "",
+            "txt_1": "",
+            "url_1": "",
+            "txt_2": "",
+            "url_2": "",
+            "txt_3": "",
+            "url_3": "",
+            "txt_4": "",
+            "url_4": "",
+            "txt_5": "",
+            "url_5": "",
+            "txt_6": "",
+            "url_6": "",
+            "txt_7": "",
+            "url_7": "",
+            "txt_8": "",
+            "url_8": "",
+            "txt_9": "",
+            "url_9": "",
+            "txt_10": "",
+            "url_10": ""
+          }
         }
       },
       "block_order": [
@@ -314,13 +336,14 @@
         "menu_KDt37P",
         "menu_PfPTat",
         "menu_VPbiaq",
-        "menu_QpngnL"
+        "menu_QpngnL",
+        "menu_fGWHwa"
       ],
       "settings": {
-        "underline_items": "For Newborn, Sweat Shirts",
-        "sale_animation_items": "Apparel, Cycles & Scooties",
-        "bold_items": "Costumes, Towels",
-        "colored_items": "Grooming, Play Fence",
+        "underline_items": "Dresses, For Newborn, Tops & Tees, Bottoms, Footwear, Hosiery, Swaddeling, Clothing, Diapering, Grooming, Feeding, Sweat Shirts, Gear, Nursery , Room Items , Bedding , Ride Ons , Cycles & Scooties , Outdoor , Indoor , Toys ,",
+        "sale_animation_items": "Clearance Sale",
+        "bold_items": "New Arrivals",
+        "colored_items": "Clearance Sale",
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
         "menu": "enigma-main-menu",

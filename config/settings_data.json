@@ -1,14 +1,21 @@
 {
   "current": {
     "show_sales_popup": false,
-    "sales_subtext": "To stay update on our latest products, news and trends.\nDon’t worry, we won’t spam you!",
-    "button_link": "#",
+    "left_heading": "Pakistan Day Sale!",
+    "left_bg_color": "#7d9d3a",
+    "timer_heading": "1st August Till 31st August",
+    "sale_label": "FLAT 43% OFF",
+    "discount_text": "",
+    "sales_subtext": "FLAT 43% OFF on our most-loved baby articles – once they’re gone, they’re gone!",
+    "timer_message": "Don't wait till the last day – popular items are flying off the shelves.",
+    "description": "",
+    "button_link": "https:\/\/todsnteens.com",
     "sales_delay_seconds": 1,
-    "countdown_date": "2025-06-01",
+    "countdown_date": "2025-14-8T23:59:59",
     "show_subscriber_form": false,
-    "popup_image": "shopify:\/\/shop_images\/image_12.png",
+    "popup_image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-07-17_at_11.39.44_PM.jpg",
     "delay_seconds": 1,
-    "logo": "shopify:\/\/shop_images\/9x9_5ae66b3e-5051-490e-b14a-a2f07df020d9.png",
+    "logo": "shopify:\/\/shop_images\/300_x_60_d2fd0c41-4568-4e52-b360-043db6fb59fa.png",
     "logo_width": 90,
     "type_header_font": "assistant_n7",
     "heading_scale": 100,
@@ -141,6 +148,13 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "16173364648559130103": {
+        "type": "shopify:\/\/apps\/sp-sales-pop-up-social-proof\/blocks\/salespop\/cdeb6f15-7a6b-4d2a-8158-55cae076aabd",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

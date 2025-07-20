@@ -13,10 +13,10 @@
             <a href="{{ block.settings.link }}"
               class="
                 header__menu-item list-menu__item link link--text focus-inset
-                {%- if underline_items contains block.settings.title -%} ew-menu-underline-item{%- endif -%}
-                {%- if sale_items contains block.settings.title -%} ew-animate-item{%- endif -%}
-                {%- if bold_items contains block.settings.title -%} ew-bold-item{%- endif -%}
-                {%- if colored_items contains block.settings.title -%} ew-colored-item{%- endif -%}
+                {% if underline_items contains block.settings.title %} ew-menu-underline-item{% endif %}
+                {% if sale_items contains block.settings.title %} ew-animate-item{% endif %}
+                {% if bold_items contains block.settings.title %} ew-bold-item{% endif %}
+                {% if colored_items contains block.settings.title %} ew-colored-item{% endif %}
               ">
               {{ block.settings.title }}
             </a>

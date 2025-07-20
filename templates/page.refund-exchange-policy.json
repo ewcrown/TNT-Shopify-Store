@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "rich_text_rbCFJU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C7pNDp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Refund & Exchange Policy – TodsNTeens<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gA8J7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>At TodsNTeens, we want you to shop with confidence. That’s why we offer a <strong>10-Day Refund & Exchange Policy<\/strong> on all eligible items.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C7pNDp",
+        "text_gA8J7R"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_CVxpeE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pPTC8E": {
+          "type": "column",
+          "settings": {
+            "title": "What’s Eligible:",
+            "text": "<ul><li>Unused, unwashed products<\/li><li>Items in original, intact packaging<\/li><li>Returned within  of delivery<br\/><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zUQPjT": {
+          "type": "column",
+          "settings": {
+            "title": "Exchange:",
+            "text": "<p>You may exchange your item for a different size or product, subject to availability.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ncieVG": {
+          "type": "column",
+          "settings": {
+            "title": "Refund",
+            "text": "<ul><li>Refunds are processed via <strong>Bank Transfer.<\/strong><\/li><li>JazzCash \/ EasyPaisa are <strong>not supported.<\/strong><\/li><li>Refunds are issued once the product is received and verified.<\/li><li>Refunds usually take 10 business days to process.<br\/><br\/><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Fx9VY9": {
+          "type": "column",
+          "settings": {
+            "title": "Refund & Exchange Timings:",
+            "text": "<ul><li>Used, washed, or damaged items.<\/li><li>Products without original packaging or tags.<\/li><li>Items returned after 10 days of delivery.<br\/><\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gUxnjP": {
+          "type": "column",
+          "settings": {
+            "title": "How to Reach Complaint Officer?",
+            "text": "<p>Click on this button to start chat on WhatsApp:<\/p>",
+            "link_label": "Contact Complaint Officer",
+            "link": "https:\/\/wa.me\/923354671313"
+          }
+        }
+      },
+      "block_order": [
+        "column_pPTC8E",
+        "column_zUQPjT",
+        "column_ncieVG",
+        "column_Fx9VY9",
+        "column_gUxnjP"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_rbCFJU",
+    "multicolumn_CVxpeE"
+  ]
+}
