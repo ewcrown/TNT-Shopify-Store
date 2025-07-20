@@ -265,12 +265,32 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
-    {{ 'tnt-global.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-styles.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-product-card.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-media-querries.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-cart.css' | asset_url | stylesheet_tag }}
-    {{ 'tnt-blog-card.css' | asset_url | stylesheet_tag }}
+ <!-- Preload stylesheets -->
+<link rel="preload" as="style" href="{{ 'tnt-global.css' | asset_url }}">
+<link rel="preload" as="style" href="{{ 'tnt-styles.css' | asset_url }}">
+<link rel="preload" as="style" href="{{ 'tnt-product-card.css' | asset_url }}">
+<link rel="preload" as="style" href="{{ 'tnt-media-querries.css' | asset_url }}">
+<link rel="preload" as="style" href="{{ 'tnt-cart.css' | asset_url }}">
+<link rel="preload" as="style" href="{{ 'tnt-blog-card.css' | asset_url }}">
+
+<!-- Load stylesheets async using print media trick -->
+<link rel="stylesheet" href="{{ 'tnt-global.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'tnt-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'tnt-product-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'tnt-media-querries.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'tnt-cart.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'tnt-blog-card.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<!-- Fallback for users with JavaScript disabled -->
+<noscript>
+  <link rel="stylesheet" href="{{ 'tnt-global.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'tnt-styles.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'tnt-product-card.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'tnt-media-querries.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'tnt-cart.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'tnt-blog-card.css' | asset_url }}">
+</noscript>
+
 
     {%- if settings.cart_type == 'drawer' -%}
       {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
@@ -386,9 +406,7 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="{{ 'tnt-slider.js' | asset_url }}" defer="defer"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
 
     <div id="quickview-modal" class="hidden">
       <div class="quickview-inner">
@@ -407,6 +425,9 @@
 
     {{ 'tnt-custom.js' | asset_url | script_tag }}
     {{ 'tnt-card-add.js' | asset_url | script_tag }}
+
+    <script src="{{ 'tnt-slider.js' | asset_url }}" defer="defer"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Fancybox JS -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <script>

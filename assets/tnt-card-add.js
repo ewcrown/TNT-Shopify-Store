@@ -143,7 +143,6 @@ const loader = (state) => {
 
 function bindQuickViewHandlers() {
   const quickViewButtons = document.querySelectorAll('.tnt-product-card-button-quick-view');
-  console.log('quickViewButtons==>',quickViewButtons)
   const quickViewModal = document.getElementById('quickview-modal');
   const quickViewDetails = document.getElementById('quickview-details');
   const quickViewClose = document.querySelector('.quickview-close');
@@ -159,7 +158,7 @@ function bindQuickViewHandlers() {
       quickViewDetails.innerHTML = 'Loading...';
 
       try {
-        const response = await fetch(`products/${handle}?view=quickview`);
+        const response = await fetch(`/products/${handle}?view=quickview`);
         if (!response.ok) throw new Error('Failed to fetch product details');
 
         const html = await response.text();
