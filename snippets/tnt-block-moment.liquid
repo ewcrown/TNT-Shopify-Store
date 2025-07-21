@@ -8,19 +8,34 @@
       {% assign video_key = 'video_' | append: i %}
       {% assign image = block.settings[img_key] %}
       {% assign video = block.settings[video_key] %}
+
       {% if image and video %}
-        <a
-          data-fancybox
-          data-type="iframe"
-          data-src="{{ video }}"
-          href="javascript:;"
-        >
-          <img
-            class="img-responsive tnt-home-block__moments-img"
-            src="{{ image | image_url: width: 400 }}"
-            alt="Video {{ i }}"
+        {% assign video_id = "" %}
+
+        {% if video contains "youtube.com/watch?v=" %}
+          {% assign video_id = video | split: 'v=' | last | split: '&' | first %}
+        {% elsif video contains "youtu.be/" %}
+          {% assign video_id = video | split: 'youtu.be/' | last | split: '?' | first %}
+        {% elsif video contains "youtube.com/shorts/" %}
+          {% assign video_id = video | split: 'shorts/' | last | split: '?' | first %}
+        {% endif %}
+
+        {% assign embed_url = "https://www.youtube.com/embed/" | append: video_id %}
+
+        {% if video_id != "" %}
+          <a
+            data-fancybox
+            data-type="iframe"
+            data-src="{{ embed_url }}"
+            href="javascript:;"
           >
-        </a>
+            <img
+              class="img-responsive tnt-home-block__moments-img"
+              src="{{ image | image_url: width: 400 }}"
+              alt="Video {{ i }}"
+            >
+          </a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>

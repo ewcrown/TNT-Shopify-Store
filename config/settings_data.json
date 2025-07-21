@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "show_sales_popup": false,
@@ -9,14 +18,18 @@
     "sales_subtext": "FLAT 43% OFF on our most-loved baby articles – once they’re gone, they’re gone!",
     "timer_message": "Don't wait till the last day – popular items are flying off the shelves.",
     "description": "",
-    "button_link": "https:\/\/todsnteens.com",
+    "button_link": "https://todsnteens.com",
     "sales_delay_seconds": 1,
     "countdown_date": "2025-14-8T23:59:59",
-    "show_subscriber_form": false,
-    "popup_image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-07-17_at_11.39.44_PM.jpg",
+    "show_subscriber_form": true,
+    "popup_image": "shopify://shop_images/966-x-1236--subscribe-page.jpg",
+    "heading": "Your Inbox Needs a Hug!",
+    "subtext": "We send love, not spam. Get early access to baby deals & launches.",
+    "email_placeholder": "example@todsnteens.com",
     "delay_seconds": 1,
-    "logo": "shopify:\/\/shop_images\/300_x_60_d2fd0c41-4568-4e52-b360-043db6fb59fa.png",
+    "logo": "shopify://shop_images/svg_180_x_36_enigma_web.svg",
     "logo_width": 90,
+    "favicon": "shopify://shop_images/round_d4cb6983-0e3b-4fb7-83ee-a23ccd5bd532.png",
     "type_header_font": "assistant_n7",
     "heading_scale": 100,
     "type_body_font": "helvetica_n4",
@@ -113,7 +126,7 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -150,7 +163,7 @@
     "content_for_index": [],
     "blocks": {
       "16173364648559130103": {
-        "type": "shopify:\/\/apps\/sp-sales-pop-up-social-proof\/blocks\/salespop\/cdeb6f15-7a6b-4d2a-8158-55cae076aabd",
+        "type": "shopify://apps/sp-sales-pop-up-social-proof/blocks/salespop/cdeb6f15-7a6b-4d2a-8158-55cae076aabd",
         "disabled": false,
         "settings": {}
       }
@@ -369,7 +382,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

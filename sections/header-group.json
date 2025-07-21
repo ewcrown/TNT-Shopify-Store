@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -34,7 +43,7 @@
           "type": "menu",
           "settings": {
             "title": "New Arrivals",
-            "link": "shopify:\/\/collections\/best-baby-clothing-and-hygiene-products-new-arrivals",
+            "link": "shopify://collections/best-baby-clothing-and-hygiene-products-new-arrivals",
             "is_megammenu": false,
             "linklist": "",
             "caption_1": "",
@@ -74,7 +83,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-apparel",
-            "image_1": "shopify:\/\/shop_images\/ChatGPT_Image_Jul_19_2025_11_05_02_AM.png",
+            "image_1": "shopify://shop_images/ChatGPT_Image_Jul_19_2025_11_05_02_AM.png",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -223,7 +232,7 @@
             "link": "#",
             "is_megammenu": true,
             "linklist": "enigma-rides-toys-gifts",
-            "image_1": "shopify:\/\/shop_images\/ChatGPT_Image_Jul_19_2025_11_48_51_AM.png",
+            "image_1": "shopify://shop_images/ChatGPT_Image_Jul_19_2025_11_48_51_AM.png",
             "caption_1": "",
             "link_1": "",
             "caption_2": "",
@@ -295,7 +304,7 @@
           "type": "menu",
           "settings": {
             "title": "Track Order",
-            "link": "shopify:\/\/pages\/order-tracking",
+            "link": "shopify://pages/order-tracking",
             "is_megammenu": false,
             "linklist": "",
             "caption_1": "",

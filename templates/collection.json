@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "tnt_breadcrumbs_4UXN64": {
@@ -31,81 +40,81 @@
         "block_xthA7U": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/apparel-tags",
+            "link": "shopify://collections/apparel-tags",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Apparel---215-x-215.jpg"
+            "img": "shopify://shop_images/Apparel---215-x-215.jpg"
           }
         },
         "block_y3z4Wn": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/utensils-dishes",
+            "link": "shopify://collections/utensils-dishes",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Feeding-215-x-215.jpg"
+            "img": "shopify://shop_images/Feeding-215-x-215.jpg"
           }
         },
         "block_WNmMY8": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/playmats-playgyms",
+            "link": "shopify://collections/playmats-playgyms",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Fun-_-Play-215-x-215.jpg"
+            "img": "shopify://shop_images/Fun-_-Play-215-x-215.jpg"
           }
         },
         "block_fFrLcP": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/carry-nest-new",
+            "link": "shopify://collections/carry-nest-new",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Bedding--215-x-215.jpg"
+            "img": "shopify://shop_images/Bedding--215-x-215.jpg"
           }
         },
         "block_z3BrGW": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/mommies",
+            "link": "shopify://collections/mommies",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Mommies-215-x-215.jpg"
+            "img": "shopify://shop_images/Mommies-215-x-215.jpg"
           }
         },
         "block_hReBmR": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/footwear",
+            "link": "shopify://collections/footwear",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Footwear-215-x-215.jpg"
+            "img": "shopify://shop_images/Footwear-215-x-215.jpg"
           }
         },
         "block_VtdNwQ": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/buy-best-online-hygiene-baby-essentials",
+            "link": "shopify://collections/buy-best-online-hygiene-baby-essentials",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Baby-Essentials-215-x-215.jpg"
+            "img": "shopify://shop_images/Baby-Essentials-215-x-215.jpg"
           }
         },
         "block_8GgyEF": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/gifting-1",
+            "link": "shopify://collections/gifting-1",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Gifting-215-x-215.jpg"
+            "img": "shopify://shop_images/Gifting-215-x-215.jpg"
           }
         },
         "block_dNFPwc": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/gear",
+            "link": "shopify://collections/gear",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Gear--215-x-215.jpg"
+            "img": "shopify://shop_images/Gear--215-x-215.jpg"
           }
         },
         "block_EL3zXg": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/wardrobes",
+            "link": "shopify://collections/wardrobes",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/Wardrobe-215-x-215.jpg"
+            "img": "shopify://shop_images/Wardrobe-215-x-215.jpg"
           }
         }
       },

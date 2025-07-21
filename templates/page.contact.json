@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,17 +24,17 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "img": "shopify:\/\/shop_images\/image_5da5f1a7-8a7c-4137-8981-d4c1bd2e593a.png",
+        "img": "shopify://shop_images/966-x-1236--subscribe-page.jpg",
         "ttl": "Based in",
         "desc": "Rang Mahal, Lahore.",
         "ttl2": "Contact",
         "desc2": "info@todsnteens.com",
-        "icon": "shopify:\/\/shop_images\/Facebook_-_Negative.svg",
-        "url": "https:\/\/www.facebook.com\/todsnteens\/",
-        "icon2": "shopify:\/\/shop_images\/Group_8c1bf675-8f88-40ef-b3e0-e7641fd460fd.svg",
-        "url2": "https:\/\/www.instagram.com\/todsnteens\/?hl=en",
-        "icon3": "shopify:\/\/shop_images\/images_2.png",
-        "ur3": "https:\/\/www.tiktok.com\/@todsnteens",
+        "icon": "shopify://shop_images/Facebook_-_Negative.svg",
+        "url": "https://www.facebook.com/todsnteens/",
+        "icon2": "shopify://shop_images/Group_8c1bf675-8f88-40ef-b3e0-e7641fd460fd.svg",
+        "url2": "https://www.instagram.com/todsnteens/?hl=en",
+        "icon3": "shopify://shop_images/images_2.png",
+        "ur3": "https://www.tiktok.com/@todsnteens",
         "color_scheme": "scheme-1",
         "padding_top": 114,
         "padding_bottom": 60

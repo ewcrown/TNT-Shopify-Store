@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -64,7 +73,7 @@
           "settings": {
             "heading": "Shipping Details",
             "icon": "silhouette",
-            "content": "<ul><li><strong>Standard Delivery:<\/strong><br\/><br\/>Rs 195 Flat Rate across Pakistan. Delivery typically takes <strong>3–6 working days<\/strong>.<br\/><br\/>For bulky or high-volume items, <strong>please allow up to 3 extra days<\/strong>.<br\/><\/li><li><strong>Urgent or Same-Day Delivery:<\/strong><br\/><br\/>Available on request. Charges vary depending on location and product.<br\/><br\/>Please <strong>mention “Urgent” or “Same Day” in the notes section<\/strong> of your cart at checkout.<br\/><br\/>Our team will contact you via WhatsApp or Email with exact delivery charges after order placement.<br\/><br\/><\/li><li><strong>International Shipping:<\/strong><br\/><br\/>Available on selected items (excluding battery-operated products).<br\/><br\/>Charges vary by destination and weight.<br\/><br\/>Our team will share the exact shipping cost via WhatsApp or Email after your order is placed.<br\/><br\/><br\/><\/li><\/ul>",
+            "content": "<ul><li><strong>Standard Delivery:</strong><br/><br/>Rs 195 Flat Rate across Pakistan. Delivery typically takes <strong>3–6 working days</strong>.<br/><br/>For bulky or high-volume items, <strong>please allow up to 3 extra days</strong>.<br/></li><li><strong>Urgent or Same-Day Delivery:</strong><br/><br/>Available on request. Charges vary depending on location and product.<br/><br/>Please <strong>mention “Urgent” or “Same Day” in the notes section</strong> of your cart at checkout.<br/><br/>Our team will contact you via WhatsApp or Email with exact delivery charges after order placement.<br/><br/></li><li><strong>International Shipping:</strong><br/><br/>Available on selected items (excluding battery-operated products).<br/><br/>Charges vary by destination and weight.<br/><br/>Our team will share the exact shipping cost via WhatsApp or Email after your order is placed.<br/><br/><br/></li></ul>",
             "page": ""
           }
         },
@@ -73,7 +82,7 @@
           "settings": {
             "heading": "A Few Important Things to Know",
             "icon": "heart",
-            "content": "<ul><li>Orders above <strong>Rs 10,000<\/strong> require <strong>10% advance payment<\/strong>.<br\/><\/li><li>We accept <strong>Debit\/Credit Cards<\/strong>, <strong>JazzCash<\/strong>, <strong>EasyPaisa<\/strong>, and other methods via <strong>PayFast<\/strong> at checkout.<br\/><\/li><li>Most products include <strong>live videos<\/strong> or unedited pictures on our <strong>social media pages<\/strong>.<br\/><\/li><li>You can also <strong>request a live video<\/strong> via WhatsApp before ordering.<br\/><\/li><li>For clothing, we strongly recommend checking the <strong>size chart<\/strong> before placing your order.<br\/><br\/><br\/><br\/><\/li><\/ul><p><br\/><\/p>",
+            "content": "<ul><li>Orders above <strong>Rs 10,000</strong> require <strong>10% advance payment</strong>.<br/></li><li>We accept <strong>Debit/Credit Cards</strong>, <strong>JazzCash</strong>, <strong>EasyPaisa</strong>, and other methods via <strong>PayFast</strong> at checkout.<br/></li><li>Most products include <strong>live videos</strong> or unedited pictures on our <strong>social media pages</strong>.<br/></li><li>You can also <strong>request a live video</strong> via WhatsApp before ordering.<br/></li><li>For clothing, we strongly recommend checking the <strong>size chart</strong> before placing your order.<br/><br/><br/><br/></li></ul><p><br/></p>",
             "page": ""
           }
         },
@@ -82,7 +91,7 @@
           "settings": {
             "heading": "Return & Exchange",
             "icon": "box",
-            "content": "<p>At TodsNTeens, we follow the Sunnah of the Prophet Muhammad (PBUH) and strive to make your shopping experience risk-free and transparent.<\/p><h4> <strong>We gladly accept Returns & Exchanges<\/strong><\/h4><ul><li>Items must be <strong>unused, unwashed, and in their original packaging<\/strong><br\/><\/li><li>Requests must be made <strong>within 10 days of delivery<\/strong><br\/><\/li><li>No questions asked — your satisfaction is our priority<br\/><\/li><\/ul><p><strong>Exchange\/Refund Process<\/strong><\/p><ul><li>Simply email us at <a><strong>info@todsnteens.com<\/strong><\/a> with your <strong>Order ID<\/strong> and reason for return\/exchange.<br\/><\/li><li>Our team will respond within working hours to guide you through the process.<br\/><br\/><br\/><br\/><\/li><\/ul>",
+            "content": "<p>At TodsNTeens, we follow the Sunnah of the Prophet Muhammad (PBUH) and strive to make your shopping experience risk-free and transparent.</p><h4> <strong>We gladly accept Returns & Exchanges</strong></h4><ul><li>Items must be <strong>unused, unwashed, and in their original packaging</strong><br/></li><li>Requests must be made <strong>within 10 days of delivery</strong><br/></li><li>No questions asked — your satisfaction is our priority<br/></li></ul><p><strong>Exchange/Refund Process</strong></p><ul><li>Simply email us at <a><strong>info@todsnteens.com</strong></a> with your <strong>Order ID</strong> and reason for return/exchange.<br/></li><li>Our team will respond within working hours to guide you through the process.<br/><br/><br/><br/></li></ul>",
             "page": ""
           }
         }
@@ -125,25 +134,73 @@
           "settings": {
             "rainbow": false,
             "alignment": "left",
-            "img": "shopify:\/\/shop_images\/3_6baf23a8-271f-4c5a-a975-25d98edb725c_png.png",
-            "heading": "Relaxed Fit",
-            "description": "Roomy fit lets you layer underneath, keeping your little one extra warm."
+            "heading": "What is your exchange policy?",
+            "description": "We accept exchange or refund for any unworn, unused product in its original packaging within 10 days of delivery."
           }
         },
-        "block_AxWTMG": {
+        "block_RUTdTi": {
           "type": "block",
           "settings": {
-            "rainbow": true,
-            "alignment": "right",
-            "img": "shopify:\/\/shop_images\/4_69fa0d07-4c6e-4444-b5a0-66077e13a95b_png.png",
-            "heading": "Wide Neck",
-            "description": "Stretchable wide neck ensures easy, fuss-freeand comfortable dressing for your baby."
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "Why is a 10% advance required on orders above PKR 10,000?",
+            "description": "For orders above PKR 10,000, we kindly request a 10% advance. It’s adjusted in your COD total and helps us manage packaging and delivery smoothly."
+          }
+        },
+        "block_Efpz4N": {
+          "type": "block",
+          "settings": {
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "What is your delivery time?",
+            "description": "Standard delivery takes 3–5 working days. Large items like baby gear and nursery products may require an additional 3 days"
+          }
+        },
+        "block_9dQfC7": {
+          "type": "block",
+          "settings": {
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "Is urgent delivery available?",
+            "description": "Yes, urgent delivery is available with 100% advance payment. In Lahore, we use  Ride-Hailing sercives (Indrive/Yango/Bykea). For other cities, we offer TCS Express. Charges vary by product."
+          }
+        },
+        "block_gTzJRK": {
+          "type": "block",
+          "settings": {
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "Where is your shop?",
+            "description": "We are an online store based in Lahore and currently do not operate any physical outlets."
+          }
+        },
+        "block_HcEbCc": {
+          "type": "block",
+          "settings": {
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "Do you ship internationally?",
+            "description": "Yes, we offer international shipping for all products except battery-operated items."
+          }
+        },
+        "block_b4iM3k": {
+          "type": "block",
+          "settings": {
+            "rainbow": false,
+            "alignment": "left",
+            "heading": "Can we pay through Debit Card/Credit Card?",
+            "description": "Yes, you can pay via Debit or Credit Card by selecting PayFast at checkout."
           }
         }
       },
       "block_order": [
         "block_PmEWtp",
-        "block_AxWTMG"
+        "block_RUTdTi",
+        "block_Efpz4N",
+        "block_9dQfC7",
+        "block_gTzJRK",
+        "block_HcEbCc",
+        "block_b4iM3k"
       ],
       "name": "<> Multicolumn Box",
       "settings": {}
@@ -205,81 +262,81 @@
         "block_z3BrGW": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/apparel-tags",
+            "link": "shopify://collections/apparel-tags",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/3_b686da83-9290-4701-8e37-83c04ad30904.jpg"
+            "img": "shopify://shop_images/3_b686da83-9290-4701-8e37-83c04ad30904.jpg"
           }
         },
         "block_iReDKP": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/footwear",
+            "link": "shopify://collections/footwear",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/7_0f3e8519-cdaf-4748-950c-14460c05f7ff.jpg"
+            "img": "shopify://shop_images/7_0f3e8519-cdaf-4748-950c-14460c05f7ff.jpg"
           }
         },
         "block_gheyCM": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/buy-best-online-hygiene-feeding-essentials-for-your-kids",
+            "link": "shopify://collections/buy-best-online-hygiene-feeding-essentials-for-your-kids",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/5_cc8f616d-7a60-4dd2-98c8-5174d96adc95.jpg"
+            "img": "shopify://shop_images/5_cc8f616d-7a60-4dd2-98c8-5174d96adc95.jpg"
           }
         },
         "block_jWEmXC": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/mommies",
+            "link": "shopify://collections/mommies",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/1_f24833a6-b3a4-4ec0-b9f4-32019af457c0.jpg"
+            "img": "shopify://shop_images/1_f24833a6-b3a4-4ec0-b9f4-32019af457c0.jpg"
           }
         },
         "block_zdQtRX": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/buy-best-online-hygiene-baby-essentials",
+            "link": "shopify://collections/buy-best-online-hygiene-baby-essentials",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/2_cefb1bff-2b1a-4c2b-938b-263a78a57f48.jpg"
+            "img": "shopify://shop_images/2_cefb1bff-2b1a-4c2b-938b-263a78a57f48.jpg"
           }
         },
         "block_kmzgHG": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/gifting",
+            "link": "shopify://collections/gifting",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/8_4b0311ac-0f04-440a-9bd5-fa037cfd2dfe.jpg"
+            "img": "shopify://shop_images/8_4b0311ac-0f04-440a-9bd5-fa037cfd2dfe.jpg"
           }
         },
         "block_xMbU6D": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/wardrobes",
+            "link": "shopify://collections/wardrobes",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/10_c089da91-0bd3-4022-8675-29fee11af4b3.jpg"
+            "img": "shopify://shop_images/10_c089da91-0bd3-4022-8675-29fee11af4b3.jpg"
           }
         },
         "block_PkURtg": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/playmats-playgyms",
+            "link": "shopify://collections/playmats-playgyms",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/9_76a5e4e4-21d8-4d54-9092-338e9e5b222c.jpg"
+            "img": "shopify://shop_images/9_76a5e4e4-21d8-4d54-9092-338e9e5b222c.jpg"
           }
         },
         "block_Rkt8J7": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/carry-nest-new",
+            "link": "shopify://collections/carry-nest-new",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/4_44767d70-404e-4549-beb8-ab3e872a026e.jpg"
+            "img": "shopify://shop_images/4_44767d70-404e-4549-beb8-ab3e872a026e.jpg"
           }
         },
         "block_Yr8CTx": {
           "type": "block",
           "settings": {
-            "link": "shopify:\/\/collections\/gear",
+            "link": "shopify://collections/gear",
             "heading": "",
-            "img": "shopify:\/\/shop_images\/6_1e97f8d8-fefb-41d3-95c0-fe983ab551e8.jpg"
+            "img": "shopify://shop_images/6_1e97f8d8-fefb-41d3-95c0-fe983ab551e8.jpg"
           }
         }
       },

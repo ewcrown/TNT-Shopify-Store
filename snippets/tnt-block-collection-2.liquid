@@ -1,0 +1,32 @@
+<div class="tnt-home-block__collection">
+  <h2 class="tnt-home-block__title">{{ block.settings.ttl }}</h2>
+  <p class="tnt-home-block__collection-desc">{{ block.settings.desc }}</p>
+  {% if block.settings.off != blank %}
+    <div class="tnt-home-block__collection-off-text">{{ block.settings.off }}</div>
+  {% endif %}
+
+  <div class="tnt-home-block__collection-grid {{ block.settings.grid_layout }}">
+    {% for i in (1..12) %}
+      {% assign img_key = 'col_img' | append: i %}
+      {% assign link_key = 'col_link' | append: i %}
+      {% assign text_key = 'col_text' | append: i %}
+
+      {% assign image = block.settings[img_key] %}
+      {% assign link = block.settings[link_key] %}
+      {% assign text = block.settings[text_key] %}
+
+      {% if image != blank %}
+        <a href="{{ link }}" class="tnt-home-block__collection-link">
+          <img
+            class="img-responsive tnt-home-block__collection-img {% if block.settings.round_images == true %}tnt-rounded-full{% endif %}"
+            src="{{ image | image_url: width: 400 }}"
+            alt="{{ text | escape }}"
+          >
+          {% if text != blank %}
+            <h4 class="tnt-home-block__collection-title">{{ text }}</h4>
+          {% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

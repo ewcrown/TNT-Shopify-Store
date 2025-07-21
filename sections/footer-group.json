@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -8,16 +17,23 @@
         "menu_njeKwj": {
           "type": "menu",
           "settings": {
-            "menu": "footer"
+            "menu": "footer-6-shop-deals"
+          }
+        },
+        "menu_KrLQEY": {
+          "type": "menu",
+          "settings": {
+            "menu": ""
           }
         }
       },
       "block_order": [
-        "menu_njeKwj"
+        "menu_njeKwj",
+        "menu_KrLQEY"
       ],
       "name": "Custom Footer",
       "settings": {
-        "logo": "shopify:\/\/shop_images\/web_logo_2.png",
+        "logo": "shopify://shop_images/svg_180_x_36_enigma_web.svg",
         "show_policy": true
       }
     },

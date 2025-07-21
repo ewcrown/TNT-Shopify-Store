@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_rbCFJU": {
@@ -6,14 +15,14 @@
         "heading_C7pNDp": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Refund & Exchange Policy – TodsNTeens<\/strong>",
+            "heading": "<strong>Refund & Exchange Policy – TodsNTeens</strong>",
             "heading_size": "h1"
           }
         },
         "text_gA8J7R": {
           "type": "text",
           "settings": {
-            "text": "<p><br\/>At TodsNTeens, we want you to shop with confidence. That’s why we offer a <strong>10-Day Refund & Exchange Policy<\/strong> on all eligible items.<br\/><\/p>"
+            "text": "<p><br/>At TodsNTeens, we want you to shop with confidence. That’s why we offer a <strong>10-Day Refund & Exchange Policy</strong> on all eligible items.<br/></p>"
           }
         }
       },
@@ -38,7 +47,7 @@
           "type": "column",
           "settings": {
             "title": "What’s Eligible:",
-            "text": "<ul><li>Unused, unwashed products<\/li><li>Items in original, intact packaging<\/li><li>Returned within  of delivery<br\/><\/li><\/ul>",
+            "text": "<ul><li>Unused, unwashed products</li><li>Items in original, intact packaging</li><li>Returned within  of delivery<br/></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -47,7 +56,7 @@
           "type": "column",
           "settings": {
             "title": "Exchange:",
-            "text": "<p>You may exchange your item for a different size or product, subject to availability.<\/p>",
+            "text": "<p>You may exchange your item for a different size or product, subject to availability.</p>",
             "link_label": "",
             "link": ""
           }
@@ -56,7 +65,7 @@
           "type": "column",
           "settings": {
             "title": "Refund",
-            "text": "<ul><li>Refunds are processed via <strong>Bank Transfer.<\/strong><\/li><li>JazzCash \/ EasyPaisa are <strong>not supported.<\/strong><\/li><li>Refunds are issued once the product is received and verified.<\/li><li>Refunds usually take 10 business days to process.<br\/><br\/><\/li><\/ul>",
+            "text": "<ul><li>Refunds are processed via <strong>Bank Transfer.</strong></li><li>JazzCash / EasyPaisa are <strong>not supported.</strong></li><li>Refunds are issued once the product is received and verified.</li><li>Refunds usually take 10 business days to process.<br/><br/></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -65,7 +74,7 @@
           "type": "column",
           "settings": {
             "title": "Refund & Exchange Timings:",
-            "text": "<ul><li>Used, washed, or damaged items.<\/li><li>Products without original packaging or tags.<\/li><li>Items returned after 10 days of delivery.<br\/><\/li><\/ul>",
+            "text": "<ul><li>Used, washed, or damaged items.</li><li>Products without original packaging or tags.</li><li>Items returned after 10 days of delivery.<br/></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -74,9 +83,9 @@
           "type": "column",
           "settings": {
             "title": "How to Reach Complaint Officer?",
-            "text": "<p>Click on this button to start chat on WhatsApp:<\/p>",
+            "text": "<p>Click on this button to start chat on WhatsApp:</p>",
             "link_label": "Contact Complaint Officer",
-            "link": "https:\/\/wa.me\/923354671313"
+            "link": "https://wa.me/923354671313"
           }
         }
       },

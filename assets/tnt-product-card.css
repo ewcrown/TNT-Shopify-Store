@@ -63,18 +63,19 @@
   text-decoration-line: line-through;
 }
 
-.tnt-more-size,
-.ew-product-variant-size label span {
-  border-radius: 11.599px;
-  border: 0.58px solid #000;
-  color: #000;
-  text-align: center;
-  font-family: Helvetica;
-  font-size: 9.279px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26.677px;
-  padding: 6px 9px;
+.tnt-more-size, .ew-product-variant-size label span {
+    border-radius: 11.599px;
+    border: 0.58px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 9.279px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.677px;
+    padding: 6px 9px;
+    display: block;
+    line-height: normal;
 }
 
 .tnt-more-size {
@@ -109,6 +110,10 @@
   height: 16px;
   display: block;
   border-radius: 30px;
+}
+
+.tnt-product-cart-variants .ew-product-variant:not(.ew-product-variant-size){
+  display: none;
 }
 
 .tnt-more-color {
