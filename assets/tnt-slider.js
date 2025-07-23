@@ -51,30 +51,30 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function initSwiper() {
-  new Swiper("#tntKidsSwiper", {
-    loop: true,
-    slidesPerView: 4,
-    spaceBetween: 12,
-    speed: 6000,
-    loopedSlides: 20,
-    autoplay: {
-      delay: 0,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: false,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-      1024: { slidesPerView: 6 },
-      1400: { slidesPerView: 11 },
-    },
-  });
-}
+// function initSwiper() {
+//   new Swiper("#tntKidsSwiper", {
+//     loop: true,
+//     slidesPerView: 4,
+//     spaceBetween: 12,
+//     speed: 6000,
+//     loopedSlides: 20,
+//     autoplay: {
+//       delay: 0,
+//       disableOnInteraction: false,
+//       pauseOnMouseEnter: false,
+//     },
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//     breakpoints: {
+//       1024: { slidesPerView: 6 },
+//       1400: { slidesPerView: 11 },
+//     },
+//   });
+// }
 
-document.addEventListener("DOMContentLoaded", initSwiper);
+// document.addEventListener("DOMContentLoaded", initSwiper);
 
 let imageTextSwiper;
 

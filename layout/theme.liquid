@@ -330,6 +330,11 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {{ 'splide.min.css' | asset_url | stylesheet_tag }}
+    {{ 'splide.min.js' | asset_url | script_tag }}
+    {{ 'splide-extension-auto-scroll.min.js' | asset_url | script_tag }}
+
   </head>
 
   <body class="template-{{ template.suffix }} template-{{ template.name }}  gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -423,8 +428,8 @@
       {% render 'tnt-sales-popup-form' %}
     {% endif %}
 
-    {{ 'tnt-custom.js' | asset_url | script_tag }}
     {{ 'tnt-card-add.js' | asset_url | script_tag }}
+    {{ 'tnt-custom.js' | asset_url | script_tag }}
 
     <script src="{{ 'tnt-slider.js' | asset_url }}" defer="defer"></script>
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

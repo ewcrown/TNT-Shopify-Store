@@ -142,3 +142,9 @@
   font-weight: 700;
   line-height: normal;
 }
+
+@media(max-width:768px){
+  .drawer__inner.gradient.color-scheme-1 {
+  padding: 20px;
+  }
+}

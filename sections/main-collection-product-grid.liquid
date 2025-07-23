@@ -175,8 +175,19 @@
               {%- endfor -%}
             </div>
 
-            {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+            {%- if paginate.next -%}
+              <div class="load-more-container">
+                <button
+                  id="LoadMoreButton"
+                  class="button"
+                  data-next-url="{{ paginate.next.url }}"
+                >
+                  Load More
+                </button>
+                <div class="loading-spinner hidden" id="LoadMoreSpinner">
+                  {%- render 'loading-spinner' -%}
+                </div>
+              </div>
             {%- endif -%}
           </div>
         {%- endif -%}

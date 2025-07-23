@@ -1,38 +1,78 @@
 {{ 'section-tnt-kids.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-
 .tnt-kids__content {
   background: {{ section.settings.card_background_color }};
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tnt-kids__content-img {
+  max-width: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.tnt-kids__content-date,
+.tnt-kids__content-text {
+  margin: 4px 0;
+}
+
+.tnt-kids__row {
+  padding-top: {{ section.settings.padding_top | default: 60 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | default: 60 }}px;
 }
 {% endstyle %}
 
 <div class="tnt-kids" id="tnt-kids">
   <div class="tnt-kids__row">
     <div class="page-width">
-      <div class="swiper tnt-kids__col" id="tntKidsSwiper">
-        <div class="swiper-wrapper">
-          {% for block in section.blocks %}
-            <div class="swiper-slide">
-              <a href="{{ block.settings.url }}">
-                <div class="tnt-kids__content">
-                  {% if block.settings.img != blank %}
-                    <img class="tnt-kids__content-img" src="{{ block.settings.img | image_url: width: '800' }}" alt="">
-                  {% endif %}
-                  <p class="tnt-kids__content-date">{{ block.settings.date }}</p>
-                  <p class="tnt-kids__content-text">{{ block.settings.txt }}</p>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
+      <div id="tntKidsSplide" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {% for block in section.blocks %}
+              <li class="splide__slide">
+                <a href="{{ block.settings.url }}">
+                  <div class="tnt-kids__content">
+                    {% if block.settings.img != blank %}
+                      <img class="tnt-kids__content-img" src="{{ block.settings.img | image_url: width: '800' }}" alt="">
+                    {% endif %}
+                    <p class="tnt-kids__content-date">{{ block.settings.date }}</p>
+                    <p class="tnt-kids__content-text">{{ block.settings.txt }}</p>
+                  </div>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#tntKidsSplide', {
+        type: 'loop',
+        perPage: 10,
+        gap: '1rem',
+        arrows: false,
+        pagination: false,
+        autoScroll: {
+            speed: 2,
+        },
+        breakpoints: {
+          900: {
+            perPage: 3,
+          },
+          480: {
+            perPage: 3,
+          },
+        }
+    }).mount(window.splide.Extensions);
+  });
+</script>
 
 {% schema %}
 {
@@ -95,12 +135,8 @@
     {
       "name": "TNT Kids",
       "blocks": [
-        {
-          "type": "content"
-        },
-        {
-          "type": "content"
-        }
+        { "type": "content" },
+        { "type": "content" }
       ]
     }
   ]

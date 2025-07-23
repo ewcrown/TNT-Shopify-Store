@@ -29,6 +29,9 @@
     padding: 24px 20px;
     border-radius: 10px;
   }
+  .tnt-kids__row {
+    padding: 30px 0;
+  }
 }
 @media (min-width: 769px) {
   /* #tntKidsSwiper .swiper-wrapper {

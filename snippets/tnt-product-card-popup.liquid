@@ -1,70 +1,91 @@
 <div class="tnt-product-popup">
+  {% liquid
+    assign check_against_inventory = true
+    if card_product.selected_or_first_available_variant.inventory_management != 'shopify' or card_product.selected_or_first_available_variant.inventory_policy == 'continue'
+      assign check_against_inventory = false
+    endif
+
+    if card_product.selected_or_first_available_variant.quantity_rule.min > card_product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
+      assign quantity_rule_soldout = true
+    endif
+  %}
+
   <div class="tnt-product-cart-buttons">
-    <button class="tnt-product-card-button tnt-product-card-button-add" data-card-cart-add data-variant-id="{{ card_product.selected_or_first_available_variant.id }}">Add to Cart</button>
-    <button class="tnt-product-card-button tnt-product-card-button-quick-view" data-url="{{ card_product.handle }}" data-card-quick-view>Quick View</button>
+    {% if card_product.selected_or_first_available_variant.available == false or quantity_rule_soldout or card_product.selected_or_first_available_variant == null
+    %}
+      <button class="tnt-product-card-button tnt-product-card-button-sold-out" disabled>
+        Sold Out
+      </button>
+    {% else %}
+      <button 
+        class="tnt-product-card-button tnt-product-card-button-add" 
+        data-card-cart-add 
+        data-variant-id="{{ card_product.selected_or_first_available_variant.id }}"
+      >
+        Add to Cart
+      </button>
+      <button 
+        class="tnt-product-card-button tnt-product-card-button-quick-view" 
+        data-url="{{ card_product.handle }}" 
+        data-card-quick-view
+      >
+        Quick View
+      </button>
+    {% endif %}
   </div>
 
   {% if card_product.variants.size > 1 %}
     <select name="product-variants" class="tnt-product-select">
       {% for variant in card_product.variants %}
-      <option value="{{ variant.title }}" data-id="{{ variant.id }}">{{ variant.title }}</option>  
+        <option value="{{ variant.title }}" data-id="{{ variant.id }}">{{ variant.title }}</option>  
       {% endfor %}
     </select>
   {% endif %}
 
   {% if card_product.options_with_values.size > 1 %}
-  <div class="tnt-product-cart-variants">
-    {% for option in card_product.options_with_values %}
-      <div class="ew-product-variant ew-product-variant-{{ option.name | handleize }}">
-        {% if option.name contains 'Size' or option.name contains 'Color' %}
-          {% assign values = option.values %}
-          {% assign size_total_values = values | size %}
+    <div class="tnt-product-cart-variants">
+      {% for option in card_product.options_with_values %}
+        <div class="ew-product-variant ew-product-variant-{{ option.name | handleize }}">
+          {% if option.name contains 'Size' or option.name contains 'Color' %}
+            {% assign values = option.values %}
+            {% assign size_total_values = values | size %}
 
-          {% for value in values %}
-            {% assign index = forloop.index0 %}
-            <div 
-              class="ew-product-color-radio-single ew-product-color-radio-single-{{ value | handleize }}{% if index >= 3 %} hidden extra-option{% endif %}" 
-            >
-              <input 
-                type="radio" 
-                data-cart-input 
-                id="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}" 
-                name="{{ option.name | handleize }}" 
-                value="{{ value }}" 
-                {% if forloop.index == 1 %}checked{% endif %} 
+            {% for value in values %}
+              {% assign index = forloop.index0 %}
+              <div 
+                class="ew-product-color-radio-single ew-product-color-radio-single-{{ value | handleize }}{% if index >= 3 %} hidden extra-option{% endif %}" 
               >
-              {% if option.name contains 'Color' %}
-                <label for="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}">
-                  <span class="active-ball" style="background:var(--{{ value | handleize }})"></span>
-                </label>
-              {% else %}
-                <label for="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}">
-                  <span class="active-ball">{{ value }}</span>
-                </label>
-              {% endif %}
-            </div>
-          {% endfor %}
-          
-          {% if option.name contains 'Size' %}
-            {% if size_total_values > 3 %}
-              <span class="tnt-more-size">
-                + More
-              </span>
-            {% endif %}
-          {% endif %}
-          
-          {% if option.name contains 'Color' %}
-            {% if size_total_values > 3 %}
-              <span class="tnt-more-color">
-                +
-              </span>
-            {% endif %}
-          {% endif %}
+                <input 
+                  type="radio" 
+                  data-cart-input 
+                  id="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}" 
+                  name="{{ option.name | handleize }}" 
+                  value="{{ value }}" 
+                  {% if forloop.index == 1 %}checked{% endif %} 
+                >
+                {% if option.name contains 'Color' %}
+                  <label for="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}">
+                    <span class="active-ball" style="background:var(--{{ value | handleize }})"></span>
+                  </label>
+                {% else %}
+                  <label for="{{ value | handleize }}-{{ card_product.id }}-{{ section.id }}">
+                    <span class="active-ball">{{ value }}</span>
+                  </label>
+                {% endif %}
+              </div>
+            {% endfor %}
 
-        {% endif %}
-      </div>
-    {% endfor %}
-  </div>
+            {% if option.name contains 'Size' and size_total_values > 3 %}
+              <span class="tnt-more-size">+ More</span>
+            {% endif %}
+
+            {% if option.name contains 'Color' and size_total_values > 3 %}
+              <span class="tnt-more-color">+</span>
+            {% endif %}
+
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
   {% endif %}
-
 </div>

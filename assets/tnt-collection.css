@@ -88,8 +88,23 @@
   height: 30px;
 }
 
-@media(max-width:600px){
-  #tnt-search-page .facets-container, #tnt-collection-page .facets-container {
+@media(max-width:600px) {
+
+  #tnt-search-page .facets-container,
+  #tnt-collection-page .facets-container {
     padding: 20px;
   }
+}
+
+.load-more-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.loading-spinner {
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
 }
