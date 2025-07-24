@@ -69,10 +69,6 @@
             "ttl": "Hot Selling Right Now",
             "desc": "",
             "off": "",
-            "collection": [
-              "memories",
-              "hot-sellers-homepage"
-            ],
             "grid_layout": "grid-2",
             "round_images": false
           }

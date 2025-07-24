@@ -62,7 +62,10 @@
                   <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
                   <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
-
+               {% assign max_limit = cart.items_subtotal_price | divided_by: 100 | times: 1 %}
+                 {% if max_limit <= 40000 %}
+                  {% render 'baadmay-cart' %}
+                {% endif %}
                 
               </div>
             {%- else -%}

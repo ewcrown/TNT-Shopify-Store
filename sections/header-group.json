@@ -267,7 +267,7 @@
           "type": "menu",
           "settings": {
             "title": "Clearance Sale",
-            "link": "#",
+            "link": "shopify://collections/clearance-sale",
             "is_megammenu": false,
             "linklist": "",
             "caption_1": "",
