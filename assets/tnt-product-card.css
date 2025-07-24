@@ -155,25 +155,22 @@
 .tnt-product-cart-buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-  padding: 0px 1px;
+  gap: px;
+  padding: 0px;
 }
 
 .tnt-product-card-button {
   padding: 15px;
   position: relative;
-  color: #000;
   font-family: Helvetica;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: 1px solid #000;
-  background: transparent;
   transition: all .3s ease-in-out;
 }
 
-.tnt-product-card-button-add:hover {
+/* .tnt-product-card-button-add:hover {
   background: #ff4848;
   color: #fff;
 }
@@ -181,7 +178,7 @@
 .tnt-product-card-button-quick-view:hover {
   background: #000;
   color: #fff;
-}
+} */
 
 .tnt-product-card {
   transition: all 0.3s ease-in-out;
@@ -226,7 +223,6 @@
 
   .tnt-product-cart-buttons {
     grid-template-columns: repeat(1, 1fr) !important;
-    padding: 1px;
     gap: 5px;
   }
 

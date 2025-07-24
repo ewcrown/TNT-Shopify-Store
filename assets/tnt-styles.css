@@ -1,4 +1,11 @@
+#LoadMoreButton {
+  border-radius: 30px;
+}
 
+#LoadMoreButton::before,
+#LoadMoreButton::after {
+  display: none;
+}
 
 .img-fluid {
   display: block;
@@ -182,7 +189,7 @@
   border-bottom: 1px solid #eee;
   text-align: left;
   font-size: 16px;
-  color:#000;
+  color: #000;
 }
 
 .tracking-table th {
@@ -212,6 +219,6 @@
 }
 
 .list-menu-sub-child {
-    margin-left: 20px !important;
-    color: #000;
+  margin-left: 20px !important;
+  color: #000;
 }

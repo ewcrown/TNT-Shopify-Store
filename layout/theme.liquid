@@ -291,6 +291,35 @@
   <link rel="stylesheet" href="{{ 'tnt-blog-card.css' | asset_url }}">
 </noscript>
 
+    {% style %}
+      /* Quick View Button Styles */
+      .tnt-product-card-button-quick-view {
+        background-color: {{ settings.qv_button_background }};
+        color: {{ settings.qv_button_text_color }};
+        border: 1px solid {{ settings.qv_button_border_color }};
+        transition: all 0.3s ease;
+      }
+
+      .tnt-product-card-button-quick-view:hover {
+        background-color: {{ settings.qv_button_hover_background }};
+        color: {{ settings.qv_button_hover_text_color }};
+        border-color: {{ settings.qv_button_hover_border_color }};
+      }
+
+      /* Add to Cart Button Styles */
+      .tnt-product-card-button-add {
+        background-color: {{ settings.atc_button_background }};
+        color: {{ settings.atc_button_text_color }};
+        border: 1px solid {{ settings.atc_button_border_color }};
+        transition: all 0.3s ease;
+      }
+
+      .tnt-product-card-button-add:hover {
+        background-color: {{ settings.atc_button_hover_background }};
+        color: {{ settings.atc_button_hover_text_color }};
+        border-color: {{ settings.atc_button_hover_border_color }};
+      }
+    {% endstyle %}
 
     {%- if settings.cart_type == 'drawer' -%}
       {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
