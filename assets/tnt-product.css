@@ -45,7 +45,7 @@
 }
 
 .product__text.inline-richtext:not(.subtitle) {
-  color: #FF4848;
+  color: #e33654;
   font-family: Helvetica;
   font-size: 16px;
   font-style: normal;
@@ -66,7 +66,7 @@
 
 .product-form__input--pill input[type='radio']+label {
   border-radius: 6px !important;
-  border: 1px solid #FF4848 !important;
+  border: 1px solid #e33654 !important;
   color: #000;
   font-family: Helvetica;
   font-size: 14px !important;
@@ -77,7 +77,7 @@
 
 .product-form__input--pill input[type='radio']:checked+label {
   color: #fff;
-  background: #FF4848 !important;
+  background: #e33654 !important;
 }
 
 .product-form__buttons .product-form__submit::before,
@@ -87,8 +87,8 @@
 
 .product-form__buttons .product-form__submit {
   border-radius: 6px;
-  background: #FF4848;
-  border: 1px solid #FF4848 !important;
+  background: #e33654;
+  border: 1px solid #e33654 !important;
   color: #FFF;
   text-align: center;
   font-family: Helvetica;
@@ -112,7 +112,7 @@
   max-width: 240px;
   padding: 10px;
   border-radius: 6px;
-  border: 1px dashed #FF4848;
+  border: 1px dashed #e33654;
 }
 
 .tnt-product-offer-block p {

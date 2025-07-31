@@ -48,7 +48,7 @@
 }
 
 .tnt-customer__form button {
-  background-color: #ff4848;
+  background-color: #e33654;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -92,7 +92,7 @@ a.tnt-form__forget-btn {
 }
 
 .tnt-form__signUp-btn a {
-  color: #ff4848;
+  color: #e33654;
   margin: unset;
 }
 

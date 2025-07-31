@@ -65,7 +65,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(tntShowSalesPopup, {{ settings.sales_delay_seconds | default: 5 }} * 1000);
 
-    const targetDate = new Date("{{ settings.countdown_date }}T23:59:59").getTime();
+    const targetDate = new Date("{{ settings.countdown_date }}").getTime();
     const countdown = setInterval(function () {
       const now = new Date().getTime();
       const distance = targetDate - now;

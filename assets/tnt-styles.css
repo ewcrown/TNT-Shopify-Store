@@ -31,7 +31,7 @@
 }
 
 .ew-animate-item {
-  color: #ff4848;
+  color: #e33654;
   animation: blink 1.2s infinite;
 }
 
@@ -41,12 +41,12 @@
   }
 
   to {
-    color: #ff4848;
+    color: #e33654;
   }
 }
 
 .ew-colored-item {
-  color: #ff4848 !important;
+  color: #e33654 !important;
 }
 
 .ew-bold-item {
@@ -162,7 +162,7 @@
 .track-btn {
   width: 100%;
   padding: 10px;
-  background-color: #ff4848;
+  background-color: #e33654;
   color: white;
   border: none;
   font-weight: bold;
@@ -193,7 +193,7 @@
 }
 
 .tracking-table th {
-  background-color: #ff4848;
+  background-color: #e33654;
   font-weight: 600;
   color: #fff;
 }

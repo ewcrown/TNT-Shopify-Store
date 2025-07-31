@@ -23,14 +23,14 @@
         data-card-cart-add 
         data-variant-id="{{ card_product.selected_or_first_available_variant.id }}"
       >
-        Add to Cart
+        {% render 'tnt-cart-icon' %}
       </button>
       <button 
         class="tnt-product-card-button tnt-product-card-button-quick-view" 
         data-url="{{ card_product.handle }}" 
         data-card-quick-view
       >
-        Quick View
+        {% render 'tnt-quick-view-icon' %}
       </button>
     {% endif %}
   </div>

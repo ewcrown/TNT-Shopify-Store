@@ -1,7 +1,6 @@
 .tnt-product-gallery img {
   height: 461px;
   object-fit: contain;
-  margin-bottom: 50px;
 }
 
 .tnt-product-card {
@@ -96,6 +95,13 @@
   display: none;
 }
 
+.tnt-product-cart-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 20px;
+}
+
 .tnt-product-cart-variants {
   padding: 13px 16px;
   display: flex;
@@ -103,6 +109,7 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   background: #fff;
+  display: none;
 }
 
 .ew-product-variant {
@@ -133,7 +140,7 @@
 }
 
 .ew-product-variant-color input:checked+label span {
-  border: 1px solid #ff4848;
+  border: 1px solid #e33654;
 }
 
 .ew-product-variant-size input:checked+label span {
@@ -146,21 +153,17 @@
 }
 
 .tnt-product-popup {
-    position: absolute;
-    bottom: -50px;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
-.tnt-product-cart-buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: px;
-  padding: 0px;
+.tnt-product-card-button:hover {
+  background: #f2f2f2;
 }
 
 .tnt-product-card-button {
-  padding: 15px;
   position: relative;
   font-family: Helvetica;
   font-size: 16px;
@@ -168,30 +171,21 @@
   font-weight: 400;
   line-height: normal;
   transition: all .3s ease-in-out;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 10px 2px #ccc;
+  background: #fff;
 }
 
-/* .tnt-product-card-button-add:hover {
-  background: #ff4848;
-  color: #fff;
-}
 
-.tnt-product-card-button-quick-view:hover {
-  background: #000;
-  color: #fff;
-} */
+.tnt-product-card-button svg {
+  width: 25px;
+  height: 25px;
+}
 
 .tnt-product-card {
   transition: all 0.3s ease-in-out;
-}
-
-.tnt-product-card .tnt-product-popup {
-  display: none;
-  opacity: 0;
-}
-
-.tnt-product-card:hover .tnt-product-popup {
-  display: block;
-  opacity: 1;
 }
 
 .tnt-product-select {
@@ -205,6 +199,41 @@
 .tnt-product-card-button-sold-out {
   color: #000;
   grid-column: span 2;
+}
+
+.loader {
+  border-top: 6px solid #e33654;
+  border-right: 6px solid white;
+  border-bottom: 6px solid #e33654;
+  border-left: 6px solid white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  display: block !important;
+}
+
+.loader-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0000004d;
+  z-index: 9;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
@@ -257,4 +286,13 @@
     font-size: 14px;
   }
 
+  .tnt-product-card-button svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .tnt-product-card-button {
+    width: 30px;
+    height: 30px;
+  }
 }
