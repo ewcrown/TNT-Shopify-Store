@@ -22,7 +22,7 @@
     "sales_button_text": "Claim Now",
     "sales_delay_seconds": 1,
     "countdown_date": "2025-08-14T23:59:59",
-    "show_subscriber_form": true,
+    "show_subscriber_form": false,
     "popup_image": "shopify://shop_images/966_x_1236-_subscribe_page_copy.jpg",
     "heading": "Your Inbox Needs a Hug!",
     "subtext": "We send love, not spam. Get early access to baby deals & launches.",
