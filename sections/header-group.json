@@ -17,15 +17,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Pakistan Day Sale is Now Live!",
+            "link": "shopify://collections/clearance-sale"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -266,7 +265,7 @@
         "menu_QpngnL": {
           "type": "menu",
           "settings": {
-            "title": "Clearance Sale",
+            "title": "Pakistan Day SALE",
             "link": "shopify://collections/clearance-sale",
             "is_megammenu": false,
             "linklist": "",
@@ -350,7 +349,7 @@
       ],
       "settings": {
         "underline_items": "Dresses, For Newborn, Tops & Tees, Bottoms, Footwear, Hosiery, Swaddeling, Clothing, Diapering, Grooming, Feeding, Sweat Shirts, Gear, Nursery , Room Items , Bedding , Ride Ons , Cycles & Scooties , Outdoor , Indoor , Toys ,",
-        "sale_animation_items": "Clearance Sale",
+        "sale_animation_items": "Pakistan Day SALE",
         "bold_items": "New Arrivals",
         "colored_items": "Clearance Sale",
         "logo_position": "middle-center",

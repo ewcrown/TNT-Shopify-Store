@@ -126,85 +126,6 @@
         "padding_bottom": 56
       }
     },
-    "tnt_multicolumn_text_image_7798bq": {
-      "type": "tnt-multicolumn-text-image",
-      "blocks": {
-        "block_PmEWtp": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "What is your exchange policy?",
-            "description": "We accept exchange or refund for any unworn, unused product in its original packaging within 10 days of delivery."
-          }
-        },
-        "block_RUTdTi": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "Why is a 10% advance required on orders above PKR 10,000?",
-            "description": "For orders above PKR 10,000, we kindly request a 10% advance. It’s adjusted in your COD total and helps us manage packaging and delivery smoothly."
-          }
-        },
-        "block_Efpz4N": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "What is your delivery time?",
-            "description": "Standard delivery takes 3–5 working days. Large items like baby gear and nursery products may require an additional 3 days"
-          }
-        },
-        "block_9dQfC7": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "Is urgent delivery available?",
-            "description": "Yes, urgent delivery is available with 100% advance payment. In Lahore, we use  Ride-Hailing sercives (Indrive/Yango/Bykea). For other cities, we offer TCS Express. Charges vary by product."
-          }
-        },
-        "block_gTzJRK": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "Where is your shop?",
-            "description": "We are an online store based in Lahore and currently do not operate any physical outlets."
-          }
-        },
-        "block_HcEbCc": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "Do you ship internationally?",
-            "description": "Yes, we offer international shipping for all products except battery-operated items."
-          }
-        },
-        "block_b4iM3k": {
-          "type": "block",
-          "settings": {
-            "rainbow": false,
-            "alignment": "left",
-            "heading": "Can we pay through Debit Card/Credit Card?",
-            "description": "Yes, you can pay via Debit or Credit Card by selecting PayFast at checkout."
-          }
-        }
-      },
-      "block_order": [
-        "block_PmEWtp",
-        "block_RUTdTi",
-        "block_Efpz4N",
-        "block_9dQfC7",
-        "block_gTzJRK",
-        "block_HcEbCc",
-        "block_b4iM3k"
-      ],
-      "name": "<> Multicolumn Box",
-      "settings": {}
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -250,10 +171,28 @@
         "slide_MUe8cU",
         "slide_NjBQVc"
       ],
+      "disabled": true,
       "name": "TNT Feedback Slider",
       "settings": {
         "title": "We value your feedback",
         "text": "Your opinion matters to us. Please take a moment to share your thoughts."
+      }
+    },
+    "1753871470d8fda7fa": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_8x4cLh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_8x4cLh"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "tnt_image_text_hELeik": {
@@ -354,13 +293,29 @@
       ],
       "name": "<> Image Text",
       "settings": {}
+    },
+    "17538752844fd5a436": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NzFgkj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NzFgkj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "tnt_multicolumn_text_image_7798bq",
+    "17538752844fd5a436",
     "related-products",
     "section_feedback_slider_XgLNHg",
+    "1753871470d8fda7fa",
     "tnt_image_text_hELeik"
   ]
 }

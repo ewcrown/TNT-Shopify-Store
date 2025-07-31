@@ -9,18 +9,19 @@
  */
 {
   "current": {
-    "show_sales_popup": false,
+    "show_sales_popup": true,
     "left_heading": "Pakistan Day Sale!",
     "left_bg_color": "#7d9d3a",
-    "timer_heading": "1st August Till 31st August",
-    "sale_label": "FLAT 43% OFF",
+    "timer_heading": "Catch the Deal Before It Disappears!",
+    "sale_label": "Your Summer Steal – FLAT 43%",
     "discount_text": "",
-    "sales_subtext": "FLAT 43% OFF on our most-loved baby articles – once they’re gone, they’re gone!",
-    "timer_message": "Don't wait till the last day – popular items are flying off the shelves.",
+    "sales_subtext": "",
+    "timer_message": "Shop now—before it hides! 👻",
     "description": "",
-    "button_link": "https://todsnteens.com",
+    "button_link": "shopify://collections/clearance-sale",
+    "sales_button_text": "Claim Now",
     "sales_delay_seconds": 1,
-    "countdown_date": "2025-14-8T23:59:59",
+    "countdown_date": "2025-08-14T23:59:59",
     "show_subscriber_form": true,
     "popup_image": "shopify://shop_images/966_x_1236-_subscribe_page_copy.jpg",
     "heading": "Your Inbox Needs a Hug!",
@@ -61,6 +62,14 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
+    "qv_button_background": "#e33654",
+    "qv_button_text_color": "#ffffff",
+    "qv_button_border_color": "#121212",
+    "qv_button_hover_background": "#e33654",
+    "atc_button_background": "#ffffff",
+    "atc_button_text_color": "#565151",
+    "atc_button_border_color": "#121212",
+    "atc_button_hover_background": "#121212",
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
@@ -166,6 +175,44 @@
         "type": "shopify://apps/sp-sales-pop-up-social-proof/blocks/salespop/cdeb6f15-7a6b-4d2a-8158-55cae076aabd",
         "disabled": false,
         "settings": {}
+      },
+      "5059203847231188605": {
+        "type": "shopify://apps/smart-product-filter-search/blocks/app-embed/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+        "disabled": false,
+        "settings": {
+          "productGridSelector": "",
+          "useCustomQuickviewTemplate": false,
+          "customJs": "",
+          "customCss": "",
+          "customProductTemplateLoader": "{%- capture productTemplate -%}{% render 'globo.filter.product', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id=\"gspfProduct\" type=\"template/html\">{{- productTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customTreeTemplateLoader": "{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSortTemplateLoader": "{%- capture sortTemplate -%}{% render 'globo.filter.sort' %}{%- endcapture -%}{%- unless sortTemplate contains 'Liquid error' -%}<script id=\"gspfFilterSort\" type=\"template/html\">{{- sortTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSearchTemplateLoader": "",
+          "customPaginationTemplateLoader": "",
+          "customYMMTemplateLoader": ""
+        }
+      },
+      "6610233760104865948": {
+        "type": "shopify://apps/pushowl-brevo-email-push-sms/blocks/pushowl-app-embed-3d2ff2b5/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "15181020662106344915": {
+        "type": "shopify://apps/judge-me-reviews/blocks/popup_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "right"
+        }
       }
     },
     "color_schemes": {

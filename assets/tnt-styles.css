@@ -222,3 +222,8 @@
   margin-left: 20px !important;
   color: #000;
 }
+
+.tnt-product-popup-soldout {
+  display: block !important;
+  opacity: 1 !important;
+}

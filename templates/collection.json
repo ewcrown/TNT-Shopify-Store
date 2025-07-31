@@ -17,6 +17,12 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "lm_button_background": "#e33654",
+        "lm_button_text_color": "#ffffff",
+        "lm_button_border_color": "#cccccc",
+        "lm_button_hover_background": "#565151",
+        "lm_button_hover_text_color": "#ffffff",
+        "lm_button_hover_border_color": "#999999",
         "products_per_page": 16,
         "columns_desktop": 4,
         "columns_mobile": "2",
