@@ -181,4 +181,8 @@
   .product-grid {
     grid-template-columns: repeat(2, 1fr); 
   }
+  .product .product__info-container .price__sale .price-item--regular,
+  .product__info-container .price__sale .price-item--sale {
+    font-size: 22px;
+  }
 }

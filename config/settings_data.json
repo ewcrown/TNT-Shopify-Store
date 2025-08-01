@@ -62,14 +62,6 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "qv_button_background": "#e33654",
-    "qv_button_text_color": "#ffffff",
-    "qv_button_border_color": "#121212",
-    "qv_button_hover_background": "#e33654",
-    "atc_button_background": "#ffffff",
-    "atc_button_text_color": "#565151",
-    "atc_button_border_color": "#121212",
-    "atc_button_hover_background": "#121212",
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
@@ -155,6 +147,14 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "qv_button_background": "#e33654",
+    "qv_button_text_color": "#ffffff",
+    "qv_button_border_color": "#121212",
+    "qv_button_hover_background": "#e33654",
+    "atc_button_background": "#ffffff",
+    "atc_button_text_color": "#565151",
+    "atc_button_border_color": "#121212",
+    "atc_button_hover_background": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -213,6 +213,16 @@
         "settings": {
           "position": "right"
         }
+      },
+      "16138933890102356706": {
+        "type": "shopify://apps/omega-tiktok-pixels/blocks/app-embed-block/0500769c-ab04-46c4-8ebe-26a3fb9f10cb",
+        "disabled": false,
+        "settings": {}
+      },
+      "1075441268207101107": {
+        "type": "shopify://apps/o-auto-tag-flow-automation/blocks/omg-auto-tag/cbd71548-24b7-484c-ac63-c5991a1fea01",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

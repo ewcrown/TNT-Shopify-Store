@@ -1,3 +1,11 @@
+{% comment %} Sale Popup {% endcomment %}
+
+{% if card_product.compare_at_price > card_product.price %}
+  <div class="tnt-product-sale-popup">
+    Sale
+  </div>
+{% endif %}
+
 <div class="tnt-product-popup {% if card_product.selected_or_first_available_variant.available == false or quantity_rule_soldout or card_product.selected_or_first_available_variant == null
     %} tnt-product-popup-soldout{% endif %}">
   {% liquid

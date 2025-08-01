@@ -165,7 +165,7 @@
 
 .tnt-product-card:hover .tnt-product-popup {
   opacity: 1;
-  pointer-events:visible;
+  pointer-events: visible;
   cursor: pointer;
 }
 
@@ -248,7 +248,30 @@
   }
 }
 
+.tnt-product-sale-popup {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e33654;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
 @media (max-width: 768px) {
+  .tnt-product-sale-popup {
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+  }
+
   .tnt-product-gallery img {
     height: 216px;
     margin-bottom: 0;
@@ -265,6 +288,7 @@
   .tnt-product-cart-buttons {
     grid-template-columns: repeat(1, 1fr) !important;
     gap: 5px;
+    padding: 0px 10px 10px;
   }
 
   .tnt-product-card-button {
